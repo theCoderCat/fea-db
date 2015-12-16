@@ -1,0 +1,25 @@
+{
+  "name": "fire-emblem-awakening-db",
+  "description": "Fire Emblem Awakening Database & Helper",
+  "main": "bin/www",
+  "authors": [
+    "theCoderCat"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "es6"
+  ],
+  "homepage": "thecodercat.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~3.2.0",
+    "mui": "~0.2.9"
+  }
+}
