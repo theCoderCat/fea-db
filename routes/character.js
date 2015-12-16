@@ -3,8 +3,8 @@ var router = express.Router();
 var character = require('../logics/character');
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send(character.get(req.name));
+router.get('/', (req, res, next) => {
+    res.render('characters', {data: character.get()});
 });
 
 module.exports = router;

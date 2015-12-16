@@ -5,7 +5,7 @@ import sourcemaps from 'gulp-sourcemaps';
 import autoprefixer from 'gulp-autoprefixer';
 import uglify from 'gulp-uglify';
 import babel from 'gulp-babel';
-import less from 'gulp-less';
+import sass from 'gulp-sass';
 
 var config  = {
     logicDir: './logics',
@@ -24,7 +24,7 @@ var jsSource = [
 
 ];
 var headJsSource = [
-    bowerDir + '/modernizr/modernizr.js',
+    config.bowerDir + '/modernizr/modernizr.js',
 ];
 var cssSource = {
 };
@@ -35,9 +35,10 @@ var vendorStyleSource = [
 // Start server
 gulp.task('start-server', () => {
     nodemon({
-        script: 'server.js',
-        ext: 'js',
-        ignore: ['./node_modules/**']
+        script: './bin/wwww',
+        // ext: 'js',
+        ignore: ['./node_modules/**'],
+        env: { 'NODE_ENV': 'development' }
     })
     .on('restart', () => {
         console.log('Restarting...');
@@ -124,7 +125,7 @@ gulp.task('server:watch', () => {
 });
 
 gulp.task('lint', () => {
-    return gulp.src(config.path.js)
+    return gulp.src(config.path.js);
 });
 
 gulp.task('dev', ['vendorStyles', 'vendorScripts', 'headScripts', 'sass', 'sass:watch', 'babel', 'babel:watch'], () => {
@@ -136,5 +137,5 @@ gulp.task('build', ['vendorStyles', 'vendorScripts', 'headScripts', 'sass', 'bab
 });
 
 gulp.task('default', [], () => {
-    gulp.start('start-server');
+    gulp.start('dev');
 });
