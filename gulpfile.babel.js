@@ -11,6 +11,7 @@ import eslint from 'gulp-eslint';
 import browserify from 'browserify';
 import babelify from 'babelify';
 import source from 'vinyl-source-stream';
+import buffer from 'vinyl-buffer';
 
 var onError = (err) => {
   notify.onError({
@@ -117,6 +118,9 @@ gulp.task('babel', () => {
     .bundle()
     .on('error', console.error.bind(console))
     .pipe(source('app.js'))
+    .pipe(buffer())
+    .pipe(sourcemaps.init({loadMaps: true}))
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(config.scriptsDir));
     // .pipe(sourcemaps.init())
     // .pipe(concat('app.js'))

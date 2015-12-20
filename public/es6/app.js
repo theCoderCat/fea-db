@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CharactersList from './components/charactersList.react';
+import CharacterPage from './components/characterPage.react';
 import SkillsList from './components/skillsList.react';
 import Header from './components/header.react';
 
@@ -17,13 +17,17 @@ import Header from './components/header.react';
 				case 'classes':
 				case 'characters':
 				default:
-					Child = CharactersList;
+					Child = CharacterPage;
 			}
 
 			return (
 				<div>
 					<Header/>
-					<Child/>
+					<div className="mui-container">
+						<div className="mui-panel">
+							<Child/>
+						</div>
+					</div>
 				</div>
 			);
 		}
