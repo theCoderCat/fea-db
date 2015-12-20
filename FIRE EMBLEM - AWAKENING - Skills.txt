@@ -1,0 +1,5096 @@
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                    Fire Emblem Awakening, 3DS - Skills Faq
+                         Copyright 2013 Rafael Guedes.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+                               Table of Contents
+-------------------------------------------------------------------------------
+
+You can use Ctrl+F as a shortcut to simplify your search. It's really useful,
+specially since this guide covers many different things.
+
+For example, typing "C-" in the search bar will lead you to "Inheritance".
+In another example, typing "3-" will lead you to "Aether". You can also use the
+section's name, or just scroll down until you find what you are looking for.
+
+A- Introduction
+B- What are Skills?
+C- Inheritance
+D- Skills
+  1-  Dual Strike+
+  2-  Charm
+  3-  Aether
+  4-  Rightful King
+  5-  Veteran
+  6-  Solidarity
+  7-  Ignis
+  8-  Rally Spectrum
+  9-  Armsthrift
+  10- Patience
+  11- Sol
+  12- Axebreaker
+  13- Avoid +10
+  14- Vantage
+  15- Astra
+  16- Swordfaire
+  17- Locktouch
+  18- Movement +1
+  19- Lethality
+  20- Pass
+  21- Lucky Seven
+  22- Acrobat
+  23- Discipline
+  24- Outdoor Fighter
+  25- Defender
+  26- Aegis
+  27- Luna
+  28- Dual Guard+
+  29- Defense +2
+  30- Indoor Fighter
+  31- Rally Defense
+  32- Pavise
+  33- Speed +2
+  34- Relief
+  35- Rally Speed
+  36- Lancefaire
+  37- Rally Movement
+  38- Galeforce
+  39- HP +5
+  40- Zeal
+  41- Rally Strength
+  42- Counter
+  43- Despoil
+  44- Gamble
+  45- Wrath
+  46- Axefaire
+  47- Strength +2
+  48- Tantivity
+  49- Quick Burn
+  50- Swordbreaker
+  51- Deliverer
+  52- Lancebreaker
+  53- Skill +2
+  54- Prescience
+  55- Hit Rate +20
+  56- Bowfaire
+  57- Rally Skill
+  58- Bowbreaker
+  59- Magic +2
+  60- Focus
+  61- Rally Magic
+  62- Tomefaire
+  63- Hex
+  64- Anathema
+  65- Vengeance
+  66- Tomebreaker
+  67- Slow Burn
+  68- Lifetaker
+  69- Miracle
+  70- Healtouch
+  71- Rally Luck
+  72- Renewal
+  73- Resistance +2
+  74- Demoiselle
+  75- Rally Resistance
+  76- Dual Support+
+  77- Even Rhythm
+  78- Beastbane
+  79- Odd Rhythm
+  80- Wyrmsbane
+  81- Aptitude
+  82- Underdog
+  83- Luck +4
+  84- Special Dance
+  85- Conquest
+  86- Shadowgift
+  87- Resistance +10
+  88- Aggressor
+  89- Rally Heart
+  90- Bond
+  91- All Stats +2
+  92- Paragon
+  93- Iote's Shield
+  94- Limit Break
+E- Skill Lists
+F- Building a Skillset
+  0= Important Skills
+  1= Full-time Lead Units and Part-time Support Units
+  2= Full-time Support Units
+  3= Part-time Lead Units
+  4= Tankers
+  5= Nostanks
+  6= Crisis Mode/Critical Hit Rate Build
+  7= Rally Bots
+  8= Streetpass
+G- Contact Information
+H- Credits and Goodbyes
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                               A- Introduction.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+
+Hello, and welcome to my Skill FAQ for Fire Emblem Awakening! Here, we are
+going to analyse each of the 94 Skills, from what they do to who learns them.
+This will help you understand how each skill works, and what skills are good
+choices for your characters.
+
+This FAQ will also explain somethings about Class and Skill inheritance, since
+they are important things to know when planning your Skills. And we will also
+give you tips on how to build Skillsets for different roles.
+
+This FAQ is the result of my daily topic series called "Rate the Skill", where
+me and many other people would discuss about Skills and rate them based on many
+factors, like usefulness and availiability.
+
+You can find all the entries by searching for "Rate the Skill" in the Board.
+
+I hope you will enjoy this FAQ as much as I did writing it and my series both.
+But be warned, this contains SPOILERS in many different levels. Proceed with
+caution.
+
+-------------------------------------------------------------------------------
+This may be not be reproduced under any circumstances except for personal,
+private use. It may not be placed on any web site or otherwise distributed
+publicly without advance written permission. Use of this guide on any other web
+site or as a part of any public display is strictly prohibited, and a violation
+of copyright.
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                             B- What are Skills?
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+
+Skills are special abilities that the Characters can learn in this game. They
+have many different purposes, from dealing damage to healing, from increasing a
+Stat to increasing Accuracy, and much more.
+
+Each character can bring up to 5 Skills to battle, but they can learn more and
+switch between them before the battle.
+
+There are 4 ways to learn Skills.
+
+-Leveling-
+
+All Classes outside of Conqueror and Lodestar, have two Skills that characters
+can learn when they reach a certain level. But, this depends on what kind of
+class it is.
+
+-------------------------------------------------------------------------------
+Basic Classes, like Mercenary, Mage,  Fighter and Lord, will teach
+the character one Skill at Level 1, and another at Level 10.
+
+Advanced Classes, like Great Knight, Swordmaster, War Monk and Trickster, will
+teach one Skill at level 5 and another at level 15.
+
+Special Classes, like Villager, Dancer, Taguel and Manakete, will teach on
+Skill at level 1 and  another at level 15.
+
+Other names for Basic Classes that are used: 1st tier or Unpromoted Classes
+Other names for Advanced Classes that are used: 2nd tier of Promoted Classes
+-------------------------------------------------------------------------------
+
+-Skill Manuals-
+
+Fire Emblem Awakening supports DLC (Downloadable Content), and some Skills can
+only be obtained through DLC. Beating a specific DLC map will award you with a
+Skill Manual. You can use it to teach a Skill to any character, regardless of
+level, gender or Class. You can aquire more by beating that DLC again.
+
+-Inheritance-
+
+All of the second generation characters, like Lucina, can inherit Skills from
+their parents. This is a very important subject, so much that it deserves a
+section for itself.
+
+-Special Cases-
+
+Sometimes, a character has no access to a Class, or there is no Class that
+teaches the Skill... and they have it anyway. There are 4 cases where this
+happens.
+
+-------------------------------------------------------------------------------
+*Walhart has Conquest (Skill 85), but no Class can learn it. In this case,
+maybe it was a Skill from the Conqueror Class, but he starts at a high level
+and the Class is exclusive to him, so we can't know.
+
+*Aversa has Shadowgift (Skill 86), but no Class learns it.
+
+*Emmeryn starts with Magic +2 and Focus (Skills 59 and 60), but cannot reclass
+to Mage. I suspect that this was an error, since her Weapon Ranks and the whole
+motiff of her Paralogue would suggest that she was a Sage that promoted from
+Cleric. She can still reclass to Cleric, though.
+
+*Priam starts with Lancebreaker, Swordbreaker and Luna (Skills 52, 50 and 27),
+but he has no acess to the classes that teach those skills (Griffon Rider,
+Wyvern Lord and Great Knight respectively).
+
+-------------------------------------------------------------------------------
+
+-Weapons-
+
+This isn't a "learning method", but it's worth mentioning. There are certain
+weapons that allow the users to have a certain skill. Sometimes they are named
+after the Skill, but sometimes they aren't. They will only grant the skill if
+they are currently equipped.
+
+When you are using a Skill through a weapon, having the actual Skill equipped
+won't give you any additional effects. For example, having someone with the
+Astra (Skill 15) equipped with the Astra Bow won't result in a doubled Trigger
+Rate or more damage. Those weapons are very rare, so use them wisely.
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                               C- Inheritance.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Skill Inheritance is an important aspect of building the Skillset of Lucina and
+the other child characters. It may look complicated, but it's really simple.
+
+All of the second generation characters will inherit the last Skill from both
+parents' Skillsets. This is set from the moment you start the chapter where you
+can recruit them, but the game never saves it, so you can exit the chapter and
+return later with other Skills.
+
+There are a few exceptions to those Skill Inheritance rules:
+
+-------------------------------------------------------------------------------
+*Chrom will ALWAYS pass Aether (Skill 3) to his possible daughters, and
+Rightful King (Skill 4) to his possible sons.
+
+*Lucina will ALWAYS pass Aether (Skill 3).
+
+*Aversa will ALWAYS pass Shadowgift (Skill 86).
+
+*Walhart will ALWAYS pass Conquest (Skill 85).
+
+*DLC Skills (Skills 87-94) cannot be inherited, and the game will look for
+another viable skill to pass.
+
+*If the last Skill of a parent is one that the kid already starts out with, it
+will be ignored, and the game will look for another viable skill to pass.
+-------------------------------------------------------------------------------
+
+Parents not only pass Skills, but all of their other classes will be passed.
+However, some classes are exclusive to certain genders, and will be changed to
+an appropriate class if the child is of a different gender than the parent.
+
+-------------------------------------------------------------------------------
+*Vaike's Fighter and Barbarian classes will turn into Knight and Mercenary.
+
+*Gaius's Fighter Class will turn into Pegasus Knight.
+
+*Donnel's Villager and Fighter classes will turn into Pegasus Knight and
+Toubadour.
+
+*Gregor's Barbarian Class will turn into Troubadour.
+
+*Henry's Barbarian Class will turn into Troubadour.
+
+*Walhart does not pass Conqueror. It does not turn into anything.
+
+*Lissa's Pegasus Knight and Troubadour Classes will turn into Myrmidon and
+Barbarian.
+
+*Miriel's Troubadour Class will turn into Barbarian.
+
+*Mariabelle's Pegasus Knight and Troubadour Classes will turn into Priest and
+Cavalier.
+
+*Olivia's Pegasus Knight Class will turn into and Barbarian. She simply doesn't
+pass Dancer to Lucina or Morgan, while Inigo somehow starts as a Mercenary for
+some reason.
+
+*Cherche's Troubadour Class will turn into Fighter.
+
+*Even though it's not gender exclusive, Panne's Wyvern Rider Class will turn
+into Barbarian.
+
+*Sully has no access to the Knight Class, but Kjelle stats out as one anyway.
+
+*Chrom does not pass Lord to other kids, but Lucina starts out as one. She also
+cannot pass it.
+
+*Male Avatar and Female Avatar will exchange Fighter/Barbarian and Pegasus
+Knight/Troubadour, depending on the gender.
+-------------------------------------------------------------------------------
+
+Don't worry about this all at once! You will have time to sit down and plan
+everything. Well, we are here to talk about Skills, right? So how do you choose
+what Skills to pass?
+
+
+If both the parent and child are of the same gender, this means that there's
+nothing that they can pass that the kid can't get alone. Thus, we choose what's
+more convenient: a Skill that you don't want to make the kid grind for. A basic
+Class gets experience faster than a promoted one, so the latter's Skills have
+higher priority.
+
+But, if they aren't of the same gender, this means that some classes are not
+inherited, but the kid will get another one that's more appropriate for their
+gender. Thus, the parents will be able to learn Skills that the kids CANNOT get
+by themselves, so you should pass one of those gender-exclusive Skills. If you
+don't have the child's future Skillset planned, it's better to have more Skills
+to work with, even if you pass something you will eventually don't use anymore.
+But, when you have the child's Skillset planned, you can opt to, again, pass a
+Skill you don't want them to grind for.
+
+
+Here, we will talk about the best Skills to pass when a the kid is of another
+gender than the parent.
+
+When talking about a mother's Skill, the first thing to do is see if she has
+access to Pegasus Knight. If yes, you MUST pass Galeforce (Skill 38). This
+applies to Lissa, Mariabelle, Olivia, and Female Avatar and is extremely
+important.
+
+Miriel can pass a Skill from Troubadour, meaning you have 2 options: Renewal
+or Dual Support+ (Skills 72 and 76). If her husband has access to Priest, then
+Laurent can get Renewal by himself.
+
+Cherche is in a similar situation, but Gerome can reclass to Priest... making
+Dual Support+ the only choice. If you don't have access to DLC, though, you
+could also pass Resistance +2 (Skill 73) to fix both mother and son's issues
+with the stat, somewhat.
+
+Panne should pass a Skill from Wyvern Rider, if her husband doesn't have it
+too. Yarne works best as a support and Axe user, meaning he will miss a lot
+against agile classes, specially those with Swords. Thus, the best choice for
+him is Swordbreaker (Skill 50). He will always retain his beast weakness, so,
+if you are worried about Beast Killers, you can choose Lancebreaker (Skill 52)
+instead.
+
+
+Now, when talking about fathers, the first thing of note is if they can pass
+Pegasus Knight (converted), so the daughters can grind for Galeforce. This
+applies to Gaius, Donnel and Male Avatar. Kjelle, Noire and Nah cannot have
+Galeforce by themselves, so they need one of them as their dad. While there are
+other fathers that also give good options for each, you should keep this in
+mind.
+
+Male Avatar, Gregor and Vaike always pass Mercenary, thus, Sol (Skill 11) is
+available to daughters normally. This means you need to choose between Wrath
+and Counter (Skills 42 and 45). Henry doesn't give Mercenary, but the choice
+is still between Counter and Wrath.
+
+Gaius should always pass Sol, unless his daughter is Severa. In her case, pass
+Counter. A similar logic can be applied to Donnel, but he also has Aptitude
+(Skill 81) to consider. but if you plan on grinding, ignore Aptitude.
+
+
+Those are the most important things to know about inheritance. I mentioned
+Classes many times, but they are important aspects of building a good skillset,
+so you should be aware of everything I just explained. It's quite a lot of
+information, and I know it looks like a monster, but give it time and you will
+understand everything perfectly. T'was pretty overwhelming for me at first too.
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                                  D- Skills.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Before we begin, here's how this FAQ will handle each Skill:
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+#- Name of the Skill. (Class that learns the Skill,and the Level required).
+Rank: (The overall rating on the Skill, as decided during my series by the
+community.)
+Classification: (What kind of Skill it is. Sometimes there are more than one.)
+
+Users:
+*Who starts with this Skill: (What characters have the Skill when they join.)
+*Who learns this Skill: (What characters can naturally learn the Skill.)
+*Who inherits this Skill: (Kids that require Class or Skill Inheritance.)
+Max: (the maximun number of kids that can have this skill inherited.)
+*Weapons that grant this skill: (If any.)
+*Notable Spotpass/DLC characters with this Skill: (If any.)
+
+Description: (Their In-game Description.)
+
+Analysis: (My comments and the community's thoughs about the Skill, how it can
+be good for you, and special setups that work well with it, if there are any
+worth mentioning. Sometimes a better explanation of what the skill does, if the
+description is lacking or misleading.)
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+I briefly explained above what each thing means, but we will go for a more
+in-depth explanation here. First, here are what the ratings mean:
+
+-------------------------------------------------------------------------------
+*D Rank:
+Barely useful, should be swapped with another Skill as soon as possible most
+of the time.
+
+*C Rank:
+Not the most useful Skill, but it still does something good enough for you to
+keep it for a while, or even bring it on your final Skillset if you want. But,
+they generally should be taken out when you can.
+
+*B Rank:
+Useful, may be a bit situational, or requires other skills to truly shine...
+but it does a good job and can be kept with no problems.
+
+*A Rank:
+Very useful, will always be a great help to you, and is very reliable. It is
+a worthy addition to most skillsets.
+
+*S Rank:
+The absolute best skills. They break the game in half most of the time, and
+should be your highest priority when making a skillset.
+-------------------------------------------------------------------------------
+
+Here we have the possible Skill classifications that will be used. They show us
+how the Skill works and/or what it does in a general way.
+
+-------------------------------------------------------------------------------
+*Partner Skills:
+Affects Pair-up and Dual bonuses/effects.
+
+*Area Buffer Skills:
+Gives a boost to allies within a certain area for every turn.
+
+*Offensive Skills:
+Increases damage output when a condition is met.
+
+*Trigger Skills:
+They have a chance of triggering, based on a stat. They are refered as Proc
+Skills or Offensive Trigger Skills when they activate during your attack in
+a battle.
+
+*Internal Booster Skills:
+Gives a special boost to something that you can't see.
+
+*Rally Skills:
+Give allies within 3 spaces a boost for one turn. All Rally Skills are Area
+Buffer Skills and External Booster Skills by default.
+
+*Support Skills:
+Have varied, unique effects, so they don't go anywhere else. In some cases,
+they might have another classification, related to how it is Triggered.
+
+*Accuracy Skills:
+Increase Hit and Avoid Rates for the user, and only the user. Usually the
+actual bonus is only seen in the combat forecast and battles, not in the
+touch screen's statistics.
+
+*Healing Skills:
+Restores HP upon activation.
+
+*Weaponbreaker Skills:
+Gives a big Hit/Avoid Rate bonus depending on the enemy's weapon. All of those
+Skills will be Accuracy Skills by default.
+
+*Crisis Skills:
+Will always activate, but only when the user has 50% or less HP, rounded down.
+
+*Weaponfaire Skills:
+Increase Attack by 5 when equipped with a certain weapon. All Weaponfaire
+Skills are Offensive Skills by default.
+
+*Movement Skills:
+Increase the user's Movement range if certain conditions are met.
+
+*Defensive Skills:
+Decrease damage taken from specific sources.
+
+*External Booster Skills:
+Gives a visible boost to a stat.
+
+*Isolation Skills:
+Will only work when no units of a certain affiliation are within 3 spaces.
+Pair-up parters don't count.
+
+*Killing Skills:
+Require you to defeat an enemy for it to activate.
+
+*Critical Skills:
+Directly increases Critical Hit Rate.
+
+*Area Debuffer Skills:
+Gives a Hit and/or Avoid Rate penalty to enemies within a certain area.
+-------------------------------------------------------------------------------
+
+And, in regards to the users:
+
+-------------------------------------------------------------------------------
+*Morgan's starting class changes according to Avatar's spouse, so their
+starting Skills will change too. Morgan starts as a Level 10 unit, so they
+will start with 2 skills most of the time. I will only mention the parent
+required if they don't start with the skill. All others that do start with the
+skill will make Morgan start with it too.
+
+
+*Those who can "learn" the skill, require level ups or reclasing to do so. For
+kids, this covers their reclassing option inherited from their default parent
+only.
+
+
+*Those who can "inherit" the skill, are the kids who can't learn the skill,
+unless their parents pass the skill or the Class to them. Since the parents
+who can pass the skill are already listed, you won't see a mention of what
+parents can pass the skill, unless there is a conversion of Class dues to
+gender.
+
+Thanks to the possibility of all kids being the Avatar's, they can inherit
+many classes, so usually this section will mention ALL of the remaining kids,
+unless we are talking about a skill that's gender-locked. Some kids can't get
+some of those Skills.
+
+And for the sake of convenience, I'll give the max number of units that can
+inherit the Skill.
+
+
+*Spotpass and DLC characters have the same reclassing options as the Avatar.
+Since there are over 100 characters, I will only mention those that have a
+special skill that an Avatar of the same gender wouldn't be able to learn.
+-------------------------------------------------------------------------------
+
+So, without further ado, let's begin!
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+1- Dual Strike+ (Lord, Level 1).
+Rank: B
+Classification: Partner Skill.
+
+Users:
+*Who starts with this Skill: Chrom, Lucina.
+*Notable Spotpass/DLC characters with this Skill: DLC Roy, DLC Catria, Prince
+Marth.
+
+Description:
+Increases the Trigger Rate of Dual Strikes by 10%.
+
+Analysis:
+-------------------------------------------------------------------------------
+Dual Strike's Trigger Rate formula is = (Lead Unit's Skill stat +
+Support Unit's Skill stat)/4 + Support bonus). This bonus is 20 if neither unit
+has a suport level, and increases by 10 for each rank (leading to a maximum
+bonus of 60 for S ranked pairs).
+-------------------------------------------------------------------------------
+
+Thanks to the Support bonus being a huge part of the Trigger Rate, you won't
+see many Dual Strikes early on, and they will be commonplace later on.
+
+That being said, in harder difficulities, the earlygame chapters are the
+toughest, so a Dual Strike can be a gift from heaven... while in the hardest
+lategame chapters, you rely too much on them, so those bonuses can still be
+very important to make sure they will happen.
+
+Dual attacks are, nonetheless, very useful in almost all situations, in all
+difficulties. However, it's hindered by the low number of users.
+
+It's worth noting that this Skill will be active regardless of the unit being
+the lead or the support.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+2- Charm (Lord, Level 10).
+Rank: D
+Classification: Area Buffer Skill.
+
+Users:
+*Who starts with this Skill: Lucina.
+*Who can learn this Skill: Chrom.
+*Notable Spotpass/DLC characters with this Skill: DLC Marth, DLC Seliph,
+DLC Elincia, DLC Eldigan, Pr. Marth, Minerva, Raquesis, Seliph, Nanna.
+
+Description: Grants Hit/Avoid +5 to allies within 3 spaces.
+
+Analysis: While this covers a decent area... the bonuses are too small, and
+probably won't make a difference to anyone. Being limited to two people is not
+good for this Skill either.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+3- Aether (Great Lord, Level 5).
+Rank: A
+Classification: Offensive Skill, Healing Skill and Trigger Skill.
+
+Users:
+*Who starts with this Skill: Lucina.
+*Who can learn this Skill: Chrom.
+*Who can inherit this Skill: Kjelle, Cynthia, Female Morgan.
+Max = 2.
+*Notable Spotpass/DLC characters with this Skill: DLC Ike, Ike.
+
+Description: Use Sol and Luna in succession. Trigger % = (Skill Stat/2).
+
+Analysis: Sol and Luna (Skills 11 and 27) will Trigger individually, so you get
+two hits in a single attack, and both can be Critical Hits. It's damage output
+is generally very high, and healing is always a plus.
+
+This skill, however, is hindered by it's low Trigger Rate. Chrom and Lucina can
+make this skill reliable through Rightful King (Skill 4), but Lucina's sister
+or daughter will have no such luck, and are better off with other ways to deal
+damage and heal
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+4- Rightful King (Great Lord, Level 15).
+Rank: A
+Classification: Internal Booster Skill.
+
+Users:
+*Who can learn this Skill: Chrom, Lucina.
+*Who can inherit this Skill: Inigo, Brady, Male Morgan.
+Max = 2.
+*Notable Spotpass/DLC characters with this Skill: DLC Celica, Ephrain, King
+Marth.
+
+Description: Increases the Trigger Rate of the unit's Skills by 10%.
+
+Analysis: As mentioned above, this Skill is what makes Aether broken for the
+Lords, but unlike Aether, it's other users can make it shine in other ways.
+
+It will make all skills that this FAQ classifies as "Trigger Skills" much more
+useful, as Skills with low Trigger Rates can be much more reliable, while the
+other Skills with higher Trigger Rates can also be much more dependable than
+before, making this a solid choice for all of it's potential users.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+5- Veteran (Tactician, Level 1).
+Rank: A
+Classification: Internal Booster Skill.
+
+Users:
+*Who starts with this Skill: Avatar, Morgan (from Chrom, Lucina, Walhart or
+Olivia.)
+*Who can learn this Skill: Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Severa, Gerome, Yarne, Laurent, Noire, Nah.
+Max = 1.
+
+Description: Grants the unit 50% more Experience while Paired Up with another
+unit.
+
+Analysis: In Normal or Hard, this skill can be ignored and the game will still
+be easy to complete... but in Lunatic and +, enemies will be too strong. More
+Experience means more Level Ups. More Level ups means higher stats. Higher
+stats means that the Avatar can effectively handle enemies and makes the mode
+MUCH more bearable.
+
+Regardless, there are basically no disvantages for using Pair Up, so you are
+getting more Experience basically for free. It falls short of a S rank, because
+one day you won't need Experience anymore, making it a wasted slot... one day.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+6- Solidarity (Tactician, Level 10).
+Rank: C
+Classification: Area Buffer Skill, Critical Skill.
+
+Users:
+*Who starts with this Skill: Morgan (from Chrom, Lucina, Walhart or Olivia.)
+*Who can learn this Skill: Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Severa, Gerome, Yarne, Laurent, Noire, Nah.
+Max = 1.
+
+Description: Grants Crit/Dodge +10 to all adjacent allies.
+
+Analysis: First of all, Dodge isn't the same as Avoid. It's similar, but it
+works as a foil to the Critical Hit Rate instead.
+
+About the skill itself... It has a very limited area, but both yours and the
+enemy's Critical Hit Rate will be very low. You can raise yours, and likely
+nullify the enemy's thanks to this Skill.
+
+But, this Skill's range, or lack of thereof, really hurts it. It's effects can
+be replicated in the exact same way with a few support, making it's usefulness
+drop considerably.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+7- Ignis (Grandmaster, Level 5).
+Rank: A
+Classification: Offensive Skill, Trigger Skill.
+
+Users:
+*Who can learn this Skill: Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Severa, Gerome, Yarne, Laurent, Noire, Nah.
+Max = 1.
+
+Description: Adds half Magic or Strength to the other value. Trigger % = (Skill
+stat).
+
+Analysis: The description is very... undescripctive. Both Magic and Strength
+can be used to calculate your Attack, but only one of them. What this skill
+does, is add half of the other stat to your damage calculations (Adding
+Strength stat/2 for Tomes and Magical Weapons, and Magic stat/2 to Physical
+Weapons).
+
+This Skill has a high Trigger Rate, making it's extra damage common to see. But
+only a few Classes have the Growth Rates and Caps to make it awesome, namely
+classes that use Weapons AND Tomes/Staves. But maxed units can still make
+good use of this.
+
+A maxed unit will usually get 20-35 extra damage from this, while you will be
+getting around 10-13 extra damage when you first learn it. When you factor in
+how often it will be activating, this makes it a force of nature. It's special
+animation is pretty sick, too.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+8- Rally Spectrum (Grandmaster, Level 15).
+Rank: A
+Classification: Rally Skill.
+
+Users:
+*Who can learn this Skill: Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Severa, Gerome, Yarne, Laurent, Noire, Nah.
+Max = 1.
+
+
+Description: Use "Rally" to grant +4 to all stats to units within 3 spaces for
+one turn.
+
+Analysis: This Skill will greatly enhance any unit's fighting ability. You will
+be dealing more damage while taking less, and the speed increase can lead to
+either more damage dealt (you double) or less taken (the enemy doesn't double
+anymore). The Skill and Luck bonuses won't be doing much, though.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+9- Armsthrift (Mercenary, Level 1).
+Rank: A
+Classification: Support Skill, Trigger Skill.
+
+Users:
+*Who starts with this Skill: Gregor, Flavia, Inigo, Severa.
+*Who can learn this Skill: Donnel, Cordelia, Priam, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Brady, Kjelle, Cynthia, Gerome,
+Yarne, Laurent, Noire, Nah. (Daughters can inherit Mercenary from Vaike)
+Max = 4.
+
+Description: Attack without spending a weapon use. Trigger % = (Luck stat x2).
+
+Analysis:
+-------------------------------------------------------------------------------
+*Armsthrift is a Trigger Skill, but the game never directly tells you if
+it triggered in a battle, so the only way to know is to check your inventory.
+
+*Staves don't count as weapons, so Armsthrift will never activate for them.
+-------------------------------------------------------------------------------
+
+This Skill is useful for keeping Legendary weapons forever. Maxed characters
+will have no trouble activating this in almost every combat, specially if they
+have Limit Break (Skill 94). This is something for endgame chapters and late
+DLC maps. Not all Legendaries are worth keeping, as they will be outclassed by
+forged Braves.
+
+A forged Nosferatu/Aversa's Night is well worth keeping, since a Sorceror's job
+is to spam them, and they don't last long.
+
+Early in the game, there is nothing, outside of a few lucky drops, you will
+need to keep. It's not like your Luck stat will be high enough anyway. You can
+still forge weapons, but chances are, you can get more powerful ones by the
+time it would break.
+
+You can get more of those legendaires through DLC (Infinite Regalia), you only
+need to waste TWO minutes if you skip everything. And a little luck. Likewise,
+you can get money for more Forges via another DLC map (Golden Gaffe)
+
+This Skill can be a total waste of a slot if you are fine with grinding and
+depending on what weapons you use, or a godsend when you want to spam those
+legendaries, it all depends on how do you like to play (and what difficulty you
+are playing, too).
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+10- Patience (Mercenary, Level 10).
+Rank: C
+Classification: Accuracy Booster Skill.
+
+Users:
+*Who starts with this Skill: Gregor, Flavia, Inigo, Severa, Morgan.
+*Who can learn this Skill: Donnel, Cordelia, Priam, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Brady, Kjelle, Cynthia, Gerome,
+Yarne, Laurent, Noire, Nah. (Daughters can inherit Mercenary from Vaike).
+Max = 4
+*Weapons that grant this skill: Titania's Axe.
+
+Description: Grants Hit/Avoid +10 when the unit is under attack.
+
+Analysis: Since this Skill only works in Enemy Phase, it isn't very reliable,
+specially since you can't directly choose your opponents in the Enemy Phase,
+and enemies don't care if they have a low Hit Rate when attacking. But most of
+your battles will be on Enemy Phase, so it still does it's part.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+11- Sol (Hero, Level 5).
+Rank: S
+Classification: Healing Skill, Trigger Skill.
+
+Users:
+*Who starts with this Skill: Flavia, Priam.
+*Who can learn this Skill: Gregor, Inigo, Severa, Donnel, Cordelia, Vaike,
+Basilio, Gaius, Gerome, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Brady, Kjelle, Cynthia, Yarne,
+Laurent, Noire, Nah. (Daughters can inherit Mercenary from Vaike).
+Max = 5.
+*Weapons that grant this skill: Sol (Sword).
+
+Description: Absorb HP equal to half damage dealt. Trigger % = (Skill Stat).
+
+Analysis: This skill is the most reliable way for self-healing outside of
+Nosferatu (and self-healing is the reason it's so broken). Since it's Trigger
+Rate is high, it can be very useful for keeping a character alive throughout
+most of the Enemy Phase, where you will take much damage.
+
+It will shine the most in later chapters, where you will have higher damage
+output and Trigger Rate. It's still better to have a healing item handy, as
+it can possibly not activate when you need it the most. Or a Staff user.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+12- Axebreaker (Hero, Level 15).
+Rank: B
+Classification: Weaponbreaker Skill.
+
+Users:
+*Who starts with this Skill: Priam.
+*Who can learn this Skill: Gregor, Donnel, Cordelia, Flavia, Vaike, Basilio,
+Gaius, Inigo, Severa, Gerome, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Brady, Kjelle, Cynthia, Yarne,
+Laurent, Noire, Nah. (Daughters can inherit Mercenary from Vaike).
+Max = 5.
+*Weapons that grant this skill: Superior Axe.
+
+Description: Grants Hit/Avoid +50 if the enemy is using an Axe.
+
+Analysis: The bonus is huge, but it just happens that Axes have the lowest Hit
+Rates in the game, so it's rather redundant. It still can be used to great
+effect, so, don't ignore this skill just for that, specially if you can be
+affected by Hammers or Volant Axes.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+13- Avoid +10 (Myrmidon, Level 1).
+Rank: C
+Classification: Accuracy Skill.
+
+Users:
+*Who starts with this Skill: Lon'qu, Say'ri, Owain, Yen'fay, Morgan.
+*Who can learn this Skill: Sully, Stahl, Gaius, Gregor, Olivia, Inigo, Kjelle,
+Priam, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Brady, Cynthia, Severa, Gerome, Yarne,
+Laurent, Noire, Nah.
+Max = 6.
+
+Description: Grants Avoid +10 .
+
+Analysis: It will be active no matter what, and can be helpful to minimize any
+chances of taking damage when you are already a frail Myrmidon, but there isn't
+much more that can be said about it.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+14- Vantage (Myrmidon, Level 10).
+Rank: A
+Classification: Crisis Skill, Support Skill.
+
+Users:
+*Who starts with this Skill: Say'ri, Owain, Yen'fay, Morgan (also from Lon'qu).
+*Who can learn this Skill: Lon'qu, Sully, Stahl, Gaius, Gregor, Olivia, Inigo,
+Kjelle, Priam, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Brady, Cynthia, Severa, Gerome, Yarne,
+Laurent, Noire, Nah.
+Max = 6.
+
+Description: If HP is half or less, always strike first, even when attacked.
+
+Analysis: This skill can allow you to survive longer, because attacking first
+can save you from the enemy's killing blow.
+
+This is a rare case of a Skill that needs others to be useful. In this case,
+you need Wrath and Vengeance (Skills 45 and 65). This will allow your unit to
+have greater chances of surviving under half HP, and the added firepower can
+make them much more powerful in that state.
+
+It's also an assurance of invincibility to Nosferatu users, since they will
+recover health, and more than usual, before a potential killing blow, and can
+work similarly, but less reliably, to Sol (Skill 11) users.
+
+By itself, it's can still save you, but it's not that reliable unless you have
+high HP.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+15- Astra (Swordmaster, Level 5).
+Rank: A
+Classification: Offensive Skill, Trigger Skill.
+
+Users:
+*Who starts with this Skill: Yen'fay
+*Who can learn this Skill: Lon'qu, Say'ri, Sully, Stahl, Gaius, Gregor, Olivia,
+Owain, Inigo, Kjelle, Priam, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Brady, Cynthia, Severa, Gerome, Yarne,
+Laurent, Noire, Nah.
+Max = 6.
+*Weapons that grant this skill: Astra (Bow).
+
+Description: Strike five times at half damage. Trigger % = (Skill stat/2).
+
+Analysis: Astra allows the unit to attack 5 times consecutively, and each
+strike does half the damage of a normal one, making it's total damage output
+2,5 times higher than a normal attack's.
+
+While no other skills can Trigger during Astra, each hit has a chance to be a
+Critical Hit, and that makes it the skill with the highest damage modifier in
+the game (7,5 times higher than a normal attack).
+
+Of course, that's pretty rare, but the total damage is nothing to sneeze at. It
+is almost a Critical Hit by itself. Regardless, it's low Trigger Rate affects
+it, and in  higher difficulties, there will be plenty of enemies with Counter
+(Skill 42) to make sure that an Astra Trigger will kill YOU.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+16- Swordfaire (Swordmaster, Level 15).
+Rank: B
+Classification: Weaponfaire Skill.
+
+Users:
+*Who starts with this Skill: Yen'fay
+*Who can learn this Skill: Lon'qu, Say'ri, Sully, Stahl, Gaius, Gregor, Olivia,
+Owain, Inigo, Kjelle, Priam, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Brady, Cynthia, Severa, Gerome, Yarne,
+Laurent, Noire, Nah.
+Max = 6.
+
+Description: Grants Strength +5 if using a Sword (Magic +5 if using a Levin
+Sword).
+
+Analysis: Swords are the weakest weapons in the game, so this bonus can be very
+meaningful to Sword users, specially since most have more than enough speed to
+double it's effects.
+
+The bonus, however, is quite small, and compared to other Skills, it isn't the
+most effective way of increasing your damage output, since it only works with a
+single weapon.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+17- Locktouch (Thief, Level 1).
+Rank: B
+Classification: Support Skill.
+
+Users:
+*Who starts with this Skill: Gaius, Anna, Gangrel, Morgan.
+*Who can learn this Skill: Vaike, Kellam, Lon'qu, Panne, Henry, Flavia, Yarne,
+Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Severa, Gerome, Laurent, Noire, Nah.
+Max = 6.
+
+Description: Allows the unit to open doors and chests without a key.
+
+Analysis: The number of doors and chests in this game is much bigger than the
+number of keys, so this skill will see a lot of use.
+
+It isn't a skill you want to bring to the hardest maps, since they lack doors
+or chests, and only one chest in the entire game is REALLY important (the Boots
+on Chapter 17), since you can get everything else from shops.
+
+Of course, you really should try to open every chest you can, and opening a
+door on the right time can lead to a smart ambush from two sides, but it's
+still a limited skill.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+18- Movement +1 (Thief, Level 10).
+Rank: B
+Classification: Movement Skill, External Booster Skill.
+
+Users:
+*Who starts with this Skill: Anna, Gangrel, Morgan (also from Gaius).
+*Who can learn this Skill: Gaius, Vaike, Kellam, Lon'qu, Panne, Henry, Flavia,
+Yarne, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Severa, Gerome, Laurent, Noire, Nah.
+Max = 6.
+
+Description: Grants Movement +1.
+
+Analysis: More movement is always good. This little boost can help you arrive
+at the right place, in the right time. Sadly, that's a full slot just for it,
+and this is what stops it from being better.
+
+Boots outclass this, but you only get 2 pairs (and considering how much Renown
+you need for the second...).
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+19- Lethality (Assassin, Level 5).
+Rank: C
+Classification: Offensive Skill, Trigger Skill.
+
+Users:
+*Who can learn this Skill: Lon'qu, Say'ri, Sully, Stahl, Gaius, Anna, Gregor,
+Olivia, Vaike, Kellam, Panne, Henry, Flavia, Owain, Inigo, Kjelle, Yarne,
+Gangrel, Yen'fay, Priam, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Brady, Cynthia, Severa, Gerome, Laurent,
+Noire, Nah.
+Max = 9.
+
+Description: Fell an enemy in one hit. Trigger % = (Skill stat/4).
+
+Analysis: This skill will instantly kill the enemy when it triggers, unless
+they Trigger Miracle (Skill 69). This  is really awesome, so why is it ranked
+so low?
+
+Well, it's Trigger Rate is ridiculously low, with maxed units and a LOT of
+extra boost, you can only get around 33%. Other Offensive Skills will do enough
+damage to kill an enemy with a higher Trigger Rate, and so will Critical Hits.
+
+BUT, it's a very good skill for a Streetpass team, since killing someone means
+you won, because they will reset (or most will).
+
+Also, this Skill will never Trigger against Dragonskin (Enemy Skill) users.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+20- Pass (Assassin, Level 15).
+Rank: C
+Classification: Movement Skill.
+
+Users:
+*Who can learn this Skill: Lon'qu, Say'ri, Sully, Stahl, Gaius, Anna, Gregor,
+Olivia, Vaike, Kellam, Panne, Henry, Flavia, Owain, Inigo, Kjelle, Yarne,
+Gangrel, Yen'fay, Priam, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Brady, Cynthia, Severa, Gerome, Laurent,
+Noire, Nah.
+Max = 9.
+
+Description: Allows the unit to pass through spaces occupied by enemy units.
+
+Analysis: While this can allow you to slip by the enemy's formation to kill a
+key target... unless the unit has Galeforce (Skill 38), you will be left in a
+dangerous situation, because behind an enemy... there will be more enemies. It
+still has it's uses, but it only works well in very specific situations.
+
+Some consider this skill for Bow users, since you can't attack if 4 enemies
+have you cornered... but frankly, who would allow this to happen? This IS a
+strategy game, right?
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+21- Lucky Seven (Trickster, Level 5).
+Rank: B
+Classification: Accuracy Skill.
+
+Users:
+*Who starts with this Skill: Gangrel.
+*Who can learn this Skill: Gaius, Anna, Vaike, Kellam, Lon'qu, Panne, Henry,
+Flavia, Yarne, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Severa, Gerome, Laurent, Noire, Nah.
+Max = 6.
+
+Description: Grants Hit/Avoid +20 for the first seven turns.
+
+Analysis: While seven turns might look like it isn't much, by that time you
+will be done with the hardest parts of many maps, and and army of Galeforce
+(Skill 38) users should clear most chapters before that time limit is up. This
+makes it the best Accuracy Skill to bring later on, outside of, possibly,
+Weaponbreaker Skills.
+
+The bonus isn't small, too, so it can give a decent help to anyone, specially
+that Avoid bonus.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+22- Acrobat (Trickster, Level 15).
+Rank: C
+Classification: Movement Skill.
+
+Users:
+*Who starts with this Skill: Gangrel.
+*Who can learn this Skill: Gaius, Anna, Vaike, Kellam, Lon'qu, Panne, Henry,
+Flavia, Yarne, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Severa, Gerome, Laurent, Noire, Nah.
+Max = 6.
+
+Description: Treats all accessible terrain as if it were a Plain,
+movement-wise.
+
+Analysis: Plains don't have movement penalities, like Forests and Deserts, so
+this allows an unit to move freely through these area. But, there are few maps
+where there are enough of those spaces to justify bringing this skill.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+23- Discipline (Cavalier, Level 1).
+Rank: C
+Classification: Internal Booster Skill.
+
+Users:
+*Who starts with this Skill: Frederick, Sully, Stahl, Morgan.
+*Who can learn this Skill: Chrom, Ricken, Lucina, Brady, Kjelle, Avatar,
+Morgan.
+*Who can inherit this Skill: Owain, Inigo, Cynthia, Severa, Gerome, Yarne,
+Laurent, Noire, Nah.
+Max = 5.
+
+Description: Doubles the amount of Weapon Experience the unit recieves.
+
+Analysis: The bonus is really useful for everybody who can have 2 or 3 weapons
+to use, because it will take a while to level up all of them. It will make your
+character stronger in a faster rate, and coupled with Joke weapons abuse, you
+will be getting lots of Weapon Experience. It will, however, be useless when
+you are done grinding.
+
+But you can just play the game normally, and you will eventually get to use the
+best weapons with no trouble. Being able to forge Bronze weapons for that
+specific purpose is also something that hurts this Skill. It's really good only
+when you already have it. Still, getting out of an E Rank for your new weapons
+is something everybody likes.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+24- Outdoor Fighter (Cavalier, Level 10).
+Rank: D
+Classification: Accuracy Skill.
+
+Users:
+*Who starts with this Skill: Frederick, Morgan (also from Sully and Stahl).
+*Who can learn this Skill: Sully, Stahl, Chrom, Ricken, Lucina, Brady, Kjelle,
+Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Cynthia, Severa, Gerome, Yarne,
+Laurent, Noire, Nah.
+Max = 5.
+
+Description: Grants Hit/Avoid +10 while fighting outdoors.
+
+Analysis: While the great majority of this game's chapters are outdoor battles,
+this skill offers too little to be worth a slot. It's also completely useless
+on some maps.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+25- Defender (Paladin, Level 5).
+Rank: C
+Classification: Partner Skill, External Booster Skill.
+
+Users:
+*Who can learn this Skill: Frederick, Sully, Stahl, Chrom, Ricken, Lucina,
+Brady, Kjelle, Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Cynthia, Severa, Gerome, Yarne,
+Laurent, Noire, Nah.
+Max = 5.
+
+Description: Grants +1 to all stats while paired with another unit.
+
+Analysis: +1 isn't going to be doing much for you in most cases. It's still not
+a total waste, but there are better ways to support your team. Also, it does
+not increase Movement.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+26- Aegis (Paladin, Level 15).
+Rank: A
+Classification: Defensive Skill, Trigger Skill.
+
+Users:
+*Who can learn this Skill: Frederick, Sully, Stahl, Chrom, Ricken, Lucina,
+Brady, Kjelle, Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Cynthia, Severa, Gerome, Yarne,
+Laurent, Noire, Nah.
+Max = 5.
+
+Description: Halve Bow/Tome/Dragonstone damage. Trigger % = (Skill stat).
+
+Analysis: You will almost never face Dragonstone users in this game, and Bows
+are only really dangerous to fliers... but even with Aegis, it isn't a good
+idea to throw fliers in an Archer's range.
+
+But, it has an effect on Tomes, the most dangerous form of attack in the game,
+specially since many characters will have a VERY low Resistance stat without
+grinding. This will greatly reduces their threat, specially because by the time
+where the higher level Tomes are being used by the enemies... your Skill stat
+will be high enough for it to activate most of the time.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+27- Luna (Great Knight, Level 5).
+Rank: A
+Classification: Offensive Skill, Trigger Skill.
+
+Users:
+*Who stats with this Skill: Priam.
+*Who can learn this Skill: Frederick, Sully, Stahl, Chrom, Ricken, Sumia,
+Kellam, Tharja, Basilio, Flavia, Lucina, Brady, Kjelle, Cynthia, Noire,
+Walhart, Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Severa, Gerome, Yarne, Laurent, Nah.
+(Daughters can inherit Knight from Vaike).
+Max = 7.
+*Weapons that grant this skill: Luna.
+
+Description: Halve enemy Defense/Resistance when attacking. Trigger % = (Skill
+stat).
+
+Analysis: This Skill gives a nice damage bonus against most foes, and will have
+a very high Trigger Rate to boot. This will be specially useful when you have
+to fight an unit with a high Defense stat, as those with high resistance still
+can be easily dealt with a Pegasus Knight most of the time.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+28- Dual Guard+ (Great Knight, Level 15).
+Rank: A
+Classification: Partner Skill.
+
+Users:
+*Who can learn this Skill: Frederick, Sully, Stahl, Chrom, Ricken, Sumia,
+Kellam, Tharja, Basilio, Flavia, Lucina, Brady, Kjelle, Cynthia, Noire,
+Walhart, Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Severa, Gerome, Yarne, Laurent, Nah.
+(Daughters can inherit Knight from Vaike).
+Max = 7.
+
+Description: Increases the Trigger Rate of Dual Strikes by 10%.
+
+Analysis: Dual Guard's Trigger Rate formula is = (Lead Unit's Defense or
+Resistance stat + Support Unit's Defense or Resistance stat)/4 + Support bonus.
+This bonus is 0 if neither unit has a suport level, and increases by 2,5% for
+each rank (leading to a maximum Support bonus of 10% for S ranked pairs).
+
+As you can see, Dual Guard's Trigger Rate won't be very high, even between S
+ranked units. At best, it will be more or less 30%, an considering that it
+completely negates any damage, that 10% provided by this Skill is very good.
+
+Two little notes: A Dual Guard will block all strikes from Aether and Astra,
+and can negate Lethality (Skills 4, 15 and 18). It's also worth noting that
+this Skill will be active regardless of the unit being the lead or the support.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+29- Defense +2 (Knight, Level 1).
+Rank: C
+Classification: External Booster Skill.
+
+Users:
+*Who starts with this Skill: Kellam, Kjelle, Morgan.
+*Who can learn this Skill: Frederick, Sumia, Tharja, Basilio, Flavia, Cynthia,
+Noire, Walhart, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Severa, Gerome,
+Yarne, Laurent, Nah. (Daughters can inherit Knight from Vaike).
+Max = 5.
+
+Description: Grants Defense +2.
+
+Analysis: The bonus is small, but an unit may be attacked multiple times in the
+course of a battle, so you will be saving 2 damage here, 2 damage there... it's
+not a great Skill, but it certainly does enough. It also helps one to tank
+enemy attacks better, and even come undamaged from some encounters.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+30- Indoor Fighter (Knight, Level 10).
+Rank: D
+Classification: Accuracy Skill.
+
+Users:
+*Who starts with this Skill: Morgan (from Kellam).
+*Who can learn this Skill: Kellam, Frederick, Sumia, Tharja, Basilio, Flavia,
+Cynthia, Noire, Walhart, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Severa, Gerome,
+Yarne, Laurent, Nah. (Daughters can inherit Knight from Vaike).
+Max = 5.
+
+Description: Grants Hit/Avoid +10 when fighting indoors.
+
+Analysis: Outdoor Fighter (Skill 24) does the same thing in more maps. Outdoor
+Fighter isn't good.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+31- Rally Defense (General, Level 5).
+Rank: B
+Classification: Rally Skill.
+
+Users:
+*Who can learn this Skill: Frederick, Sumia, Tharja, Basilio, Flavia, Kjelle,
+Cynthia, Noire, Walhart, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Severa, Gerome,
+Yarne, Laurent, Nah. (Daughters can inherit Knight from Vaike).
+Max = 5.
+
+Description: Use "Rally" to grant Defense +4 to units within 3 spaces for one
+turn.
+
+Analysis: The Defense boosts are good, since the frontlines are infested with
+melee units, the boosts can be very helpful.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+32- Pavise (General, Level 15).
+Rank: A
+Classification: Defensive Skill, Trigger Skill.
+
+Users:
+*Who can learn this Skill: Frederick, Sumia, Tharja, Basilio, Flavia, Kjelle,
+Cynthia, Noire, Walhart, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Severa, Gerome,
+Yarne, Laurent, Nah. (Daughters can inherit Knight from Vaike).
+Max = 5.
+
+Description: Halve Sword/Lance/Axe/Beaststone/Blight damage. Trigger % = (Skill
+stat)
+
+Analysis: Taguels and Revenants are rare foes.. but this Skill covers the most
+common weapons in the game. Many enemies will be affected by this Skill, and
+it's high Trigger Rate will go a long way in decreasing damage taken for a
+frontliner.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+33- Speed +2 (Pegasus Knight, Level 1).
+Rank: C
+Classification: External Booster Skill.
+
+Users:
+*Who starts with this Skill: Sumia, Cordelia, Cynthia, Aversa, Morgan.
+*Who can learn this Skill: Lissa, Mariabelle, Olivia, Say'ri, Severa, Emmeryn,
+Female Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Noire, Nah,
+Male Morgan. (Daughters can inherit Pegasus Knight from Gaius, Donnel and Male
+Avatar).
+Max = 7.
+
+Description: Grants Speed +2
+
+Analysis: The bonus is small, but a single point of Speed can dramatically
+change an entire battle, thanks to double attacks. The bonus still won't do
+much most of the time, thanks to the high starting Speed shared by many of
+it's users.
+
+But it has the potential to change an entire battle in your favor.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+34- Relief (Pegasus Knight, Level 10).
+Rank: C
+Classification: Healing Skill, Isolation Skill.
+
+Users:
+*Who starts with this Skill: Cynthia, Aversa, Morgan (also from Sumia or
+Cordelia).
+*Who can learn this Skill: Sumia, Cordelia, Lissa, Mariabelle, Olivia, Say'ri,
+Severa, Emmeryn, Female Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Noire, Nah,
+Male Morgan. (Daughters can inherit Pegasus Knight from Gaius, Donnel and Male
+Avatar).
+Max = 7.
+*Notable Spotpass/DLC characters with this Skill: Valbar.
+
+Description: Restores 20% HP each turn if no units are within 3 spaces.
+
+Analysis: If you have the time to go away from the battle for Relief, you have
+the time to use a Healing item. Only fliers can make decent use of this skill,
+since they can re-join the fray easily, but also can be sent to deal with some
+reiforcements alone, specially if the reinforcements are ALSO fliers. 20% isn't
+much, specially if it isn't relaible.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+35- Rally Speed (Falcon Knight, Level 15).
+Rank: B
+Classification: Rally Skill.
+
+Users:
+*Who can learn this Skill: Sumia, Cordelia, Lissa, Mariabelle, Olivia, Say'ri,
+Cynthia, Severa, Emmeryn, Aversa, Female Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Noire, Nah,
+Male Morgan. (Daughters can inherit Pegasus Knight from Gaius, Donnel and Male
+Avatar).
+Max = 7.
+
+Description: Use "Rally" to grant Speed +4 to units within 3 spaces for one
+turn.
+
+Analysis: Differently from Speed +2 (Skill 33), this bonus is very likely to
+actually impede enemies from doubling you or allow you to double them. Giving
+this boost to everyone can seriously increase the damage output of your entire
+team, provided you plan around it.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+36- Lancefaire (Falcon Knight, Level 15).
+Rank: B
+Classification: Weaponfaire Skill.
+
+Users:
+*Who can learn this Skill: Sumia, Cordelia, Lissa, Mariabelle, Olivia, Say'ri,
+Cynthia, Severa, Emmeryn, Aversa, Female Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Noire, Nah,
+Male Morgan. (Daughters can inherit Pegasus Knight from Gaius, Donnel and Male
+Avatar).
+Max = 7.
+*Notable Spotpass/DLC characters with this Skill: Seth.
+
+Description: Grants Strength +5 if using a Lance (Magic +5 if using a
+Shockstick).
+
+Analysis: Lances have decent power, but we have Lance users that are too slow
+and Lance users that are too fast, so it's very class-dependant. Falcon Knights
+will make more use of this, since they are can only use Lances AND are fast
+enough to double the effects of this Skill.
+
+The bonus, however, is quite small, and compared to other Skills, it isn't the
+most effective way of increasing your damage output, since it only works with a
+single weapon.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+37- Rally Movement (Dark Flier, Level 5).
+Rank: B
+Classification: Rally Skill.
+
+Users:
+*Who starts with this Skill: Aversa
+*Who can learn this Skill: Sumia, Cordelia, Lissa, Mariabelle, Olivia, Say'ri,
+Cynthia, Severa, Emmeryn, Female Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Noire, Nah,
+Male Morgan. (Daughters can inherit Pegasus Knight from Gaius, Donnel and Male
+Avatar).
+Max = 7.
+
+Description: Use "Rally" to grant Movement +1 to units within 3 spaces for one
+turn.
+
+Analysis: While the bonus isn't permanent like in Movement +1 (Skill 17), it
+still can help your team to move across the map faster, giving an all-around
+boost to their ultility. You can use the extra Movement to flee, pursue a key
+target, beat the map quickly or just advancing normally. It can always help,
+but you need to play your cards right.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+38- Galeforce (Dark Flier, Level 15).
+Rank: S
+Classification: Movement Skill, Killing Skill.
+
+Users:
+*Who starts with this Skill: Aversa.
+*Who can learn this Skill: Sumia, Cordelia, Lissa, Mariabelle, Olivia, Say'ri,
+Cynthia, Severa, Emmeryn, Female Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Noire, Nah,
+Male Morgan. (Daughters can inherit Pegasus Knight from Gaius, Donnel and Male
+Avatar).
+Max = 7 .
+*Notable Spotpass/DLC characters with this Skill: DLC Seliph, Jaffar, Camus,
+Jamke.
+
+Description: Allows the unit to act again upon defeating a foe.
+
+Analysis: One of the best skills in the game. With proper use of Pair Up, a
+pair can move 3 times, if both have this skill. It can be used for Hit-and-Run
+tactics, specially with Pass (Skill 19), or to clear a map very fast. Moving
+again might not seem much now, but when you have an army of Galeforce users...
+
+Just remember to not bring it to Streetpass teams, since most reset when they
+die.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+39- HP +5 (Fighter, Level 1).
+Rank: C
+Classification: External Booster Skill.
+
+Users:
+*Who starts with this Skill: Vaike, Basilio, Male Morgan.
+*Who can learn this Skill: Donnel, Gaius, Gregor, Henry, Gerome, Priam,
+Male Avatar, Male Morgan.
+*Who can inherit this Skill: Owain, Inigo, Brady, Kjelle, Cynthia, Severa,
+Yarne, Laurent, Noire, Nah, Female Morgan.
+Max = 6.
+
+Description: Grants HP +5.
+
+Analysis: It doesn't do much, but the extra HP can help you survive longer.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+40- Zeal (Fighter, Level 10).
+Rank: C
+Classification: Critical Skill.
+Users:
+*Who starts with this Skill: Basilio, Male Morgan (Also from Vaike)
+*Who can learn this Skill: Vaike, Donnel, Gaius, Gregor, Henry, Gerome, Priam,
+Male Avatar, Male Morgan.
+*Who can inherit this Skill: Owain, Inigo, Brady, Kjelle, Cynthia, Severa,
+Yarne, Laurent, Noire, Nah, Female Morgan.
+MAx= 6
+*Notable Spotpass/DLC characters with this Skill: DLC Lyn.
+
+Description: Grants Critical +5.
+
+Analysis: The bonus is SMALL... but every bonus counts when we are talking
+about Critical Hits. You should only use it if you are making a Critical Hit
+build and/or there's nothing better.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+41- Rally Strength (Warrior, Level 5).
+Rank: B
+Classification: Rally Skill.
+
+Users:
+*Who starts with this Skill: Basilio.
+*Who can learn this Skill: Vaike, Donnel, Gaius, Gregor, Henry, Owain, Inigo,
+Gerome, Yarne, Laurent, Gangrel, Priam, Male Avatar, Male Morgan.
+*Who can inherit this Skill: Brady, Kjelle, Cynthia, Severa, Noire, Nah, Female
+Morgan.
+Max = 6.
+*Notable Spotpass/DLC characters with this Skill: DLC Palla, DLC Katarina.
+
+Description: Use "Rally" to grant Strength +4 to units within 3 spaces for one
+turn.
+
+Analysis: Most of your offensive units are going to be enjoying a Strength
+boost, and when you factor double attacks, you have a nice Strength +8 for your
+team.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+42- Counter (Warrior, Level 15).
+Rank: B
+Classification: Offensive Skill, Support Skill.
+
+Users:
+*Who can learn this Skill: Vaike, Basilio, Donnel, Gaius, Gregor, Henry, Owain,
+Inigo, Gerome, Yarne, Laurent, Gangrel, Priam, Male Avatar, Male Morgan.
+*Who can inherit this Skill: Brady, Kjelle, Cynthia, Severa, Noire, Nah, Female
+Morgan.
+Max = 6.
+*Notable Spotpass/DLC characters with this Skill: DLC Palla, Titania.
+
+Description: Damage taken from an adjacent enemy is dealt back to that foe.
+
+Analysis: The greatest thing against this Skill, is that you NEED to be taking
+damage for it to be working, and direct damage to boot. The bonus can be good,
+but if it's too big, you are also in trouble...
+
+It works best with classes that with high HP but low Defense, like Warriors or
+Taguels.
+
+It's worth noting that this skill won't work against enemies with Dragonskin
+(Enemy Skill), or when the enemy lands a killing blow against the user.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+43- Despoil (Barbarian, Level 1).
+Rank: C
+Classification: Support Skill, Trigger Skill, Killing Skill.
+
+Users:
+*Who can learn this Skill: Vaike, Gregor, Henry, Basilio, Owain, Inigo, Yarne,
+Laurent, Gangrel, Male Avatar, Male Morgan.
+*Who can inherit this Skill: Brady, Kjelle, Cynthia, Severa, Gerome, Noire,
+Nah, Female Morgan.
+Max = 4.
+*Weapons that grant this skill: Leif's Blade.
+
+Description: Get a Bullion (S) if the unit's target falls. Trigger % = (Luck
+stat)
+
+Analysis: This Skill is totally outclassed by a DLC Xenologue (Golden Gaffe, of
+the Golden Pack) that gives you much more money. In Normal and Hard, you can
+get money freely from enemy skirmishes in early stages (because Frederick can
+solo those maps), while in Lunatic and +, you will not be going far without
+DLC, so you better get Golden Gaffe while you are at it.
+
+Still, it's a nice way of getting free money during battles, because it will
+Trigger often, even if you need to kill an enemy for it.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+44- Gamble (Barbarian, Level 10).
+Rank: C
+Classification: Critical Skill.
+
+Users:
+*Who can learn this Skill: Vaike, Gregor, Henry, Basilio, Owain, Inigo, Yarne,
+Laurent, Gangrel, Male Avatar, Male Morgan.
+*Who can inherit this Skill: Brady, Kjelle, Cynthia, Severa, Gerome, Noire,
+Nah, Female Morgan.
+Max = 4.
+
+Description: Reduces Hit by 5, but grants Critical +10.
+
+Analysis: The bonus is small, but the penalty is even smaller. You are getting
+Critical +10 basically for free.
+
+It's still a small bonus, but it's a better choice for Critical Hit builds than
+Zeal (Skill 40).
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+45- Wrath (Berserker, Level 5).
+Rank: B
+Classification: Critical Skill, Crisis Skill.
+
+Users:
+*Who can learn this Skill: Vaike, Gregor, Henry, Basilio, Owain, Inigo, Yarne,
+Laurent, Gangrel, Male Avatar, Male Morgan.
+*Who can inherit this Skill: Brady, Kjelle, Cynthia, Severa, Gerome, Noire,
+Nah, Female Morgan.
+Max = 4.
+*Notable Spotpass/DLC characters with this Skill: Nephenee.
+
+Description: Grants Critical +20 when HP is half or less.
+
+Analysis: The best Skill for Critical HIt builds. It also combos really well
+with
+Vantage and Vengeance (Skills 14 and 65), making you a killing machine at half
+HP.
+
+By itself, you will be counting on luck, but having a Killer weapon with you
+can be wise.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+46- Axefaire (Berserker, Level 15).
+Rank: B
+Classification: Weaponfaire Skill.
+
+Users:
+*Who can learn this Skill: Vaike, Gregor, Henry, Basilio, Owain, Inigo, Yarne,
+Laurent, Gangrel, Male Avatar, Male Morgan.
+*Who can inherit this Skill: Brady, Kjelle, Cynthia, Severa, Gerome, Noire,
+Nah, Female Morgan.
+Max = 4.
+
+Description: Grants Strength +5 if using an Axe (Magic +5 if using a Bolt Axe).
+
+Analysis: Axes don't really need much help when we are talking about dealing
+damage, but it never hurts (you) to have this around.
+
+The bonus, however, is quite small, and compared to other Skills, it isn't the
+most effective way of increasing your damage output, since it only works with a
+single weapon.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+47- Strength +2 (Wyvern Rider, Level 1).
+Rank: C
+Classification: External Booster Skill, Offensive Skill.
+
+Users:
+*Who starts with this Skill: Cherche, Gerome, Morgan.
+*Who can learn this Skill: Frederick, Sully, Virion, Lon'qu, Panne, Nowi,
+Say'ri, Tiki, Kjelle, Nah, Walhart, Yen'fay, Aversa, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Cynthia, Severa,
+Yarne, Laurent, Noire.
+Max = 5.
+
+Description: Grants Strength +2.
+
+Analysis: It's a small bonus, but it can still help you kill until something
+better is available.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+48- Tantivity (Wyvern Rider, Level 10).
+Rank: D
+Classification: Isolation Skill, Accuracy Skill.
+
+Users:
+*Who starts with this Skill: Cherche, Gerome, Morgan.
+*Who can learn this Skill: Frederick, Sully, Virion, Lon'qu, Panne, Nowi,
+Say'ri, Tiki, Kjelle, Nah, Walhart, Yen'fay, Aversa, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Cynthia, Severa,
+Yarne, Laurent, Noire.
+Max = 5.
+
+Description: Grants Hit/Avoid +10 when there are no allies within 3 spaces.
+
+Analysis: This is only useful if you are sending the user alone to deal with a
+reinforcement or special threat. And there are few times where that can be
+actually useful.
+
+You can, though, send the user ahead to attack and bring their allies in close
+by in the same turn. Still, it's not worth the trouble.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+49- Quick Burn (Wyvern Lord, Level 5).
+Rank: C
+Classification: Accuracy Skill.
+
+Users:
+*Who can learn this Skill: Cherche, Gerome, Frederick, Sully, Virion, Lon'qu,
+Panne, Nowi, Say'ri, Tiki, Kjelle, Nah, Walhart, Yen'fay, Aversa, Avatar,
+Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Cynthia, Severa,
+Yarne, Laurent, Noire.
+Max = 5.
+
+Description: Grants Hit/Avoid +15 at the start of battle. Stats gradually
+revert.
+
+Analysis: It will decrease by 1 for each turn passed, until your bonus is 0 in
+turn 16. It will be basically irrelevant by turn 8, but the initial bonus is
+nice.
+
+You can combo this with Slow Burn (Skill 66) for a 15 turn bonus of Hit/Avoid
++16.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+50- Swordbreaker (Wyvern Lord, Level 15).
+Rank: A
+Classification: Weaponbreaker Skill.
+
+Users:
+*Who starts with this Skill: Priam.
+*Who can learn this Skill: Cherche, Gerome, Frederick, Sully, Virion, Lon'qu,
+Panne, Nowi, Say'ri, Tiki, Kjelle, Nah, Walhart, Yen'fay, Aversa, Avatar,
+Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Cynthia, Severa,
+Yarne, Laurent, Noire.
+Max = 5.
+*Weapons that grant this skill: Superior Edge
+
+Description: Grants Hit/Avoid +50 if the enemy is using a Sword.
+
+Analysis: Swordsmen have the highest Hit Rates of the game so this bonus can be
+very useful even to Lance users. Specially if they are vulnerable to weapons
+like Armsorslayers, Wyrmslayers, Falchions and Rapiers. Axe users also enjoy
+this fix to their worst match-up.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+51- Deliverer (Griffon Rider, Level 5).
+Rank: A
+Classification: Movement Skill, Partner Skill.
+
+Users:
+*Who can learn this Skill: Cherche, Gerome, Frederick, Sully, Virion, Lon'qu,
+Panne, Nowi, Say'ri, Tiki, Kjelle, Nah, Walhart, Yen'fay, Aversa, Avatar,
+Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Cynthia, Severa,
+Yarne, Laurent, Noire.
+Max = 5.
+
+Description: Grants Movement +2 while paired with another unit.
+
+Analysis: There are few situations where Pair up is not the way to go, so this
+is another "free" bonus. More movement is always good, especially if the user's
+partner is from a class that already gives Movement +1 during Pair up, like
+Great Knight or Griffon Rider.
+
+Ah, yes, just to make it clear, this Skill is meant for lead units.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+52- Lancebreaker (Griffon Rider, Level 15).
+Rank: B
+Classification: Weaponbreaker Skill.
+
+Users:
+*Who starts with this Skill: Priam.
+*Who can learn this Skill: Cherche, Gerome, Frederick, Sully, Virion, Lon'qu,
+Panne, Nowi, Say'ri, Tiki, Kjelle, Nah, Walhart, Yen'fay, Aversa, Avatar,
+Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Cynthia, Severa,
+Yarne, Laurent, Noire.
+Max = 5.
+*Weapons that grant this skill: Superior Lance
+
+Description: Grants Hit/Avoid +50 if the enemy is using a Lance.
+
+Analysis: Lance users are usually accurate, so this can help you to have an
+edge against them. It is particularly useful for those who are affected by
+Beast Killers.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+53- Skill +2 (Archer, Level 1).
+Rank: D
+Classification: External Booster Skill.
+
+Users:
+*Who starts with this Skill: Virion, Noire, Morgan
+*Who can learn this Skill: Chrom, Stahl, Ricken, Tharja, Anna, Lucina, Yen'fay,
+Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Brady, Kjelle, Cynthia, Severa,
+Gerome, Yarne, Laurent, Nah.
+Max = 5.
+
+Description: Grants Skill +2.
+
+Analysis: This boost barely boosts anything. The best you are getting from this
+is Trigger Rate +4 for Vengeance (Skill 65). And that's awful.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+54- Prescience (Archer, Level 10).
+Rank: D
+Classification: Accuracy Skill.
+
+Users:
+*Who starts with this Skill: Noire, Morgan (also from Virion).
+*Who can learn this Skill: Virion, Chrom, Stahl, Ricken, Tharja, Anna, Lucina,
+Yen'fay, Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Brady, Kjelle, Cynthia, Severa,
+Gerome, Yarne, Laurent, Nah.
+Max = 5.
+
+Description: Grants Hit/Avoid +15 when the unit iniciates an attack.
+
+Analysis: It's similar to Patience (Skill 10), but it will work only on Player
+Phase... meaning, not much. Bow users usually don't fight back if attacked, so
+this boosts what they can actually do, at the very least... but considering
+that hitting things is not something hard for archers, and that you usually do
+not attack those who can fight back... It's not reliable for other classes
+either.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+55- Hit Rate +20 (Sniper, Level 5).
+Rank: C
+Classification: Accuracy Skill.
+
+Users:
+*Who starts with this Skill:
+*Who can learn this Skill: Virion, Chrom, Stahl, Ricken, Tharja, Anna, Lucina,
+Noire, Yen'fay, Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Brady, Kjelle, Cynthia, Severa,
+Gerome, Yarne, Laurent, Nah.
+Max = 5.
+
+Description: Grants Hit Rate +20.
+
+Analysis: It's nice, but that's it. Other things can work just as well as this
+one, in terms of Accuracy Skills, and most of the others also provide Avoid
+boosts. You probably won't need a Hit Rate bonus by the time you get this.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+56- Bowfaire (Sniper, Level 15).
+Rank: C
+Classification: Weaponfaire Skill.
+
+Users:
+*Who can learn this Skill: Virion, Chrom, Stahl, Ricken, Tharja, Anna, Lucina,
+Noire, Yen'fay, Avatar, Morgan.
+*Who can inherit this Skill: Owain, Inigo, Brady, Kjelle, Cynthia, Severa,
+Gerome, Yarne, Laurent, Nah.
+Max = 5.
+
+Description: Grants Strength +5 if using a Bow.
+
+Analysis: Unless you are a Sniper, you won't want this Skill. Bows can be used
+well if you know what you are doing, but you don't want to focus on them if
+there are other weapons available.
+
+The bonus is quite small, and compared to other Skills, it isn't the most
+effective way of increasing your damage output, since it only works with a
+single weapon.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+57- Rally Skill (Bow Knight, Level 5).
+Rank: D
+Classification: Rally Skill. (lol)
+
+Users:
+*Who can learn this Skill: Virion, Chrom, Stahl, Ricken, Tharja, Anna, Gregor,
+Donnel, Cordelia, Flavia, Noire, Lucina, Inigo, Severa, Yen'fay, Priam, Avatar,
+Morgan.
+*Who can inherit this Skill: Owain, Brady, Kjelle, Cynthia, Gerome, Yarne,
+Laurent, Nah. (Daughters can inherit Mercenary from Vaike).
+Max = 7.
+
+Description: Use "Rally" to grant Strength +4 to units within 3 spaces for one
+turn.
+
+Analysis: It isn't going to do anything really good. Like with Skill +2 (Skill
+53), the best you are getting out of this is Trigger Rate +8 for Vengeance. And
+that's still awful, just a little less.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+58- Bowbreaker (Bow Knight, Level 15).
+Rank: B
+Classification: Weaponbreaker Skill.
+
+Users:
+*Who can learn this Skill: Virion, Chrom, Stahl, Ricken, Tharja, Anna, Gregor,
+Donnel, Cordelia, Flavia, Noire, Lucina, Inigo, Severa, Yen'fay, Priam,
+Avatar, Morgan.
+*Who can inherit this Skill: Owain, Brady, Kjelle, Cynthia, Gerome, Yarne,
+Laurent, Nah. (Daughters can inherit Mercenary from Vaike).
+Max = 7.
+*Weapons that grant this skill: Superior Bow
+
+Description: Grants Hit/Avoid +50 if the enemy is using a Bow.
+
+Analysis: Fliers are the only ones who will make great use of this skill, due
+to their weakness. While Iote's Shield (Skill 93) is superior to it in this
+regard, it can still help to keep your fliers alive. Others won't use this one
+much, though.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+59- Magic +2 (Mage, Level 1).
+Rank: C
+Classification: External Booster Skill.
+
+Users:
+*Who starts with this Skill: Miriel, Ricken, Laurent, Emmeryn, Morgan (not from
+Emmeryn)
+*Who can learn this Skill: Virion, Mariabelle, Nowi, Libra, Anna, Tiki, Brady,
+Nah, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Kjelle, Cynthia, Severa,
+Gerome, Yarne, Noire.
+Max = 5.
+
+Description: Grants Magic +2.
+
+Analysis: It's a small bonus, but it can still help you kill until something
+better is available.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+60- Focus (Mage, Level 10).
+Rank: C
+Classification: Critical Skill, Isolation Skill.
+
+Users:
+*Who starts with this Skill: Laurent, Emmeryn, Morgan (not from Emmeryn, but
+also from Miriel or Ricken)
+*Who can learn this Skill: Miriel, Ricken, Virion, Mariabelle, Nowi, Libra,
+Anna, Tiki, Brady, Nah, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Kjelle, Cynthia, Severa,
+Gerome, Yarne, Noire.
+Max = 5.
+
+Description: Grants Critical +10 when there are no allies within 3 spaces.
+
+Analysis: Not a reliable way of increasing Critical Hit Rate, and it's not
+reliable enough to be in critical builds, but it's still a chance of triple
+damage...
+
+Moving the user to meet the enemy first might be a good way of making use of
+this Skill without endangering the user, as the rest of the team can catch up.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+61- Rally Magic (Sage, Level 5).
+Rank: B
+Classification: Rally Skill.
+
+Users:
+*Who starts with this Skill: Emmeryn.
+*Who can learn this Skill: Miriel, Ricken, Virion, Mariabelle, Nowi, Libra,
+Anna, Tiki, Lissa, Kellam, Laurent, Brady, Nah, Owain, Gerome, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Inigo, Kjelle, Cynthia, Severa, Gerome,
+Yarne, Noire.
+Max = 6.
+
+Description: Use "Rally" to grant Magic +4 to units within 3 spaces for one
+turn.
+
+Analysis: Your Magic users are already going to hit like a brick, and this will
+help them to do even more damage. It will also increase a Staff user's range
+and healing output.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+62- Tomefaire (Sage, Level 15).
+Rank: A
+Classification: Weaponfaire Skill.
+
+Users:
+*Who starts with this Skill:
+*Who can learn this Skill: Miriel, Ricken, Virion, Mariabelle, Nowi, Libra,
+Anna, Tiki, Lissa, Kellam, Laurent, Brady, Nah, Owain, Gerome, Emmeryn, Avatar,
+Morgan.
+*Who can inherit this Skill: Lucina, Inigo, Kjelle, Cynthia, Severa, Gerome,
+Yarne, Noire.
+Max = 6.
+
+Description: Grants Magic +5 if using a Tome.
+
+Analysis: Magic is going to do a lot of damage, and this will greatly increase
+it's usefulness. Also, Sages can use this Skill's bonus for their Staves.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+63- Hex (Dark Mage, Level 1).
+Rank: C
+Classification: Area Debuffer Skill.
+
+Users:
+*Who starts with this Skill: Tharja, Henry, Morgan
+*Who can learn this Skill: Miriel, Cordelia, Libra, Severa, Laurent, Noire,
+Gangrel, Aversa, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Gerome, Yarne, Nah.
+Max = 3.
+
+Description: Reduces Avoid by 15 for all adjacent enemies.
+
+Analysis: This works like a inverse support. The user does not need to attack
+the enemy for this Skilll to activate, allowing other people enjoy the enemy's
+curse as long as the user is nearby.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+64- Anathema (Dark Mage, Level 10).
+Rank: B
+Classification: Area Debuffer Skill.
+
+Users:
+*Who starts with this Skill: Tharja, Henry, Morgan
+*Who can learn this Skill: Miriel, Cordelia, Libra, Severa, Laurent, Noire,
+Gangrel, Aversa, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Gerome, Yarne, Nah.
+Max = 3.
+
+Description: Reduces Avoid/Dodge by 10 for all enemies within 3 spaces .
+
+Analysis: First of all, Dodge isn't the same as Avoid. It's similar, but it
+works as a foil to the Critical Hit rate instead.
+
+Well, this can affect many enemies at once, and the best part is that if you
+lower the enemy's Dodge Rate... you are indirectly boosting your Critical Hit
+Rate. You should only be careful with the user, because throwing them out near
+enemies can be suicide.
+
+Remember that you can also lure enemies to be nearby the user on Enemy Phase.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+65- Vengeance (Sorceror, Level 5).
+Rank: B
+Classification: Offensive Skill, Trigger Skill.
+
+Users:
+*Who starts with this Skill:
+*Who can learn this Skill: Tharja, Henry, Miriel, Cordelia, Libra, Severa,
+Laurent, Noire, Gangrel, Aversa, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Gerome, Yarne, Nah.
+Max = 3.
+*Weapons that grant this skill: Vengeance.
+
+Description: Add half accured damage to Attacks. Trigger % = (Skill star x 2)
+
+Analysis: For it to be strong, you are required to take quite a bit of damage.
+It's Trigger Rate is very high, so even chip damage can help a little, but it's
+rather underwhelming most of the time.
+
+When using it together with Vantage and Wrath (Skills 14 and 45), you heavilly
+increase your odds of surviving and making the most of those 3 Skills. Another
+situations where it's useful, is when you are abusing Nosferatu, because this
+Skill will give you more damage and most of your lost health on Enemy Phase.
+
+Alternatively, giving it to a class with high HP and low Defense, like Taguel
+or Warrior, can wield great results.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+66- Tomebreaker (Sorceror, Level 15).
+Rank: B
+Classification: Weaponbreaker Skill.
+
+Users:
+*Who can learn this Skill: Henry, Tharja, Miriel, Cordelia, Libra, Severa,
+Laurent, Noire, Gangrel, Aversa, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Brady, Kjelle, Cynthia,
+Gerome, Yarne, Nah.
+Max = 3.
+*Weapons that grant this skill: Superior Jolt
+
+Description: Grants Hit/Avoid +50 if the enemy is using a Tome.
+
+Analysis: Magic usually hits hard, and most of your characters won't have a
+good Resistance, so this Skill can be really useful. You can find many accurate
+and inaccurate Tomes in this game, so this can help out in many ways.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+67- Slow Burn (Dark Knight, Level 5).
+Rank: D
+Classification: Accuracy Skill.
+
+Users:
+*Who can learn this Skill: Henry, Tharja, Miriel, Cordelia, Libra, Ricken,
+Virion, Mariabelle, Nowi, Anna, Tiki, Severa, Brady, Nah, Laurent, Noire
+Gangrel, Aversa, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Kjelle, Cynthia, Gerome,
+Yarne.
+Max = 6.
+
+Description:Increases Hit/Avoid by 1 each turn. Effects end after 15 turns.
+
+Analysis: This Skill takes too long to be actually useful in a battle, and you
+can easily finish most battles before that happens.
+
+You can, however, combo this with Quick Burn (Skill 49) for a 15 turn bonus of
+Hit/Avoid +16.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+68- Lifetaker (Dark Knight, Level 15).
+Rank: B
+Classification: Killing Skill, Healing Skill.
+
+Users:
+*Who can learn this Skill: Henry, Tharja, Miriel, Cordelia, Libra, Ricken,
+Virion, Mariabelle, Nowi, Anna, Tiki, Severa, Brady, Nah, Laurent, Noire,
+Gangrel, Aversa, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Owain, Inigo, Kjelle, Cynthia, Gerome,
+Yarne.
+Max = 6.
+
+Description: When attacking, restore 50% if the enemy is defeated.
+
+Analysis: This is decently reliable, since you can easily control when it will
+activate. It's recovery rate is high, but healing is far more needed on Enemy
+Phase, where this Skill won't activate.
+
+And since this relies on kills, it can be a dangerous gamble, specially on
+higher difficulties, where getting kills can be hard. It works really well with
+Galefoce (Skill 38), since you also need kills for it to activate.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+69- Miracle (Cleric/Priest, Level 1).
+Rank: B
+Classification: Support Skill, Trigger Skill.
+
+Users:
+*Who starts with this Skill: Lissa, Libra, Brady, Morgan (Also from Emmeryn).
+*Who can learn this Skill: Sumia, Cherche, Kellam, Cynthia, Owain, Gerome,
+Emmeryn, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Inigo, Kjelle, Severa, Yarne, Laurent,
+Noire, Nah.
+Max = 4.
+
+Description: Survive lethal attacks if HP > 1. Trigger % = (Luck stat)
+
+Analysis: This can save you from killing blows, but it's too situational. You
+should never count on this Skill activating, and should try to heal yourself
+before it's too late instead. It's trigger rate is decent, though.
+
+This Skill's usefulness can vary between Casual Mode and Classic Mode.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+70- Healtouch (Cleric/Priest Level 10).
+Rank: C
+Classification: Support Skill.
+
+Users:
+*Who starts with this Skill: Libra, Brady, Morgan (Also from Emmeryn and
+Lissa).
+*Who can learn this Skill: Lissa, Sumia, Cherche, Kellam, Cynthia, Owain,
+Gerome, Emmeryn, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Inigo, Kjelle, Severa, Yarne, Laurent,
+Noire, Nah.
+Max = 4.
+
+Description: Add 5 HP to the amount recovered when Healing allies with a Staff.
+
+Analysis: 5 HP can healp early on, but it will greatly lose it's usefulness
+later on. It still can be the difference between life and death, though.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+71- Rally Luck (War Cleric/Monk, Level 5).
+Rank: D
+Classification: Rally Skill.
+
+Users:
+*Who can learn this Skill: Lissa, Sumia, Cherche, Miriel, Mariabelle, Kellam,
+Libra, Brady, Owain, Gerome, Cynthia, Emmeryn, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Inigo, Kjelle, Severa, Yarne, Laurent,
+Noire, Nah. (Daughters can inherit Troubadour from Henry, Gregor, Donnel and
+Male Avatar).
+Max = 7.
+
+Description: Use "Rally" to grant Luck +8 to units within 3 spaces for one
+turn.
+
+Analysis: The bonus is big, but it will barely do anything. At best, it can be
+used to give a Trigger Rate +16 bonus to Armsthrift (Skill 9), but that alone
+does not justify wasting a turn and a slot with this Skill.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+72- Renewal (War Cleric/Monk, Level 15).
+Rank: A
+Classification: Healing Skill.
+
+Users:
+*Who can learn this Skill: Lissa, Sumia, Cherche, Miriel, Mariabelle, Kellam,
+Libra, Brady, Owain, Gerome, Cynthia, Emmeryn, Avatar, Morgan.
+*Who can inherit this Skill: Lucina, Inigo, Kjelle, Severa, Yarne, Laurent,
+Noire, Nah. (Daughters can inherit Troubadour from Henry, Gregor, Donnel and
+Male Avatar).
+Max = 7.
+
+Description: Restores 30% Hp at the start of each turn.
+
+Analysis: While it does not work uring Enemy Phase, it's healing output is
+great, and it is very reliable. It's one of the best healing options in this
+game.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+73- Resistance +2 (Troubadour, Level 1).
+Rank: D
+Classification: External Booster Skill.
+
+Users:
+*Who starts with this Skill: Mariabelle, Female Morgan.
+*Who can learn this Skill: Lissa, Miriel, Cherche, Emmeryn, Female Avatar,
+Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Brady, Kjelle, Cynthia, Severa,
+Gerome, Laurent, Noire, Nah, Male Morgan. (Daughters can inherit Troubadour
+from Henry, Gregor, Donnel and Male Avatar).
+Max = 7.
+*Notable Spotpass/DLC characters with this Skill: Boey.
+
+Description: Grants Resistance +2.
+
+Analysis: Can be useful for surviving magic early on, as well as baiting magic
+users at that point.
+
+Unlike other similar Skills, this one is greatly hindered by it's class. It's
+exclusive to females, and not many are going to be reclassing to Troubadour.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+74- Demoiselle (Troubadour, Level 10).
+Rank: C
+Classification: Area Buffing Skill.
+
+Users:
+*Who starts with this Skill: Female Morgan (from Mariabelle)
+;*Who can learn this Skill: Mariabelle, Lissa, Miriel, Cherche, Emmeryn, Female
+Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Brady, Kjelle, Cynthia, Severa,
+Gerome, Laurent, Noire, Nah, Male Morgan. (Daughters can inherit Troubadour
+from Henry, Gregor, Donnel and Male Avatar).
+Max = 7.
+
+Description: Grants Avoid/Dodge +10 to all male allies within 3 spaces.
+
+Analysis: It would be more useful if it wasn't so picky. The boost is small,
+but can help you to get rid of an enemy's Critical Hit Rate.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+75- Rally Resistance (Valkyrie, Level 5).
+Rank: B
+Classification: Rally Skill.
+
+*Who can learn this Skill: Mariabelle, Lissa, Miriel, Cherche, Emmeryn, Female
+Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Brady, Kjelle, Cynthia, Severa,
+Gerome, Laurent, Noire, Nah, Male Morgan. (Daughters can inherit Troubadour
+from Henry, Gregor, Donnel and Male Avatar)
+Max = 7.
+*Notable Spotpass/DLC characters with this Skill: DLC Alm, Horace.
+
+Description: Use "Rally" to grant Resistance +4 to units within 3 spaces for
+one turn.
+
+Analysis: This will help you survive magic attacks and fix the awful Resistance
+that plagues most characters in this game, even if it's just for a turn.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+76- Dual Support + (Valkyrie, Level 15).
+Rank: B
+Classification: Partner Skill, Critical Skill, Accuracy Skill.
+
+*Who can learn this Skill: Mariabelle, Lissa, Miriel, Cherche, Emmeryn, Female
+Avatar, Female Morgan.
+*Who can inherit this Skill: Lucina, Owain, Brady, Kjelle, Cynthia, Severa,
+Gerome, Laurent, Noire, Nah, Male Morgan. (Daughters can inherit Troubadour
+from Henry, Gregor, Donnel and Male Avatar).
+Max = 7.
+*Notable Spotpass/DLC characters with this Skill: Prince Marth, Sigurd.
+
+Description: Increases Dual Support bonuses.
+
+Analysis: Pay attention, because this will be somewhat complicated.
+
+The Dual Support bonuses are the Hit/Avoid/Critical/Dodge Rate ones you get
+from your pair-up partner and adjacent units. The exact bonus depends on the
+sum of the Support rank between units.
+
+If they don't have a support level yet, the rank is 1. Support levels C, B, A
+and S have ranks 2, 3, 4 and 5 respectively. The highest rank is 12.
+
+Here's a little chart to show the bonuses from each rank:
+-------------------------------------------------------------------------------
+Rank      1  2  3  4  5  6  7  8  9  10 11 12
+Hit+      10 10 10 10 15 15 15 15 20 20 20 20
+Avoid+    0  10 10 10 10 15 15 15 15 20 20 20
+Critical+ 0  0  0  10 10 10 10 15 15 15 15 20
+Dodge+    0  0  10 10 10 10 15 15 15 15 20 20.
+-------------------------------------------------------------------------------
+
+This Skill will increase the support level by 4, making the minumum rank 5. You
+can get good bonuses from a S ranked pair with this Skill (rank 9), and
+you only need a B support with an adjacent unit to get the maximum bonus. The
+best bonus to look for here is the Critical Hit Rate.
+
+The best part about this skill, is that since it's a Partner Skill, the lead
+unit doesn't need to use a slot for a Critical Skill or an Accuracy Skill. But,
+most of the time, the increase will be just Everything +5. It goes really well
+if the lead unit is using a Critical Hit Build, because it frees a slot for
+them while providing a much needed Avoid bonus.
+
+This Skill's usefulness greatly depends on how close your units usually are,
+making it's usefulness vary considerably from player to player, and even from
+map to map. It can also be a good way of making up for DLC/Spotpass units' lack
+of support options.
+
+It's worth noting that this Skill will be active regardless of the unit being
+the lead or the support, however, only the lead unit can make the Skill work
+for adjacent units.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+77- Even Rhythm (Taguel, Level 1).
+Rank: D
+Classification: Accuracy Skill.
+
+Users:
+*Who starts with this Skill: Panne, Yarne, Morgan.
+
+Description: Grants Hit/Avoid +10 on even-numbered turns.
+
+Analysis: Just in case, even numbers are those ending in 0,2,4,6 or 8.
+
+Well, the bonus is small, doesn't work in every turn and requires a lot of
+planning to fully use it. It's nice when it's there, but you probably won't
+miss it.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+78- Beastbane (Taguel, Level 15).
+Rank: B
+Classification: Support Skill.
+
+Users:
+*Who can learn this Skill: Panne, Yarne, Morgan.
+
+Description: Allows units in Taguel form to deal bonus damage to beasts/riders.
+
+Analysis: Basically, your attacks will do triple damage if the target is a
+"beast" unit (Taguels, Griffon Riders, and anything on a horse or pegasus).
+
+There will be plenty of those during the "Valm" arc of the story (Chapters 12
+through 20), so this can be very useful there. Outside of that, there are few
+chapters with many "beasts", so it's usefulness gets decreased. The fliers who
+this can be used against are usually out of reach, too.
+
+It also requires you to be a Taguel. If that's a good or bad thing, it's up to
+you.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+79- Odd Rhythm (Manakete, Level 1).
+Rank: D
+Classification: Accuracy Skill.
+
+Users:
+*Who starts with this Skill: Nowi, Tiki, Nah, Female Morgan.
+*Notable Spotpass/DLC characters with this Skill: Tiki.
+
+Description: Grants Hit/Avoid +10 on odd-numbered turns.
+
+Analysis: Just in case, odd numbers are those ending in 1,3,5,7 or 9.
+
+Well, the bonus is small, doesn't work in every turn and requires a lot of
+planning to fully use it. It's nice when it's there, but you probably won't
+miss it.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+80- Wrymsbane (Manakete, Level 15).
+Rank: C
+Classification: Support Skill.
+
+Users:
+*Who starts with this Skill: Tiki.
+*Who can learn this Skill: Nowi, Nah, Female Morgan.
+*Notable Spotpass/DLC characters with this Skill: Tiki.
+
+Description: Allows units in Manakete form to deal bonus damage to dragons.
+
+Analysis: Basically, you will do triple damage to Manaketes and wyverns.
+
+You won't face a substancial ammount of wyverns. It can help a lot when you do
+face one, though.
+
+It also requires you to be a Manakete. Manaketes are generally sturdy enough to
+take strong hits, but they aren't fast, and not strong enough to kill in one
+hit.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+81- Aptitude (Villager, Level 1).
+Rank: A
+Classification: Internal Booster Skill.
+
+Users:
+*Who starts with this Skill: Donnel, Male Morgan.
+*Who can inherit this Skill: Owain, Inigo, Brady, Kjelle, Cynthia, Severa,
+Gerome, Yarne, Laurent, Noire, Nah, Female Morgan.
+Max = 2.
+*Notable Spotpass/DLC characters with this Skill: DLC Marth, DLC Est.
+
+Description: Adds 20% to each stat's odds of increasing at level up.
+
+Analysis: This Skill will make the user get many stats from level ups, making
+them strong very quick. In particular, it can help with Resistance growths.
+
+It loses a few points because one day you won't need it anymore.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+82- Underdog (Villager, Level 15).
+Rank: C
+Classification: Accuracy Skill.
+
+Users:
+*Who can learn this Skill: Donnel, Male Morgan.
+*Who can inherit this Skill: Owain, Inigo, Brady, Kjelle, Cynthia, Severa,
+Gerome, Yarne, Laurent, Noire, Nah, Female Morgan.
+Max = 2.
+*Notable Spotpass/DLC characters with this Skill: DLC Leif, DLC Est, Brom.
+*Weapons that grant this skill: Underdog Bow.
+
+Description: Hit/Avoid +15 if a foe's level is higher. (For advanced classes,
+add +20 to level.)
+
+Analysis: You really shouldn't be in Villager after you reach level 10... but
+the bonus is not that bad. It will be useless eventually, unless you are in a
+Special Class.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+83- Luck +4 (Dancer, Level 1).
+Rank: D
+Classification: External Booster Skill.
+
+Users:
+*Who starts with this Skill: Olivia.
+*Who can inherit this Skill: Lucina, Inigo, Morgan.
+Max = 3.
+*Notable Spotpass/DLC characters with this Skill: DLC Eirika, DLC Est, Prince
+Marth, Serra, Lute.
+
+Description: Grants Luck +4.
+
+Analysis: The bonus is small and will barely do anything. At best, it can be
+used to give a Trigger Rate +8 bonus to Armsthrift (Skill 9), for Inigo or a
+Spotpass Character, but that alone does not justify wasting a turn and a slot
+with this Skill. OR wasting Galeforce (Skill 38)
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+84- Special Dance (Dancer, Level 15).
+Rank: C
+Classification: Support Skill.
+
+Users:
+*Who can learn this Skill: Olivia.
+
+Description: Allies that act again receive Strength/Magic/Defense/Resistance
++2.
+
+Analysis: ONLY OLIVIA CAN USE THIS SKILL! And only if she's a dancer, too! You
+can pass this, but it's a total waste.
+
+The bonuses are small, but they still can help a character to kill something
+they couldn't before. It will last through Enemy Phase, and then you will need
+to Dance again.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+85- Conquest (Conqueror)
+Rank: B
+Classification: Defensive Skill.
+
+Users:
+*Who starts with this Skill: Walhart, Male Morgan.
+*Notable Spotpass/DLC characters with this Skill: DLC Ephrain, Zephiel.
+
+Description: Protects from bonus damage against beasts/riders/armor.
+
+Analysis: This covers many weaknesses, but even on higher difficulties, you
+won't find many enemies running around to justify using this skill... It's a
+nice choice when there ARE enemies with Beast Killers and Armorslyers, though.
+
+It is greatly held back by being limited to few characters only, too.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+86- Shadowgift (Aversa).
+Rank: A
+Classification: Support Skill.
+
+Users:
+*Who starts with this Skill: Aversa, Female Morgan.
+*Notable Spotpass/DLC characters with this Skill: DLC Micaiah, DLC Katarina.
+
+Description: Allows non-dark mages to use Dark Magic.
+
+Analysis: This Skill will affect Sages, Mages, Valkyries, Dark Fliers, Dark
+Knights, Tacticians and Grandmasters.
+
+It can be useful, because Dark Magic is overpowered, but Sorcerors are stuck
+only with that. The other classes might be worse in certain areas, but they
+all offer new toys to play with. Dark magic is also full of toys for other
+classes to enjoy... But you can still just go as a Sorceror.
+
+It is greatly held back by being limited to few characters, though, and both of
+it's users can just be Dark Mages...
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+87- All Stats +2 (Champions of Yore 3).
+Rank: B
+Classification: External Booster Skill.
+
+Users:
+*Who can learn this Skill: Everyone.
+*Who can inherit this Skill: No one.
+
+Description: Grants +2 to all stats.
+
+Analysis: This Skill will basically allow you to deal 2 more Damage, survive
+2 more Damage, and may allow you to Double an enemy, if not impeding the enemy
+from doing the same, and adds a little bit of Trigger Rate for... everything.
+
+Everything is decently useful, and it can be obtained early enough to be of
+use. But everything is lacking, too.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+88- Paragon (Lost Bloodlines 3).
+Rank: A
+Classification: Internal Booster Skill.
+
+Users:
+*Who can learn this Skill: Everyone.
+*Who can inherit this Skill: No one.
+
+Description: Doubles the amount of EXP the user receives.
+
+Analysis: This Skill is great for lategame grinding, because you won't be
+getting it early enough most of the time.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+89- Resistance +10 (Dread Fighter, Level 1).
+Rank: A
+Classification: External Booster Skill.
+
+Users:
+*Who can learn this Skill: Every male character.
+*Who can inherit this Skill: No one.
+
+Description: Grants Res +10.
+
+Analysis: This is a big boost to something most characters need badly, thanks
+to low Resistance Growths, making Magic a dangerous threat. It can be great
+even for capped units.
+
+You can get the Dread Scroll required to promote into Demon Fighter from the
+DLC Map "Lost Bloodlines 2"
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+90- Aggressor (Dread Fighter, Level 15).
+Rank: A
+Classification: Offensive Skill.
+
+Users:
+*Who can learn this Skill: Every male character.
+*Who can inherit this Skill: No one.
+
+Description: Grants Atk +10 when the unit initiates an attack
+
+Analysis: You can use this Skill to do great ammounts of damage, particularly
+with Brave weapons. Even if this does not work during Enemy Phase, it's still
+poweruful enough to be used reliably.
+
+You can get the Dread Scroll required to promote into Demon Fighter from the
+DLC Map "Lost Bloodlines 2"
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+91- Rally Heart (Bride, Level 1).
+Rank: A
+Classification: Rally Skill.
+
+Users:
+*Who can learn this Skill: Every female character.
+*Who can inherit this Skill: No one.
+
+Description: Use "Rally" to grant +2 all stats/Mov +1 to units within three
+spaces for one turn.
+
+Analysis: This combines All Stats +2 and Movement +1 (Skills 87 and 18) in
+Rally form. Both are useful Skills, and you get a better option here.
+
+You can get the Wedding Bouquet required to promote into Bride from the DLC Map
+"Smash Brethren 2"
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+92- Bond (Bride, Level 15).
+Rank: B
+Classification: Healing Skill.
+
+Users:
+*Who can learn this Skill: Every female character.
+*Who can inherit this Skill: No one.
+
+Description: Restores 10 HP to all allies within three spaces at the start of
+each turn.
+
+Analysis: It's Healing output isn't great by lategame standards, but it can
+affect many people at once, and that's what makes this Skill good. It's also
+a nice option for a Rally Bot.
+
+You can get the Wedding Bouquet required to promote into Bride from the DLC Map
+"Smash Brethren 2"
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+93- Iote's Shield (Smash Brethren 3).
+Rank: B
+Classification: Defensive Skill.
+
+Users:
+*Who can learn this Skill: Everyone.
+*Who can inherit this Skill: No one.
+
+Description: Protects from bonus damage against fliers.
+
+Analysis:
+
+It can help fliers to roam freely through the battlefield. Just remember that
+while it won't do triple damage, Wind Tomes are still dangerous to most those
+from the Wyvern Rider class tree.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+94- Limit Break (Rogues and Redeemers 3).
+Rank: S
+Classification: Internal Booster Skill.
+
+Users:
+*Who can learn this Skill: Everyone.
+*Who can inherit this Skill: No one.
+
+Description: Extends all stat caps by 10.
+
+Analysis: This Skill is a REQUIREMENT for the very last DLC map, currently
+unnamed. Remember that.
+
+This allows units to have what's basically "All Stats +10", and it's obviously
+awesome. It requires grinding to beat the DLC from where you can get it, and
+you will need MORE grinding afterwards to reach the caps, but your units will
+be much more pwoerful than before.
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+
+The main part of this FAQ is over with, but you might want to get some help on
+how to build skillsets. You can find information on this in sectio "F- Building
+a Skillset".
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                               E- Skill Lists.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Remember the Classifications and Ranks we used above? Here, we will have every
+Skill (again) listed according to those. You can also find all of the Skills
+every character can get (this merges the "Who starts with this Skill" and "Who
+can learn this Skill" parts of the above section).
+
+First, lets list then according to their Classifications. Just remember that
+some classifications are parts of others (Like how Weaponfaire Skills are all
+Offensive Skills by default). You can check those in the beggining of the last
+section.
+
+-------------------------------------------------------------------------------
+*Partner Skills:
+1-  Dual Strike+
+25- Defender
+28- Dual Guard+
+51- Deliverer
+76- Dual Support+
+
+*Area Buffer Skills:
+2-  Charm
+6-  Solidarity
+74- Demoiselle
+
+*Offensive Skills:
+3-  Aether
+7-  Ignis
+15- Astra
+19- Lethality
+27- Luna
+65- Vengeance
+90- Agressor
+
+*Trigger Skills:
+3-  Aether
+7-  Ignis
+9-  Armsthrift
+11- Sol
+15- Astra
+19- Lethality
+26- Aegis
+27- Luna
+32- Pavise
+43- Despoil
+65- Vengeance
+69- Miracle
+
+*Internal Booster Skills:
+4-  Rightful King
+5-  Veteran
+23- Discipline
+81- Aptitude
+88- Paragon
+94- Limit Break
+
+*Rally Skills:
+8-  Rally Spectrum
+31- Rally Defense
+35- Rally Speed
+37- Rally Movement
+41- Rally Strength
+57- Rally Skill
+61- Rally Magic
+71- Rally Luck
+75- Rally Resistance
+91- Rally Heart
+
+*Support Skills:
+9-  Armsthrift
+14- Vantage
+17- Locktouch
+42- Counter
+43- Despoil
+69- Miracle
+70- Healtouch
+78- Beastbane
+80- Wyrmsbane
+84- Special Dance
+86- Shadowgift
+
+*Accuracy Skills:
+13- Avoid +10
+21- Lucky Seven
+24- Outdoor Fighter
+30- Indoor Fighter
+48- Tantivity
+49- Quick Burn
+54- Prescience
+55- Hit Rate +20
+67- Slow Burn
+76- Dual Support+
+77- Even Rhythm
+79- Odd Rhythm
+82- Underdog
+
+*Healing Skills:
+3-  Aether
+11- Sol
+34- Relief
+68- Lifetaker
+72- Renewal
+92- Bond
+
+*Weaponbreaker Skills:
+12- Axebreaker
+50- Swordbreaker
+52- Lancebreaker
+58- Bowbreaker
+66- Tomebreaker
+
+*Crisis Skills:
+14- Vantage
+45- Wrath
+
+*Weaponfaire Skills:
+16- Swordfaire
+36- Lancefaire
+46- Axefaire
+56- Bowfaire
+62- Tomefaire
+
+*Movement Skills:
+18- Movement +1
+20- Pass
+22- Acrobat
+38- Galeforce
+51- Deliverer
+
+*Defensive Skills:
+26- Aegis
+32- Pavise
+85- Conquest
+93- Iote's Shield
+
+*External Booster Skills:
+18- Movement +1
+25- Defender
+29- Defense +2
+33- Speed +2
+39- HP +2
+47- Strength +2
+53- Skill +2
+59- Magic +2
+73- Resistance +2
+83- Luck +4
+87- All Stats +2
+89- Resistance +10
+
+*Isolation Skills:
+34- Relief
+48- Tantivity
+60- Focus
+
+*Killing Skills:
+38- Galeforce
+43- Despoil
+68- Lifetaker
+
+*Critical Skills:
+6-  Solidarity
+40- Zeal
+44- Gamble
+45- Wrath
+60- Focus
+76- Dual Support+
+
+*Area Debuffer Skills:
+63- Hex
+64- Anathema
+
+-------------------------------------------------------------------------------
+
+Next, our Skill Ranking list:
+
+-------------------------------------------------------------------------------
+
+S Rank:
+11- Sol
+38- Galeforce
+94- Limit Break
+
+A Rank:
+3-  Aether
+4-  Rightful King
+5-  Veteran
+7-  Ignis
+8-  Rally Spectrum
+9-  Armsthrift
+14- Vantage
+15- Astra
+26- Aegis
+27- Luna
+28- Dual Guard+
+32- Pavise
+50 -Swordbreaker
+51- Deliverer
+66- Tomefaire
+72- Renewal
+81- Aptitude
+86- Shadowgift
+87- Resistance +10
+88- Aggressor
+89- Rally Heart
+92- Paragon
+
+B Rank:
+1-  Dual Strike+
+12- Axebreaker
+16- Swordfaire
+17- Locktouch
+18- Movement +1
+21- Lucky Seven
+31- Rally Defense
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+41- Rally Strength
+42- Counter
+45- Wrath
+46- Axefaire
+52- Lancebreaker
+58- Bowbreaker
+61- Rally Magic
+68- Lifetaker
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+69- Miracle
+75- Rally Resistance
+76- Dual Support+
+78- Beastbane
+85- Conquest
+90- Bond
+91- All Stats +2
+93- Iote's Shield
+
+C Rank:
+6- Solidarity
+10- Patience
+13- Avoid +10
+19- Lethality
+20- Pass
+22- Acrobat
+23- Discipline
+25- Defender
+29- Defense +2
+33- Speed +2
+34- Relief
+39- HP +5
+40- Zeal
+43- Despoil
+44- Gamble
+47- Strength +2
+49- Quick Burn
+55- Hit Rate +20
+56- Bowfaire
+59- Magic +2
+60- Focus
+63- Hex
+70- Healtouch
+74- Demoiselle
+80- Wyrmsbane
+84- Special Dance
+82- Underdog
+
+D Rank:
+2-  Charm
+24- Outdoor Fighter
+30- Indoor Fighter
+48- Tantivity
+53- Skill +2
+67- Slow Burn
+71- Rally Luck
+73- Resistance +2
+77- Even Rhythm
+79- Odd Rhythm
+83- Luck +4
+
+-------------------------------------------------------------------------------
+
+Lastly, we will have them classified by users. I'll be including only the
+Skills the character learns naturally, so, inheritance won't apply for the kid
+characters. In some cases, two characters will be listed together.
+
+-------------------------------------------------------------------------------
+
+Chrom:
+1-  Dual Strike+
+2-  Charm
+3-  Aether
+4-  Rightful King
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+57- Rally Skill
+58- Bowbreaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Lissa:
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+61- Rally Magic
+62- Tomefaire
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+73- Resistance +2
+74- Demoiselle
+75- Rally Resistance
+76- Dual Support+
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Frederick:
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Sully:
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Virion:
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+57- Rally Skill
+58- Bowbreaker
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Stahl:
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+57- Rally Skill
+58- Bowbreaker
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Vaike:
+39- HP +5
+40- Zeal
+41- Rally Strength
+42- Counter
+11- Sol
+12- Axebreaker
+17- Locktouch
+18- Movement +1
+19- Lethality
+20- Pass
+21- Lucky Seven
+22- Acrobat
+43- Despoil
+44- Gamble
+45- Wrath
+46- Axefaire
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Miriel:
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+73- Resistance +2
+74- Demoiselle
+75- Rally Resistance
+76- Dual Support+
+71- Rally Luck
+72- Renewal
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Sumia and Cynthia:
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+27- Luna
+28- Dual Guard+
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+61- Rally Magic
+62- Tomefaire
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Kellam:
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+27- Luna
+28- Dual Guard+
+17- Locktouch
+18- Movement +1
+19- Lethality
+20- Pass
+21- Lucky Seven
+22- Acrobat
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+61- Rally Magic
+62- Tomefaire
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Donnel:
+81- Aptitude
+82- Underdog
+39- HP +5
+40- Zeal
+41- Rally Strength
+42- Counter
+9-  Armsthrift
+10- Patience
+11- Sol
+12- Axebreaker
+57- Rally Skill
+58- Bowbreaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Lon'qu:
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+17- Locktouch
+18- Movement +1
+19- Lethality
+20- Pass
+21- Lucky Seven
+22- Acrobat
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Ricken:
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+57- Rally Skill
+58- Bowbreaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Mariabelle:
+73- Resistance +2
+74- Demoiselle
+75- Rally Resistance
+76- Dual Support+
+71- Rally Luck
+72- Renewal
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Panne:
+77- Even Rhythm
+78- Beastbane
+17- Locktouch
+18- Movement +1
+19- Lethality
+20- Pass
+21- Lucky Seven
+22- Acrobat
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Gaius:
+17- Locktouch
+18- Movement +1
+19- Lethality
+20- Pass
+21- Lucky Seven
+22- Acrobat
+39- HP +5
+40- Zeal
+41- Rally Strength
+42- Counter
+11- Sol
+12- Axebreaker
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Cordelia and Severa:
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+9-  Armsthrift
+10- Patience
+11- Sol
+12- Axebreaker
+57- Rally Skill
+58- Bowbreaker
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+67- Slow Burn
+68- Lifetaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Gregor:
+9-  Armsthrift
+10- Patience
+11- Sol
+12- Axebreaker
+57- Rally Skill
+58- Bowbreaker
+43- Despoil
+44- Gamble
+41- Rally Strength
+42- Counter
+45- Wrath
+46- Axefaire
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Nowi and Nah:
+79- Odd Rhythm
+80- Wyrmsbane
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Libra:
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+67- Slow Burn
+68- Lifetaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Tharja and Noire:
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+67- Slow Burn
+68- Lifetaker
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+57- Rally Skill
+58- Bowbreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Anna:
+17- Locktouch
+18- Movement +1
+21- Lucky Seven
+22- Acrobat
+19- Lethality
+20- Pass
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+57- Rally Skill
+58- Bowbreaker
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Olivia:
+83- Luck +4
+84- Special Dance
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Cherche:
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+73- Resistance +2
+74- Demoiselle
+75- Rally Resistance
+76- Dual Support+
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+61- Rally Magic
+62- Tomefaire
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Henry:
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+67- Slow Burn
+68- Lifetaker
+43- Despoil
+44- Gamble
+41- Rally Strength
+42- Counter
+45- Wrath
+46- Axefaire
+17- Locktouch
+18- Movement +1
+21- Lucky Seven
+22- Acrobat
+19- Lethality
+20- Pass
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Say'ri:
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Tiki:
+79- Odd Rhythm
+80- Wyrmsbane
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Basilio:
+39- HP +5
+40- Zeal
+41- Rally Strength
+42- Counter
+11- Sol
+12- Axebreaker
+43- Despoil
+44- Gamble
+45- Wrath
+46- Axefaire
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+27- Luna
+28- Dual Guard+
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Flavia:
+9-  Armsthrift
+10- Patience
+11- Sol
+12- Axebreaker
+57- Rally Skill
+58- Bowbreaker
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+27- Luna
+28- Dual Guard+
+17- Locktouch
+18- Movement +1
+21- Lucky Seven
+22- Acrobat
+19- Lethality
+20- Pass
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Lucina:
+1-  Dual Strike+
+2-  Charm
+3-  Aether
+4-  Rightful King
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+57- Rally Skill
+58- Bowbreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Owain:
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+61- Rally Magic
+62- Tomefaire
+43- Despoil
+44- Gamble
+41- Rally Strength
+42- Counter
+45- Wrath
+46- Axefaire
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Inigo:
+9-  Armsthrift
+10- Patience
+11- Sol
+12- Axebreaker
+57- Rally Skill
+58- Bowbreaker
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+43- Despoil
+44- Gamble
+41- Rally Strength
+42- Counter
+45- Wrath
+46- Axefaire
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Brady:
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Kjelle:
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+27- Luna
+28- Dual Guard+
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Gerome:
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+39- HP +5
+40- Zeal
+41- Rally Strength
+42- Counter
+11- Sol
+12- Axebreaker
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+59- Magic +2
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Yarne:
+77- Even Rhythm
+78- Beastbane
+17- Locktouch
+18- Movement +1
+19- Lethality
+20- Pass
+21- Lucky Seven
+22- Acrobat
+43- Despoil
+44- Gamble
+41- Rally Strength
+42- Counter
+45- Wrath
+46- Axefaire
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Laurent:
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+43- Despoil
+44- Gamble
+41- Rally Strength
+42- Counter
+45- Wrath
+46- Axefaire
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Gangrel:
+17- Locktouch
+18- Movement +1
+21- Lucky Seven
+22- Acrobat
+19- Lethality
+20- Pass
+43- Despoil
+44- Gamble
+41- Rally Strength
+42- Counter
+45- Wrath
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+67- Slow Burn
+68- Lifetaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Walhart:
+85- Conquest
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+27- Luna
+28- Dual Guard+
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Emmeryn:
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+73- Resistance +2
+74- Demoiselle
+75- Rally Resistance
+76- Dual Support+
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Yen'fay:
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+57- Rally Skill
+58- Bowbreaker
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Aversa:
+86- Shadowgift
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+67- Slow Burn
+68- Lifetaker
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Priam:
+27- Luna
+50- Swordbreaker
+52- Lancebreaker
+9-  Armsthrift
+10- Patience
+11- Sol
+12- Axebreaker
+57- Rally Skill
+58- Bowbreaker
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+39- HP +5
+40- Zeal
+41- Rally Strength
+42- Counter
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Male Avatar and Male Morgan:
+5- Veteran
+6- Solidarity
+7- Ignis
+8- Rally Spectrum
+9-  Armsthrift
+10- Patience
+11- Sol
+12- Axebreaker
+57- Rally Skill
+58- Bowbreaker
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+17- Locktouch
+18- Movement +1
+21- Lucky Seven
+22- Acrobat
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+39- HP +5
+40- Zeal
+41- Rally Strength
+42- Counter
+43- Despoil
+44- Gamble
+45- Wrath
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+87- Resistance +2
+88- Aggressor
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+Female Avatar and Female Morgan:
+5- Veteran
+6- Solidarity
+7- Ignis
+8- Rally Spectrum
+9-  Armsthrift
+10- Patience
+11- Sol
+12- Axebreaker
+57- Rally Skill
+58- Bowbreaker
+13- Avoid +10
+14- Vantage
+15- Astra
+16- Swordfaire
+19- Lethality
+20- Pass
+17- Locktouch
+18- Movement +1
+21- Lucky Seven
+22- Acrobat
+23- Discipline
+24- Outdoor Fighter
+25- Defender
+26- Aegis
+27- Luna
+28- Dual Guard+
+29- Defense +2
+30- Indoor Fighter
+31- Rally Defense
+32- Pavise
+33- Speed +2
+34- Relief
+35- Rally Speed
+36- Lancefaire
+37- Rally Movement
+38- Galeforce
+47- Strength +2
+48- Tantivity
+49- Quick Burn
+50- Swordbreaker
+51- Deliverer
+52- Lancebreaker
+53- Skill +2
+54- Prescience
+55- Hit Rate +20
+56- Bowfaire
+59- Magic +2
+60- Focus
+61- Rally Magic
+62- Tomefaire
+67- Slow Burn
+68- Lifetaker
+63- Hex
+64- Anathema
+65- Vengeance
+66- Tomebreaker
+69- Miracle
+70- Healtouch
+71- Rally Luck
+72- Renewal
+73- Resistance +2
+74- Demoiselle
+75- Rally Resistance
+76- Dual Support+
+89- Rally Heart
+90- Bond
+91- All Stats +2
+92- Paragon
+93- Iote's Shield
+94- Limit Break
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                            F- Building a Skillset.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+With so many Skills to choose from, it's usually very troublesome to build a
+Skillset, and here, we will help you with that.
+
+First of all, you need to know what is the unit going to do in the battle. Are
+they the lead or the support? Are they focused on offense, defense or are they
+balanced? With those things in mind, we can apply skills for a few combinations
+of the above. Also, we will be mentioning some useful Skill combinations and
+important skills to have around.
+
+
+-------------------------------------------------------------------------------
+                              0= Important Skills.
+-------------------------------------------------------------------------------
+
+When making a Skillset, two Skills need to be considered before all else:
+Galeforce and Limit Break (Skills 38 and 94), but why is that? Let me explain
+the reasons for you.
+
+
+As you probably know by now, Galeforce grants basically an extra turn for the
+user, provided they kill something during player phase. Units with this Skill
+need to do some killing when they are the lead, while units without it, need to
+have good Skills to support the lead.
+
+There's another case to consider in regards to this Skill: When both units of a
+pair have it. You need to plan who is getting the last kill, or in other words,
+who will be the lead during Enemy Phase. Most of the time, those roles are
+already set, so one unit is going to be more of a support with killing power,
+while the other will have plenty of killing power with a focus on survival.
+
+This is, of course, for offensive builds. When taking a defensive skillset in
+mind, you usually don't want Galeforce. To finish, Pass (Skill 20) works really
+well with the hit-and-run tactics that you can use with Galeforce. It's not
+crucial, but it can help a lot, so keep that in mind.
+
+
+Now, about Limit Break... This Skill can be aquired only via DLC, and one of
+the hardest maps you can pay for, so it won't be around for most of the game.
+It is, however, a REQUIREMENT if you are planning to take on the very last DLC
+map (Currently with no official name, but it is known as "The Strongest One's
+Name" as of now).
+
+This limits a bit your Skillsets, since you will need to plan for only 4 Skills
+now. You will literally break the game's other maps if you use maxed units with
+this Skill, so it will be important mostly for that last DLC alone. All of the
+tips here take into account only 4 Skills, just in case you will try that last
+challenge.
+
+Regardless, you need a strong team to farm Limit Break manuals for that last
+DLC, and not having a full Skillset while you do it is a waste. That, and some
+still will want a good team but won't try to beat that last DLC. So, while the
+builds listed here are short enough to allow room for Limit Break, there will
+be room for another Skill of your choice before you get it, an recommendations
+for it.
+
+
+Lastly, there is a priority order that the game uses to know what Trigger Skill
+will go off when you attack:
+
+Lethality > Aether > Astra > Sol > Luna > Ignis > Vengeance (Skills 19, 3, 15,
+11, 27, 7 and 65 respectively.). This means that the Skills with the lowest
+Trigger Rates are the ones the game will prioritize. Think of it as throwing
+a dice for each one. First you throw a dice to see if Lethality will Trigger,
+if it doesn't, you throw one for Aether, and etc...
+
+
+With that covered, we will now talk about what roles the units can have, and
+what are kind of Skills you should look for in each case. Those are not THE
+absolute and only ways to build your Skillsets. With 94 Skills to choose from,
+you can make many cool builds, but these are the ones that I recomend.
+
+
+-------------------------------------------------------------------------------
+              1= Full-time Lead Units and Part-time Support Units.
+-------------------------------------------------------------------------------
+
+If this isn't clear enough, this means the unit will be almost always, the one
+leading the pair into battle. This leads to two things: They will be dealing
+and taking a lot of damage. So, we need to work around that.
+
+First, of all, Galeforce. If the unit is stuck with being the lead, it is
+because of that Skill, and that also means their partner does not have it, or
+have but will only be getting one kill and switching back to support during
+Enemy Phase. The exception is if their focus is defensive, but more on that
+later.
+
+
+Now, when talking about dealing damage, you should always have a way to make
+the enemy cry some more. The main choice, is if you are going for a Trigger
+Offensive Skill or a Trigger Healing Skill, because one will get in the way of
+the other. This usually leads to these cases:
+
+1: Sol + a Weaponfaire Skill or Aggressor (Skills 11 and 88).
+2: An Offensive Trigger Skill + Renewal or Lifetaker (Skills 72 and 68).
+3: Aether + Rightful King (Skils 3 and 4).
+
+Leads focusing more on offense than defense will already have a good damage
+output, so the healing on Enemy Phase provided by Sol is the best choice. If,
+however, they are good on the defensive department, you should try to up their
+offensive game with an Offensive Trigger Skill. Aether + Rightful King is a
+special case.
+
+This kinda got Healing Skills out of the way... but there is a case where you
+are better off without healing: Vantage + Vengeance + Wrath (Skills 14, 65 and
+45). More about this set a little further down.
+
+
+For the Defensive Skill, we need to know what the unit lacks more: Defense or
+Resistance. If they are in need of Defense, you should usually get Pavise
+(Skill 32) and call it a day. If they need help with magic, Resistance +10 or
+Aegis (Skills 26 and 87) are what you need to be looking for.
+
+There is a special case for Falcon Knights/Dark Fliers, who can also opt for
+Iote's Shield (Skill 93). You will give them more freedom that way, altough a
+proper strategy can save them from Bows, particularly smart use of Pair up.
+
+
+Considering use of Limit Break, we are out of space. If you are not using it,
+you can consider a support Skill like Armsthrift or Pass (Skills 9 and 20) to
+increase the unit's general usefulness. If you used an Offesive Trigger Skill,
+you can also make the unit even stronger with a Weaponfaire or Aggressor.
+Increasing their chances of landing hits with an Accuracy Skill or a
+Weaponbreaker Skill is not out of the question. So, in short:
+
+0: Limit Break
+1: Galeforce
+2: Offensive Skill
+3: Healing Skill
+4: Defensive Skill
+5: Armsthrift/Pass/Accuracy Skill/Weaponfaire Skill/Aggressor
+
+
+-------------------------------------------------------------------------------
+                          2= Full-time Support Units.
+-------------------------------------------------------------------------------
+
+If the unit is almost never going to be the lead, you only need to focus on two
+aspects: Damage and Support. They will not be attacked, so Defensive Skills or
+Healing Skills are generally unwanted. Units in this job never have Galeforce.
+
+
+When talking about support units and damage, we are stuck with Weaponfaire
+Skills and Aggressor since no Trigger Skills work when the unit is the support.
+
+
+With that covered, we need other ways to support. Here, we are looking at the
+Partner Skills. Those skills offer good boosts to the lead's performance. All
+of them are good at their supporting job, but you usually should prioritize
+Dual Guard+ (Skills 28). If the lead unit is running a  Critical Hit build, you
+might want to get Dual Support+ (Skill 76) instead. Deliverer (Skill 51) is a
+bad idea for those characters, since the user needs to be leading the pair.
+
+
+Weaponbreaker Skills are not out of place in those sets, particularly if you
+are running with Axes, because then you will have problems with Sword users,
+even if you are a support. Remember that they need to be reliable. You could
+throw another Partner Skill, though. Area Buffer Skills are also viable, as are
+the Area Debuffer Skills and Accuracy Skills in general.
+
+
+While not related to Skills, it's worth mentioning that those untis should be
+using Brave Weapons and that they always should be the support to their Wife or
+Husband for the uncreased Dual Attack/Guard Rates. You also should be aware of
+what bonuses their class will offer during Pair up. And for the Skillset:
+
+0: Limit Break
+1: Weaponfaire Skill/Aggressor
+2: Partner Skill
+3: Partner Skill
+4: Weaponbreaker Skill/Area Buffer Skill/Area Debuffer Skill/Accuracy Skill
+5: Partner Skill
+
+
+-------------------------------------------------------------------------------
+                           3= Part-time Lead Units.
+-------------------------------------------------------------------------------
+
+Part-time leads are units with Galeforce that will only lead once per turn to
+activate it, and sometimes in emergencies. As such, they need a mix of the two
+jobs described above: killing power and support abilities.
+
+
+Part-time leads have a choice to make in regards to killing power:
+
+1- A Weaponfaire Skill/Aggressor
+2- An Offensive Trigger Skill
+
+With the first option, you will have increased damage during normal AND Dual
+Stirkes, even if it isn't much per attack, it will be high when you factor all
+the battles fought. Option 2 yeilds a higher damage output during the battle
+where they need to kill to activate Galeforce, but only there and emmergency
+battles where the usual lead can't... lead.
+
+Since this kind of unit always has another Skill for support, it's usually
+better to go with option 2. While they provide greater support, the lead won't,
+and both depend on the kill for the strategy to work. Sometimes you don't need
+more than a Weaponfaire to kill people, though, and having another teammate to
+weaken a foe can help you to get kills, so option 1 is still viable. Offensive
+Trigger Skills won't activate when you are the support, so there's also that.
+
+
+Next, we help their supporting abilities. Since we don't have many slots to
+play with, the best choice is a Partner Skill. Deliverer (skill xx) is now a
+viable choice, since the unit will be the lead for Galeforce kills.
+
+
+Lastly, we have another slot to fill, possibly two without Limit Break. Here,
+we can add the other option for your offense, another Partner Skill for your
+support, or increase your survivability through a Healing Skill or Defensive
+Skill. We will only talk about the latter two here, as the others were covered
+above.
+
+As usual, for Defensive Skills, we should consider Resistance +10, Pavise and
+Aegis (Skills 87, 32 and 26). Like what I said before, if they lack Defense,
+go with Pavise, but if their weakness is Resistance, it's a matter of
+preference between the other two. Or not, if they are girls.
+
+For Healing Skills, since the unit won't be the lead for the greater part of
+the battle, Sol (Skill 11) isn't a good choice. Both Renewal and Lifetaker
+(Skills 72 and 68) shine more here, Lifetaker moreso, since a great part of
+the strategy revolves around activating Galeforce, and by doing that, you set
+off Lifetaker as well. Healing Skills can cover damage taken nicely, so the
+loss in raw defensive capacities is diminished.
+
+
+One last thing to remember is what bonuses both units will offer to each other
+during Pair up, and that Part-time leads want to try and kill people with
+Brave weapons for a better performance when they are the support. So, for your
+Skill slots:
+
+0: Limit Break
+1: Galeforce
+2: Offensive Skill
+3: Partner Skill
+4: Healing Skill/Partner Skill/Defensive Skill/Offensive Skill
+5: Healing Skill/Partner Skill/Defensive Skill/Offensive Skill
+
+
+-------------------------------------------------------------------------------
+                                 4= Tankers
+-------------------------------------------------------------------------------
+
+A Tanker is a special kind of Full-time lead whose focus is on baiting enemies
+and minimizing damage taken. So, unlike the other jobs, support and offense are
+not our priority here. as they aren't supposed to be aiming for kills and they
+must be leading often. As such, while it's a nice thing to have, Galeforce is
+not a priority here. It's nice to have a partner with that, though.
+
+
+First, to make sure you can withstand damage most of the time, you need to have
+ways to deal with all kinds of attacks. This calls in for Paivse (Skill 32) for
+physical attacks, while Aegis (Skill 26) takes care of magical attacks. This
+time, Resistance +10 (Skill 87) isn't a good idea, since it's good, but not
+enough for a Tanker.
+
+
+Next, we need a way to deal with all the damage that you actually took, or in
+other words, a Healing Skill. The best choice here is by far Renewal (Skill
+72), as Sol and Lifetaker (Skills 11 and 68) will not work as efficiently,
+since they are not good killers or damage dealers, but can be considered.
+
+
+Tankers are not meant to be supporting units, so a skill for that is only
+viable if it's to boost their own accuracy. Usually, that means we are looking
+for Swordbreaker (Skill 50) to fix the AxesXSwords matchup, or to deal with
+Wyrmslayers/Falchions, but depending the character, other Weaponbreakers can
+be used instead. That is a nice option for out last slot, but you can also
+consider boosting your offense.
+
+Offense isn't the focus of a Tanker, but their damage output will be bad, we
+consider that you usually don't plan on them getting kills, but having an
+Offensive Skill isn't a bad idea. Again, killing isn't their job, but there's
+no need to focus on reliability, so you might as well go with an Offensive
+Skill. Considering the need for at least Pavise, you should always have Luna
+(Skill 27) available, but the others can work nicely.
+
+However, since Tankers are Full-time leads in a way, they should be partnered
+with a Full-time support or Part-time lead... so, in a way, you can get your
+offense boosts via Dual Strikes. You can also get Galeforce instead if you can
+and want to. This will be a difficult choice to make, specially if you are
+using Limit Break, but it leaves us with:
+
+0: Limit Break
+1: Pavise
+2: Aegis/Resistance +10
+3: Renewal/Sol/Lifetaker
+4: Weaponbreaker Skill/Offense Skill/Accuracy Skill/Galeforce
+5: Weaponbreaker Skill/Offense Skill/Accuracy Skill/Galeforce
+
+
+-------------------------------------------------------------------------------
+                                  5= Nostanks
+-------------------------------------------------------------------------------
+
+And here, we have this special gamebreaker role. Nostanks, abreviation of
+Nosferatu Tankers, are Sorcerors whose focus is to spam Nosferatu or Aversa's
+Night (possibly forged in either case) to tank damage. Both Dark Tomes will
+work like Sol (Skill 9), as in, they will heal half of the damage dealt. This
+makes it a great way to tank hits. While, like Tankers, they will be Full-time
+leads whose Skillsets aren't very good at supporting they work a differently
+from normal Tankers, mainly on the fact that they are built with offense in
+mind, being great Enemy Phase killers, and that they rely on being damaged.
+They can also make good use of Galeforce, but it's not crucial to their job
+or anything. Give that to your support, if you can.
+
+
+First of all, the difference between an AWESOME Nostank and a great one is if
+they have Armsthrift (Skill 9). Aversa's Night is costly to forge and very
+hard to farm (you can only get them from the Barracks or Event Tiles), while
+also having poor durability (10 uses), so having that Skill will not only save
+you time, but will allow you to spam more efficiently. Those without it can
+still run with Nosferatu, who can be bought from normal shops. They have 20
+uses, so you can bring more and come back with some uses to spare, and you
+can still bring Aversa's Night for emergencies.
+
+
+Now, for their offense, we have a good case for a few Skills. Vengeance (Skill
+65) works in a way that combines really well with Nostanks: Damage taken will
+come back as MORE damage, effectively negating all the damage you just took.
+Luna and Ignis (Skills 27 and 7) offer nice damage outputs at reliable rates,
+and that means more HP. Astra (Skills 15) will bring more damage, but since it
+works as multiple hits, you might kill the enemy and have less HP syphoned than
+intended, but can still be used.
+
+
+Frankly, a Nostank doesn't need much more than that, so the rest of the skills
+can go for assuring you will surivive. There are 2 big ways: A Healing Skill or
+a Crisis Mode Skillset.
+
+For Healing, Renewal (Skill 72) is enough to get rid of whatever damage your
+attacks didn't take care of, but Sol (Skill 11), when combined with Nosferatu,
+will heal you for ALL of the damage you dealt (50% healing from each), and in
+this case, it usually won't get in the way of another Trigger Skill, since the
+focus here is in recovering health. You can read more about the "Crisis Mode
+Skillset" at the next section.
+
+IF you chose the Healing Skill, you will still have another slot to fill. Here,
+you can use Miracle (Skills 69), in case things go horribly wrong before you
+can attack or even an Accuracy Skill to make the other Dark Tomes more viable
+(not a good choice if you don't have Armsthrift), or even Galeforce. That is,
+if you are not needing Shadowgift (Skill 86) to use Dark Tomes is the first
+place. There are many good Skills for making Nostanks more effective, and most
+don't stand in a "or this or that" position, so, no short version here.
+
+
+-------------------------------------------------------------------------------
+                     6= Crisis Mode/Critical Hit Rate Build
+-------------------------------------------------------------------------------
+
+This is a very special and risky set, that I already recommended a few times.
+It consists of a Skillset with Vantage + Wrath and/or Vengeance (Skills 14, 45
+and 65). What is so special about that set, you ask?
+
+When you are under 50% Hp (for Vantage), You will reap a great offensive bonus
+from Vengeance, and a great Critical Hit Rate bonus from Wrath. A forged Killer
+weapon and a S ranked partner will make your Critical Hit Rate skyrocket with
+this Skillset. Vantage will keep you alive by giving you the first strike, and
+this will greatly raise the odds of you killing many foes before they are a
+threat.
+
+Astra also works very well in place of Vengeance, because the multiple hits can
+turn into multiple Critical Hits... and the rest is history, albeit it's not as
+reliable. There's not a good substitute for Wrath in this set, though.
+
+
+Regardless, we still have another slot to fill, two without Limit Break. You
+can try to have another Critical Hit Rate bonus with Zeal, Gamble and Focus
+(Skills 40, xx and xx) to increase your odds of massive damage. The bonuses
+are small, though. Anathema (Skill xx) can indirectly increase your Critical
+Hit Rate by lowering the enemy's Dodge Rate.
+
+You can also opt to try Miracle (Skill xx) for a lucky save. Galeforce is very
+useful, as always. You can also try to run with Armsthrift (Skill 9) to keep
+your forged Killer Weapons, or if you can, your Sol Katti. Oh, Ruin can also
+work well with this set. Galeforce is always good, but not a necessity, since
+they can work effectively on Enemy Phase alone, like Nostanks.
+
+
+As for your partner, you should always try to have two skills for support: Dual
+Guard+ and Dual Support+ (Skills 28 and 76). Dual Guards can and will save your
+hide from death, while Dual Support helps to raise your Critical Hit and Avoid
+bonuses. This leaves us with:
+
+0: Limit Break
+1: Vantage
+2: Wrath
+3: Vengeance/Astra
+4: Critical Skills/Anathema/Armsthrift/Miracle/Galeforce
+5: Critical Skills/Anathema/Armsthrift/Miracle/Galeforce
+
+
+-------------------------------------------------------------------------------
+                                7= Rally Bots
+-------------------------------------------------------------------------------
+
+The Rally Bot is a character specialized in using Rally Skills. Their Skillsets
+are totally made up of those, so they are not meant for any other role.
+
+Before we decide on the Skills, you should decide who you want to make a Rally
+Bot. The bests Rally Bots are Spotpass Characters: They have access to the same
+classes of an Avatar, but they cannot support with anyone. Other characters
+might have good options for this role, but they are generally better elsewhere.
+
+
+First, there are a few limitations regarding gender. Rally Strength (Skill xx)
+is exclusive to males, while Rally Resistance, Rally Speed, Rally Movement and
+Rally Heart (Skills xx, xx, xx and xx) are exclusive to females. So, the best
+choice is usually to have 2 Rally Bots, one of each gender.
+
+Regardless, all Rally Bots want Rally Spectrum (Skill xx). It's by far the best
+Rally Skill, and covers a little of everything.
+
+
+Females also want Rally Heart. It's similarly well-rounded and covers what
+Rally Movement would have done. The other two slots can go to the othe two
+exclusive Rally Skills: Rally Speed and Rally Resistance.
+
+Males should cover their exclusive Skill: Rally Strenght, and the remaining
+useful ones: Rally Magic and Rally Defense.
+
+
+Rally Skill and Rally Luck are bad, and should only be used if you have a slot
+left from not having Limit Break. Other options for this last slot are Bond
+(Skill 90), as well as Area Buffer Skills and Area Debuffer Skills. You will
+usually not have room for a partner in most chapters, but if you have, their
+partner generally wants to be using Dual Guard+ (Skill xx) to cover their
+defense or Dual Support+ to be covering their lack of supports.
+
+Males:
+0: Limit Break
+1: Rally Spectrum
+2: Rally Strength
+3: Rally Magic
+4: Rally Defense
+5: Rally Skill/Rally Luck
+
+Females:
+0: Limit Break
+1: Rally Spectrum
+2: Rally Heart
+3: Rally Speed
+4: Rally Resistance
+5: Rally Skill/Rally Luck
+
+
+-------------------------------------------------------------------------------
+                                 8= Streetpass
+-------------------------------------------------------------------------------
+
+When you make a team for other players to fight in Streetpass battles, many of
+the builds and strategies you make will not go as smoothly, since you won't be
+in control of your team. Here, we won't look for a special build, just what you
+should try to change around from your main builds.
+
+
+Killing Skills are generally bad ideas for those teams, as most people will be
+resetting if a character dies. Rally Skills won't be used strategically, and
+almost all Skills that are made for support will be rendered useless, since the
+CPU cannot fight as two, and they won't try to be alone for Isolation Skills.
+So, we need to focus on what the CPU does the best: rushing in without a care.
+
+
+Pass (Skill xx) is a very valuable Skill to bring, as it will disrupt enemy
+formations and make they bring a better strategy. Counter (Skill xx) will also
+be a major annoyance for many foes, something that you can easily see how for
+yourself in Lunatic+...
+
+
+Since the enemy's pairs will be generally strong than your individual units, we
+need to focus on Defensive Skills. As always, Aegis and Pavise are the ones you
+are looking for. Lethality (Skill xx) can make many teams a pain to deal with.
+
+Healing Skills are always good to maintain your team, while Accuracy Skills,
+specially Weaponbreaker Skills, will greatly increase your team's difficulty to
+beat.
+
+
+The only thing you can't really account for is movement, as certain chapters
+will greatly slow you down, but the enemy can work around that.
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                            G- Contact Information
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+You can use my E-Mail for contacting me: guedesbrawl@hotmail.com (please make
+sure that the subject is something like "Fire Emblem Awakening - Skill FAQ", or
+else it will be ignored).
+
+As of 28/04/2013, I am still an active poster in the Board, so an ATTN topic
+should be enough, just bump it once every few hours if I don't answer. But then
+again, you are a registered user in that scenario, so just send me a PM.
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                                 H- Credits
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Many helped me to make this FAQ, so here I'll be listing everybody who voted,
+even if just once, during my series, as well as other individuals. Cheers and
+Thanks to each and every one of you, specially since many corrected me in my
+mistakes throughout my topics and helped me even outside of them!
+
+In alphabetical order, the 325 voters:
+-------------------------------------------------------------------------------
+acesxhigh
+AetherShadow
+Aggerator
+Airship_Canon
+AKC12
+Alanna82
+Allauden
+alexchern
+AmicusNintendi
+andodel
+Andymion
+ao_bomber
+apolloflameowns
+ArcherQ
+Ari917
+Arkyron
+arvilino
+atma6
+Atzar
+AyanokojiAkuno
+azn_boy150
+BassForever
+bearclaw13
+beautheschmo
+Bhellium
+BigMeatyClawz
+billybobfred
+bladedaxe
+BlueDryBones1
+BlueSophia
+Blingya25
+BowtotheTWIG
+Brady672_AT_fan
+Cactuar512
+Canas_Renvall
+Catastrophe_90
+Chaos Stryker
+Chaos_19
+chopstixguy
+ChromKirby
+chtma653
+clonedstars
+Col_Mobius
+Cornholioam
+CreepGnome
+CyanideParadox
+CyberSturm
+cynicalsaint
+danmiy12
+Dark RPG Wizard 06
+daytonthegreat
+DemiseEnd
+Devil_Killer_JC
+Deoxys_Prime
+Destiny42S
+Dest1n3d
+Dharengo
+DiabIo
+Dogscratch
+Doomerang
+Dragrath
+Dragunov_Zero
+dr_burger92
+DullahanEX
+DunnoBro
+DyGenGuar
+DynasticAnthony
+EchoPhoenix
+Edmond Tan
+EDumey
+ellis123
+Emmy_Altava
+empireoffire
+Enju
+Events7
+FactionsJim
+fatty_ya
+FDDragoon
+fddsfsasf
+FFFanatic1234
+ffdgh
+FF_4ever
+fireemblemomega
+finaleus
+Flamingace18
+FlyingDeCow
+freeze_ray
+free3keys
+freshmakerrrr
+Frost_LASER
+FrozenCard
+fueled-system
+fuzzylittlbunny
+Fwahm
+gamezrochard
+Gandalf the Istari
+Gheb
+glitchunter75
+gohobojoe
+GoldenPower89
+Greatfox1313
+gsninja
+GX000
+Hatched_Domingo
+heavylobsterguy
+Hitokiri_Ace
+hodori86
+Hodou
+HolyCorsair
+Huff n puff 20
+Huntertown
+IBNobody
+IceDissolver
+IlluminaZer0
+ImDaHiTmAn
+imthestuntman
+im_bored
+Is_Corrupted
+ivanhellsing
+Jack_the_monke7
+Jahozafat124
+Japanties
+jazz36
+jeffheng
+JGPJR76
+Jstretch19
+Kantonoso
+Kalanyr
+Kementarri
+KevinCC
+KeyToSuccess
+kingbriann
+King_Janaff
+KitsuKitsu
+KittenLina
+Koishi_Komeiji
+Kouban
+Krono_Kross
+kukingina2
+Ku-Ri-Boh
+Kyoskue
+Kyurem
+LaPlaceTransfor
+laundrysucks
+LeaderRElliot
+legendrider
+LightHawKnight
+Limau
+Lonqu_Zoro
+LookAngle
+lordlugia_rocks
+Luce_Imperius
+Lukannon
+lucariofan23
+Luminozero
+Lurkerkiller
+luxapollo
+Lynx12
+Mage_Lord
+MajorasMask9
+Marbiaach
+MarioLinkGenofa
+MarkofWisdom
+marthsheretoo
+Master Espeon
+MAtt5TER
+MaximumPenalty
+McFastly
+McTCM
+Mecona
+Meganium7
+MetaFalconPunch
+MetalKirbyPlush
+Mezameru
+Mforz
+Mik_Pick
+Miral_Nocturne
+mjalal100
+Munchkinator
+Model_Omega
+MoonLightCloud
+mr_kennedy44
+MSAddict
+Musourenka
+Natatteru
+NekoEspirito
+NeoElfboy
+NeonDragon9000
+Neo_W_C
+Nexu Chiza
+nflchamp
+Nidtendofreak
+Nimbus303
+nintendogeek01
+Niteclaw1028
+NobleRoar
+Nodetails
+occupation_bob
+OCShoes
+omegaslash14
+OmegChosen
+OneEyedDragon
+Oni_Kariudo
+OrangeCrush980
+oshkoshbjosh
+OutofCookies
+Pandafaust
+perfectchaos83
+peter_888
+pew_pew
+Pieke Okata
+Pikachu
+Pitbuller_26
+PKMrevolution
+PKRockin531
+PK_Gaming
+President_Marth
+prince_leo
+Prodicalx
+P_Saffron
+raazychx
+Raltrios
+random_noobie
+Ravaryn
+RedMageKirby
+RenamonFOX
+Requiem_Blade
+Rideps1
+Rikiaz
+rikusora50
+rhys855
+Rockman47
+Rose_Mage
+RoyMaster4
+Ruby Saphire
+Runekn
+ryugin55
+sageyrain12
+Sain_of_Caelin
+sjk9000
+SazukeEX
+ScytheCFH
+Segmented Odin
+Sentinel07
+serenade696969
+ShadowEspionage
+ShadownetN
+ShadowSlash17
+Shadow_Master_J
+SiegedEagle
+silver123456789
+Sir_Linebeck
+sjk9000
+SlashReturns
+SLayerblade11
+SliferIX
+SmashStrike
+Smash Master
+soma2035
+someonewhodied
+SorrySleeping
+Sparkinferno
+Sparks97
+SpiderCVIII
+Spiega
+spyke252
+StarfishHeat
+SubliminalFunk
+Sun Xiao
+superange128
+supershyguy65
+SupremeZero
+SwampertOwns
+S1ppy_cup
+s460to
+TalesOfAwesomes
+Tatakai-No-Kami
+Tearofamermaid
+Tehmoosey1
+TehTrumpCard
+teh_kyle00
+thefinaloracle
+TheMasterTurtle
+The_Evil_Elf
+Toeppner
+ToiseOfChoice
+Twenty0ne
+TwinkinoutRM
+Tw1g_OO7
+typhone004
+TyrantKnight
+Uryvichk
+uuurrrggh
+VentusXII
+VeonVoid
+Victor_Viper
+Volt7x
+Vortex_Of_Hope7
+Vsin
+vyseskies
+waffles1029
+Wandering4Eons
+Wandering__Hero
+WebbOMG
+welkin_g
+WeOwnGames
+WestbrickIII
+Why_Is_Purple
+WolfJounin
+WolfTwili
+Xeylir
+xGreekAcex714
+Xion333
+xKYSx
+yami_no_sakura
+yingchenluo
+YinYarn
+yzman
+Zandock
+zeik56
+ZetachiDeQues
+Zhihark
+ZoneroftheEnd
+123pizza2
+578t7645uyb5
+7up1001
+-------------------------------------------------------------------------------
+
+And there's also a few people that deserve my thanks, even if they have nothing
+to do (directly) with this FAQ. Some do have, though...
+
+-------------------------------------------------------------------------------
+Everyone involved in the creation and maintance of GameFAQS.
+Everyone involved in the creation and maintance of SerenesForest.net.
+Everyone involved in the creation of all Fire Emblem Games.
+Master Espeon, for providing Skills 87-93's descriptions.
+Huff n puff 20, for providing Skill 94's description.
+Endgame, RedMageKirby and BMSirius; for providing useful guides that had plenty
+of useful info.
+Me, and everyone involved in my creation and education.
+You, for taking some minutes to read a part or all of this FAQ!
+-------------------------------------------------------------------------------
+
+This is it folks! I hope this FAQ was useful for you in one way or another!
+
+See you next time!
+
+                                                                -Rafael Guedes.
