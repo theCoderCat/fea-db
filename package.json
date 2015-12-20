@@ -14,10 +14,12 @@
     "express": "~4.13.3",
     "gulp-eslint": "^1.1.1",
     "jade": "^1.11.0",
+    "lodash": "^3.10.1",
     "mongoose": "~4.1.11",
     "morgan": "^1.6.1",
     "node-uuid": "*",
     "nodemon": "^1.8.1",
+    "react-router": "^1.0.2",
     "redis": "~2.2.4",
     "request": "*",
     "response-time": "*",
@@ -26,17 +28,23 @@
   "devDependencies": {
     "babel": "^6.3.13",
     "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
     "flux": "^2.1.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-babel": "^6.1.1",
     "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.1.1",
     "gulp-nodemon": "^2.0.4",
+    "gulp-notify": "^2.2.0",
     "gulp-sass": "^2.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.1",
     "mojs": "^0.2.0",
     "react": "^0.14.3",
-    "requirejs": "^2.1.22"
+    "requirejs": "^2.1.22",
+    "vinyl-source-stream": "^1.1.0"
   }
 }

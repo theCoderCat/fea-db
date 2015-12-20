@@ -6,44 +6,50 @@ import autoprefixer from 'gulp-autoprefixer';
 import uglify from 'gulp-uglify';
 import babel from 'gulp-babel';
 import sass from 'gulp-sass';
+import notify from 'gulp-notify';
+import eslint from 'gulp-eslint';
+import browserify from 'browserify';
+import babelify from 'babelify';
+import source from 'vinyl-source-stream';
+
+var onError = (err) => {
+  notify.onError({
+    title:    "Error",
+    message:  "<%= error %>",
+  })(err);
+  this.emit('end');
+};
 
 var config  = {
     logicDir: './logics',
     bowerDir: './bower_components',
     nodeDir: './node_modules',
     es6Dir: './public/es6',
+    reactDir: './public/es6/components',
     scriptsDir: './public/scripts',
     scssDir: './public/scss',
-    stylesDir: './pubic/stylesheets',
+    stylesDir: './public/stylesheets',
     imgDir: './public/images'
 };
 var fontSource = [
 
 ];
 var jsSource = [
-
+    // config.nodeDir + '/react/dist/react.min.js',
+    // config.nodeDir + '/flux/dist/Flux.min.js',
+    config.nodeDir + '/mui/dist/js/mui.min.js'
+];
+var reactSource = [
+    config.reactDir + '/**/*.jsx',
 ];
 var headJsSource = [
-    config.bowerDir + '/modernizr/modernizr.js',
+    // config.bowerDir + '/modernizr/modernizr.js',
 ];
-var cssSource = {
-};
+var cssSource = [];
 
 var vendorStyleSource = [
 
 ];
-// Start server
-gulp.task('start-server', () => {
-    nodemon({
-        script: './bin/wwww',
-        // ext: 'js',
-        ignore: ['./node_modules/**'],
-        env: { 'NODE_ENV': 'development' }
-    })
-    .on('restart', () => {
-        console.log('Restarting...');
-    });
-});
 
 gulp.task('vendorStyles', () => {
     gulp.src(vendorStyleSource)
@@ -71,19 +77,24 @@ gulp.task('sass:watch', () => {
     gulp.watch(config.scssDir + '/**/*.scss', ['styles']);
 });
 
-// gulp.task('less', () => {
-//     return gulp.src('app/public/less/*.less')
-//     .pipe(less({
-//         compress: true          // Minify CSS output
-//     }))
-//     // .pipe(autoprefixer({browsers: ['last 1 version']}))
-//     .pipe(sourcemaps.write())
-//     .pipe(gulp.dest('app/public/styles'));
-// });
-//
-// gulp.task('less:watch', () => {
-//     gulp.watch('app/public/less/**/*.less', ['less']);
-// });
+// lint js and jsx
+gulp.task('eslint', () => {
+    gulp.src(config.es6Dir.concat(config.reactDir))
+    .pipe(eslint({config: '.eslintrc'}))
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
+});
+
+gulp.task('react', () => {
+    gulp.src(reactSource)
+    .pipe(babel({'presets': ['react', 'es2015']}))
+    .pipe(gulp.dest(config.scriptsDir));
+});
+
+// compile all style sheets on change
+gulp.task('react:watch', () => {
+    gulp.watch(reactSource, ['eslint', 'react']);
+});
 
 // concat and uglify all vendor scripts
 gulp.task('vendorScripts', () => {
@@ -101,16 +112,20 @@ gulp.task('headScripts', function() {
 });
 // compile babel
 gulp.task('babel', () => {
-    return gulp.src(config.es6Dir + '/**/*.js')
-    .pipe(sourcemaps.init())
-    .pipe(babel())
-    .pipe(concat('main.js'))
-    .pipe(sourcemaps.write('.'))
+    browserify(config.es6Dir + '/app.js')
+    .transform(babelify, {presets: ['react', 'es2015']})
+    .bundle()
+    .on('error', console.error.bind(console))
+    .pipe(source('app.js'))
     .pipe(gulp.dest(config.scriptsDir));
+    // .pipe(sourcemaps.init())
+    // .pipe(concat('app.js'))
+    // .pipe(sourcemaps.write('.'))
+    // .pipe(gulp.dest(config.scriptsDir));
 });
 
 // compile babel files on change
-gulp.task('babel:watch', () => {
+gulp.task('babel:watch', ['eslint'], () => {
     gulp.watch(config.es6Dir + '/**/*.js', ['babel']);
 });
 
@@ -128,11 +143,11 @@ gulp.task('lint', () => {
     return gulp.src(config.path.js);
 });
 
-gulp.task('dev', ['vendorStyles', 'vendorScripts', 'headScripts', 'sass', 'sass:watch', 'babel', 'babel:watch'], () => {
+gulp.task('dev', ['vendorStyles', 'vendorScripts', 'headScripts', 'sass', 'sass:watch', 'eslint', 'babel', 'babel:watch'], () => {
     // gulp.start();
 });
 
-gulp.task('build', ['vendorStyles', 'vendorScripts', 'headScripts', 'sass', 'babel'], () => {
+gulp.task('build', ['vendorStyles', 'vendorScripts', 'headScripts','eslint', 'react',  'sass', 'babel'], () => {
 
 });
 
