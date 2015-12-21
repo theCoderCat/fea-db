@@ -851,7 +851,7 @@ var characters = {
 		birthday: 'March 29th',
 		generation: 2,
 		recruit: 'Talk to her with Chrom or Nowi in Paralogue 16.',
-		baseClasses: ['tatician'],
+		baseClasses: ['tactician'],
 		possibleSupport: {
 			a: ['noire', 'nah'],
 			s: ['gerome', 'owain', 'inigo', 'brady', 'yarne', 'laurent']
@@ -20013,87 +20013,85 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-(function (window) {
-	var List = (function (_React$Component) {
-		_inherits(List, _React$Component);
+var List = (function (_React$Component) {
+    _inherits(List, _React$Component);
 
-		function List() {
-			_classCallCheck(this, List);
+    function List() {
+        _classCallCheck(this, List);
 
-			return _possibleConstructorReturn(this, Object.getPrototypeOf(List).call(this));
-		}
+        return _possibleConstructorReturn(this, Object.getPrototypeOf(List).call(this));
+    }
 
-		_createClass(List, [{
-			key: 'render',
-			value: function render() {
-				var _this2 = this;
+    _createClass(List, [{
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
 
-				var createCharacterRow = function createCharacterRow(c) {
-					return _react2.default.createElement(
-						'tr',
-						{ key: c.nameEN },
-						_react2.default.createElement(
-							'td',
-							null,
-							_react2.default.createElement(
-								'a',
-								{ href: "/#character/" + c.nameEN },
-								c.nameEN
-							)
-						),
-						_react2.default.createElement(
-							'td',
-							null,
-							c.baseClasses.map(createClassLink, _this2)
-						)
-					);
-				};
+            var createCharacterRow = function createCharacterRow(c) {
+                return _react2.default.createElement(
+                    'tr',
+                    { key: c.nameEN },
+                    _react2.default.createElement(
+                        'td',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { href: "/#character/" + c.nameEN },
+                            c.nameEN
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'td',
+                        null,
+                        c.baseClasses.map(createClassLink, _this2)
+                    )
+                );
+            };
 
-				var createClassLink = function createClassLink(cl) {
-					return _react2.default.createElement(
-						'a',
-						{ key: cl, href: '/#class/' + cl },
-						cl,
-						_react2.default.createElement('br', null)
-					);
-				};
+            var createClassLink = function createClassLink(cl) {
+                return _react2.default.createElement(
+                    'a',
+                    { key: cl, href: '/#class/' + cl },
+                    cl,
+                    _react2.default.createElement('br', null)
+                );
+            };
 
-				// loop through characters object keys and create character row foreach object
-				return _react2.default.createElement(
-					'table',
-					{ className: 'mui-table mui-table--bordered' },
-					_react2.default.createElement(
-						'thead',
-						null,
-						_react2.default.createElement(
-							'tr',
-							null,
-							_react2.default.createElement(
-								'th',
-								null,
-								'Name'
-							),
-							_react2.default.createElement(
-								'th',
-								null,
-								'Classes'
-							)
-						)
-					),
-					_react2.default.createElement(
-						'tbody',
-						null,
-						this.props.characters.map(createCharacterRow, this)
-					)
-				);
-			}
-		}]);
+            // loop through characters object keys and create character row foreach object
+            return _react2.default.createElement(
+                'table',
+                { className: 'mui-table mui-table--bordered' },
+                _react2.default.createElement(
+                    'thead',
+                    null,
+                    _react2.default.createElement(
+                        'tr',
+                        null,
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            'Name'
+                        ),
+                        _react2.default.createElement(
+                            'th',
+                            null,
+                            'Classes'
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'tbody',
+                    null,
+                    this.props.characters.map(createCharacterRow, this)
+                )
+            );
+        }
+    }]);
 
-		return List;
-	})(_react2.default.Component);
+    return List;
+})(_react2.default.Component);
 
-	module.exports = List;
-})(window);
+module.exports = List;
 
 },{"react":160}],163:[function(require,module,exports){
 'use strict';
