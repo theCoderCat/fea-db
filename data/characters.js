@@ -52,7 +52,7 @@ var characters = {
 		birthday: 'August 26th',
 		generation: 1,
 		recruit: 'Joins automatically in the Prologue.',
-		baseClasses: ['calavier', 'knight', 'wyvern_rider'],
+		baseClasses: ['cavalier', 'knight', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['chrom', 'henry', 'virion'],
 			s: ['lissa', 'maribelle', 'miriel', 'nowi', 'tharja', 'sully', 'sumia', 'cordelia', 'panne']
@@ -75,7 +75,7 @@ var characters = {
 		birthday: 'December 5th',
 		generation: 1,
 		recruit: 'Joins automatically on turn 2 of Chapter 1.',
-		baseClasses: ['calavier', 'myrmidon', 'wyvern_rider'],
+		baseClasses: ['cavalier', 'myrmidon', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['miriel', 'sumia'],
 			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
@@ -282,7 +282,7 @@ var characters = {
 		birthday: 'May 23rd',
 		generation: 1,
 		recruit: 'Joins automatically in Chapter 5.',
-		baseClasses: ['mage', 'calavier', 'archer'],
+		baseClasses: ['mage', 'cavalier', 'archer'],
 		possibleSupport: {
 			a: ['gregor', 'henry'],
 			s: ['lissa', 'sully', 'maribelle', 'cordelia', 'panne', 'nowi', 'olivia', 'cherche', 'miriel', 'tharja']
@@ -668,7 +668,7 @@ var characters = {
 		birthday: 'April 20th',
 		generation: 2,
 		recruit: 'Joins automatically after completing Chapter 13.',
-		baseClasses: ['lord', 'calavier', 'archer'],
+		baseClasses: ['lord', 'cavalier', 'archer'],
 		possibleSupport: {
 			a: ['kjelle', 'tiki', 'cynthia'],
 			s: ['owain', 'inigo', 'brady', 'yarne', 'laurent', 'gerome', 'morgan_m']
