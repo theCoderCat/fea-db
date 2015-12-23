@@ -120,7 +120,7 @@ gulp.task('babel', () => {
     .pipe(source('app.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
-    .pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(config.scriptsDir));
     // .pipe(sourcemaps.init())
     // .pipe(concat('app.js'))

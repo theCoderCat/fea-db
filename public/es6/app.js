@@ -23,11 +23,7 @@ import Header from './components/header.react';
 			return (
 				<div>
 					<Header/>
-					<div className="mui-container">
-						<div className="mui-panel">
-							<Child/>
-						</div>
-					</div>
+					<Child/>
 				</div>
 			);
 		}

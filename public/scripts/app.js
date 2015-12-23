@@ -2,7 +2,32 @@
 'use strict';
 
 var characters = {
+	avatar: {
+		id: 'avatar',
+		nameEN: 'Robin',
+		nameJA: 'ロビン',
+		gender: null,
+		birthday: null,
+		generation: 1,
+		recruit: null,
+		baseClasses: [],
+		possibleSupport: {
+			a: [],
+			s: []
+		},
+		maxStatMod: {
+			str: 0,
+			mag: 0,
+			skl: 0,
+			spd: 0,
+			lck: 0,
+			def: 0,
+			res: 0
+		},
+		children: ['morgan']
+	},
 	chrom: {
+		id: 'chrom',
 		nameEN: 'Chrom',
 		nameJA: 'クロム',
 		gender: 'male',
@@ -26,6 +51,7 @@ var characters = {
 		children: ['lucina']
 	},
 	lissa: {
+		id: 'lissa',
 		nameEN: 'Lissa',
 		nameJA: 'リズ',
 		gender: 'female',
@@ -49,13 +75,14 @@ var characters = {
 		children: ['owain']
 	},
 	frederick: {
+		id: 'frederick',
 		nameEN: 'Frederick',
 		nameJA: 'フレデリク',
 		gender: 'male',
 		birthday: 'August 26th',
 		generation: 1,
 		recruit: 'Joins automatically in the Prologue.',
-		baseClasses: ['calavier', 'knight', 'wyvern_rider'],
+		baseClasses: ['cavalier', 'knight', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['chrom', 'henry', 'virion'],
 			s: ['lissa', 'maribelle', 'miriel', 'nowi', 'tharja', 'sully', 'sumia', 'cordelia', 'panne']
@@ -72,13 +99,14 @@ var characters = {
 		children: []
 	},
 	sully: {
+		id: 'sully',
 		nameEN: 'Sully',
 		nameJA: 'ソワレ',
 		gender: 'female',
 		birthday: 'December 5th',
 		generation: 1,
 		recruit: 'Joins automatically on turn 2 of Chapter 1.',
-		baseClasses: ['calavier', 'myrmidon', 'wyvern_rider'],
+		baseClasses: ['cavalier', 'myrmidon', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['miriel', 'sumia'],
 			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
@@ -95,6 +123,7 @@ var characters = {
 		children: ['kjelle']
 	},
 	virion: {
+		id: 'virion',
 		nameEN: 'Virion',
 		nameJA: 'ヴィオール',
 		gender: 'male',
@@ -118,6 +147,7 @@ var characters = {
 		children: []
 	},
 	stahl: {
+		id: 'stahl',
 		nameEN: 'Stahl',
 		nameJA: 'ソール',
 		gender: 'male',
@@ -141,6 +171,7 @@ var characters = {
 		children: []
 	},
 	vaike: {
+		id: 'vaike',
 		nameEN: 'Vaike',
 		nameJA: 'ヴェイク',
 		gender: 'male',
@@ -164,6 +195,7 @@ var characters = {
 		children: []
 	},
 	miriel: {
+		id: 'miriel',
 		nameEN: 'Miriel',
 		nameJA: 'ミリエル',
 		gender: 'female',
@@ -187,6 +219,7 @@ var characters = {
 		children: ['laurent']
 	},
 	sumia: {
+		id: 'sumia',
 		nameEN: 'Sumia',
 		nameJA: 'スミア',
 		gender: 'female',
@@ -210,6 +243,7 @@ var characters = {
 		children: ['cynthia']
 	},
 	kellam: {
+		id: 'kellam',
 		nameEN: 'Kellam',
 		nameJA: 'カラム',
 		gender: 'male',
@@ -233,6 +267,7 @@ var characters = {
 		children: []
 	},
 	donnel: {
+		id: 'donnel',
 		nameEN: 'Donnel',
 		nameJA: 'ドニ',
 		gender: 'male',
@@ -256,6 +291,7 @@ var characters = {
 		children: []
 	},
 	lon_qu: {
+		id: 'lon_qu',
 		nameEN: 'Lon\'qu',
 		nameJA: 'ロンク',
 		gender: 'male',
@@ -279,13 +315,14 @@ var characters = {
 		children: []
 	},
 	ricken: {
+		id: 'ricken',
 		nameEN: 'Ricken',
 		nameJA: 'リヒト',
 		gender: 'male',
 		birthday: 'May 23rd',
 		generation: 1,
 		recruit: 'Joins automatically in Chapter 5.',
-		baseClasses: ['mage', 'calavier', 'archer'],
+		baseClasses: ['mage', 'cavalier', 'archer'],
 		possibleSupport: {
 			a: ['gregor', 'henry'],
 			s: ['lissa', 'sully', 'maribelle', 'cordelia', 'panne', 'nowi', 'olivia', 'cherche', 'miriel', 'tharja']
@@ -302,6 +339,7 @@ var characters = {
 		children: []
 	},
 	maribelle: {
+		id: 'maribelle',
 		nameEN: 'Maribelle',
 		nameJA: 'マリアベル',
 		gender: 'female',
@@ -325,6 +363,7 @@ var characters = {
 		children: ['brady']
 	},
 	panne: {
+		id: 'panne',
 		nameEN: 'Panne',
 		nameJA: 'ベルベット',
 		gender: 'female',
@@ -348,6 +387,7 @@ var characters = {
 		children: ['yarne']
 	},
 	gaius: {
+		id: 'gaius',
 		nameEN: 'Gaius',
 		nameJA: 'ガイア',
 		gender: 'male',
@@ -371,6 +411,7 @@ var characters = {
 		children: []
 	},
 	cordelia: {
+		id: 'cordelia',
 		nameEN: 'Cordelia',
 		nameJA: 'ティアモ',
 		gender: 'female',
@@ -394,6 +435,7 @@ var characters = {
 		children: ['severa']
 	},
 	gregor: {
+		id: 'gregor',
 		nameEN: 'Gregor',
 		nameJA: '',
 		gender: 'male',
@@ -417,13 +459,14 @@ var characters = {
 		children: []
 	},
 	nowi: {
+		id: 'nowi',
 		nameEN: 'Nowi',
 		nameJA: '',
 		gender: 'female',
 		birthday: 'September 21st',
 		generation: 1,
 		recruit: 'Joins automatically in Chapter 8.',
-		baseClasses: ['manakete', 'make', 'wyvern_rider'],
+		baseClasses: ['manakete', 'mage', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['cherche', 'tharja'],
 			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
@@ -440,6 +483,7 @@ var characters = {
 		children: ['nah']
 	},
 	libra: {
+		id: 'libra',
 		nameEN: 'Libra',
 		nameJA: '',
 		gender: 'male',
@@ -463,6 +507,7 @@ var characters = {
 		children: []
 	},
 	tharja: {
+		id: 'tharja',
 		nameEN: 'Tharja',
 		nameJA: 'サーリャ',
 		gender: 'female',
@@ -486,6 +531,7 @@ var characters = {
 		children: ['noire']
 	},
 	anna: {
+		id: 'anna',
 		nameEN: 'Anna',
 		nameJA: 'アンナ',
 		gender: 'female',
@@ -508,6 +554,7 @@ var characters = {
 		children: []
 	},
 	olivia: {
+		id: 'olivia',
 		nameEN: 'Olivia',
 		nameJA: '',
 		gender: 'female',
@@ -531,6 +578,7 @@ var characters = {
 		children: ['inigo']
 	},
 	cherche: {
+		id: 'cherche',
 		nameEN: 'Cherche',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -554,6 +602,7 @@ var characters = {
 		children: ['gerome']
 	},
 	henry: {
+		id: 'henry',
 		nameEN: 'Henry',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -577,6 +626,7 @@ var characters = {
 		children: []
 	},
 	say_ri: {
+		id: 'say_ri',
 		nameEN: 'Say\'ri',
 		nameJA: 'サイリ',
 		gender: 'female',
@@ -599,6 +649,7 @@ var characters = {
 		children: []
 	},
 	tiki: {
+		id: 'tiki',
 		nameEN: 'Tiki',
 		nameJA: 'チキ',
 		gender: 'female',
@@ -621,6 +672,7 @@ var characters = {
 		children: []
 	},
 	basilio: {
+		id: 'basilio',
 		nameEN: 'Basilio',
 		nameJA: 'バジーリオ',
 		gender: 'male',
@@ -643,6 +695,7 @@ var characters = {
 		children: []
 	},
 	flavia: {
+		id: 'flavia',
 		nameEN: 'Flavia',
 		nameJA: 'フラヴィア',
 		gender: 'female',
@@ -665,13 +718,14 @@ var characters = {
 		children: []
 	},
 	lucina: {
+		id: 'lucina',
 		nameEN: 'Lucina',
 		nameJA: 'フレデリク',
 		gender: 'female',
 		birthday: 'April 20th',
 		generation: 2,
 		recruit: 'Joins automatically after completing Chapter 13.',
-		baseClasses: ['lord', 'calavier', 'archer'],
+		baseClasses: ['lord', 'cavalier', 'archer'],
 		possibleSupport: {
 			a: ['kjelle', 'tiki', 'cynthia'],
 			s: ['owain', 'inigo', 'brady', 'yarne', 'laurent', 'gerome', 'morgan_m']
@@ -680,6 +734,7 @@ var characters = {
 		parents: ['chrom']
 	},
 	owain: {
+		id: 'owain',
 		nameEN: 'Owain',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -695,6 +750,7 @@ var characters = {
 		parents: ['lissa']
 	},
 	inigo: {
+		id: 'inigo',
 		nameEN: 'Inigo',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -710,6 +766,7 @@ var characters = {
 		parents: ['olivia']
 	},
 	brady: {
+		id: 'brady',
 		nameEN: 'Brady',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -725,6 +782,7 @@ var characters = {
 		parents: ['maribelle']
 	},
 	kjelle: {
+		id: 'kjelle',
 		nameEN: 'Kjelle',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -740,6 +798,7 @@ var characters = {
 		parents: ['sully']
 	},
 	cynthia: {
+		id: 'cynthia',
 		nameEN: 'Cynthia',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -755,6 +814,7 @@ var characters = {
 		parents: ['sumia']
 	},
 	severa: {
+		id: 'severa',
 		nameEN: 'Severa',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -770,6 +830,7 @@ var characters = {
 		parents: ['cordelia']
 	},
 	gerome: {
+		id: 'gerome',
 		nameEN: 'Gerome',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -785,6 +846,7 @@ var characters = {
 		parents: ['cherche']
 	},
 	yarne: {
+		id: 'yarne',
 		nameEN: 'Yarne',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -800,6 +862,7 @@ var characters = {
 		parents: ['panne']
 	},
 	laurent: {
+		id: 'laurent',
 		nameEN: 'Laurent',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -815,6 +878,7 @@ var characters = {
 		parents: ['miriel']
 	},
 	noire: {
+		id: 'noire',
 		nameEN: 'Noire',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -830,6 +894,7 @@ var characters = {
 		parents: ['tharja']
 	},
 	nah: {
+		id: 'nah',
 		nameEN: 'Nah',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -845,9 +910,25 @@ var characters = {
 		parents: ['tharja']
 	},
 	morgan: {
+		id: 'morgan_m',
 		nameEN: 'Morgan',
 		nameJA: 'フレデリク',
-		gender: '',
+		gender: 'male',
+		birthday: 'March 29th',
+		generation: 2,
+		recruit: 'Talk to her with Chrom or Nowi in Paralogue 16.',
+		baseClasses: ['tactician'],
+		possibleSupport: {
+			a: ['noire', 'nah']
+		},
+		maxStatMod: {},
+		parents: ['avatar']
+	},
+	morgan: {
+		id: 'morgan_f',
+		nameEN: 'Morgan',
+		nameJA: 'フレデリク',
+		gender: 'female',
 		birthday: 'March 29th',
 		generation: 2,
 		recruit: 'Talk to her with Chrom or Nowi in Paralogue 16.',
@@ -866,52 +947,1305 @@ module.exports = characters;
 },{}],2:[function(require,module,exports){
 'use strict';
 
-function _typeof(obj) { return obj && typeof Symbol !== "undefined" && obj.constructor === Symbol ? "symbol" : typeof obj; }
+var classes = {
+       lord: {
+              id: 'lord',
+              name: 'Lord',
+              weapon: [],
+              skills: ['dual_strike_plus', 'charm'],
+              promoteTo: ['great_lord'],
+              promotedFrom: null,
+              gender: ['male', 'female'],
+              special: true
+       },
+       great_lord: {
+              id: 'great_lord',
+              name: 'Great Lord',
+              weapon: [],
+              skills: ['eather', 'rightful_king'],
+              promoteTo: null,
+              promotedFrom: ['lord'],
+              gender: ['male', 'female'],
+              special: true
+       },
+       tactician: {
+              id: 'tactician',
+              name: 'Tactician',
+              weapon: [],
+              skills: ['veteran', 'solidarity'],
+              promoteTo: ['grandmaster'],
+              promotedFrom: null,
+              gender: ['male', 'female'],
+              special: true
+       },
+       grandmaster: {
+              id: 'grandmaster',
+              name: 'Grandmaster',
+              weapon: [],
+              skills: ['ignis', 'rally_spectrum'],
+              promoteTo: null,
+              promotedFrom: ['tactician'],
+              gender: ['male', 'female'],
+              special: true
+       },
+       cavalier: {
+              id: 'cavalier',
+              name: 'Cavalier',
+              weapon: [],
+              skills: ['discipline', 'outdoor_fighter'],
+              promoteTo: ['general', 'great_knight'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       knight: {
+              id: 'knight',
+              name: 'Knight',
+              weapon: [],
+              skills: ['defence_2', 'indoor_fighter'],
+              promoteTo: ['paladin', 'great_knight'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       paladin: {
+              id: 'paladin',
+              name: 'Paladin',
+              weapon: [],
+              skills: ['defender', 'aegis'],
+              promoteTo: null,
+              promotedFrom: ['cavalier'],
+              gender: ['male', 'female']
+       },
+       great_knight: {
+              id: 'great_knight',
+              name: 'Great Knight',
+              weapon: [],
+              skills: ['lunar', 'dual_guard_plus'],
+              promoteTo: null,
+              promotedFrom: ['cavalier', 'knight'],
+              gender: ['male', 'female']
+       },
+       general: {
+              id: 'general',
+              name: 'General',
+              weapon: [],
+              skills: ['rally_defence', 'pavise'],
+              promoteTo: null,
+              promotedFrom: ['knight'],
+              gender: ['male', 'female']
+       },
+       myrmidon: {
+              id: 'myrmidon',
+              name: 'Myrmidon',
+              weapon: [],
+              skills: ['avoid_10', 'vantage'],
+              promoteTo: ['sword_master', 'assassin'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       thief: {
+              id: 'thief',
+              name: 'Thief',
+              weapon: [],
+              skills: ['locktouch', 'movement_1'],
+              promoteTo: ['assassin', 'trickster'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       sword_master: {
+              id: 'sword_master',
+              name: 'Sword Master',
+              weapon: [],
+              skills: ['astra', 'swordfaire'],
+              promoteTo: null,
+              promotedFrom: ['myrmidon'],
+              gender: ['male', 'female']
+       },
+       assassin: {
+              id: 'assassin',
+              name: 'Assassin',
+              weapon: [],
+              skills: ['lethality', 'pass'],
+              promoteTo: null,
+              promotedFrom: ['myrmidon', 'thief'],
+              gender: ['male', 'female']
+       },
+       trickster: {
+              id: 'trickster',
+              name: 'Trickster',
+              weapon: [],
+              skills: ['lucky_seven', 'acrobat'],
+              promoteTo: null,
+              promotedFrom: ['thief'],
+              gender: ['male', 'female']
+       },
+       barbarian: {
+              id: 'barbarian',
+              name: 'Barbarian',
+              weapon: [],
+              skills: ['despoil', 'gamble'],
+              promoteTo: ['berserker', 'warrior'],
+              promotedFrom: null,
+              gender: ['male']
+       },
+       fighter: {
+              id: 'fighter',
+              name: 'Fighter',
+              weapon: [],
+              skills: ['hp_5', 'zeal'],
+              promoteTo: ['hero', 'warrior'],
+              promotedFrom: null,
+              gender: ['male']
+       },
+       mercenary: {
+              id: 'mercenary',
+              name: 'Mercenary',
+              weapon: [],
+              skills: ['armthrift', 'patience'],
+              promoteTo: ['hero', 'bowknight'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       archer: {
+              id: 'archer',
+              name: 'Archer',
+              weapon: [],
+              skills: ['skill_2', 'prescience'],
+              promoteTo: ['sniper', 'bowknight'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       berserker: {
+              id: 'berserker',
+              name: 'Berserker',
+              weapon: [],
+              skills: ['wrath', 'axefaire'],
+              promoteTo: null,
+              promotedFrom: ['barbarian'],
+              gender: ['male']
+       },
+       warrior: {
+              id: 'warrior',
+              name: 'Warrior',
+              weapon: [],
+              skills: ['rally_strength', 'counter'],
+              promoteTo: null,
+              promotedFrom: ['barbarian', 'fighter'],
+              gender: ['male']
+       },
+       hero: {
+              id: 'hero',
+              name: 'Hero',
+              weapon: [],
+              skills: ['axebreaker', 'sol'],
+              promoteTo: null,
+              promotedFrom: ['fighter', 'mercenary'],
+              gender: ['male', 'female']
+       },
+       bow_knight: {
+              id: 'bow_knight',
+              name: 'Bow Knight',
+              weapon: [],
+              skills: ['bowbreaker', 'rally_skill'],
+              promoteTo: null,
+              promotedFrom: ['mercenary', 'archer'],
+              gender: ['male', 'female']
+       },
+       sniper: {
+              id: 'sniper',
+              name: 'Sniper',
+              weapon: [],
+              skills: ['hitrate_20', 'bowfaire'],
+              promoteTo: null,
+              promotedFrom: ['archer'],
+              gender: ['male', 'female']
+       },
+       pegasus_knight: {
+              id: 'pegasus_knight',
+              name: 'Pegasus Knight',
+              weapon: [],
+              skills: ['speed_2', 'relief'],
+              promoteTo: ['falcon_knight', 'dark_flier'],
+              promotedFrom: null,
+              gender: ['female']
+       },
+       falcon_knight: {
+              id: 'falcon_knight',
+              name: 'Falcon Knight',
+              weapon: [],
+              skills: ['rally_speed', 'lancefaire'],
+              promoteTo: null,
+              promotedFrom: ['pegasus_knight'],
+              gender: ['female']
+       },
+       dark_flier: {
+              id: 'dark_flier',
+              name: 'Dark Flier',
+              weapon: [],
+              skills: ['rally_movement', 'galeforce'],
+              promoteTo: null,
+              promotedFrom: ['pegasus_knight'],
+              gender: ['female']
+       },
+       wyvern_rider: {
+              id: 'wyvern_rider',
+              name: 'Wyvern Rider',
+              weapon: [],
+              skills: ['strength_2', 'tantivy'],
+              promoteTo: ['wyvern_lord', 'griffon_rider'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       wyvern_lord: {
+              id: 'wyvern_lord',
+              name: 'Wyvern Lord',
+              weapon: [],
+              skills: ['quick_burn', 'swordbreaker'],
+              promoteTo: null,
+              promotedFrom: ['wyvern_rider'],
+              gender: ['male', 'female']
+       },
+       griffon_rider: {
+              id: 'griffon_rider',
+              name: 'Griffon Rider',
+              weapon: [],
+              skills: ['deliverer', 'lancebreaker'],
+              promoteTo: null,
+              promotedFrom: ['wyvern_rider'],
+              gender: ['male', 'female']
+       },
+       dark_mage: {
+              id: 'dark_mage',
+              name: 'Dark Mage',
+              weapon: [],
+              skills: ['hex', 'anathema'],
+              promoteTo: ['sorcerer', 'dark_knight'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       mage: {
+              id: 'mage',
+              name: 'Mage',
+              weapon: [],
+              skills: ['magic_2', 'focus'],
+              promoteTo: ['dark_knight', 'sage'],
+              promotedFrom: null,
+              gender: ['male', 'female']
+       },
+       cleric: {
+              id: 'cleric',
+              name: 'Cleric',
+              weapon: [],
+              skills: ['miracle', 'healtouch'],
+              promoteTo: ['sage', 'war_cleric'],
+              promotedFrom: null,
+              gender: ['female']
+       },
+       priest: {
+              id: 'priest',
+              name: 'Priest',
+              weapon: [],
+              skills: ['miracle', 'healtouch'],
+              promoteTo: ['sage', 'war_monk'],
+              promotedFrom: null,
+              gender: ['male']
+       },
+       troubadour: {
+              id: 'troubadour',
+              name: 'Troubadour',
+              weapon: [],
+              skills: ['resistance_2', 'demoiselle'],
+              promoteTo: ['war_cleric', 'valkyrie'],
+              promotedFrom: null,
+              gender: ['female']
+       },
+       sorcerer: {
+              id: 'sorcerer',
+              name: 'Sorcerer',
+              weapon: [],
+              skills: ['vengeance', 'tomebreaker'],
+              promoteTo: null,
+              promotedFrom: ['dark_mage'],
+              gender: ['male', 'female']
+       },
+       dark_knight: {
+              id: 'dark_knight',
+              name: 'Dark Knight',
+              weapon: [],
+              skills: ['slow_burn', 'life_taker'],
+              promoteTo: null,
+              promotedFrom: ['dark_mage', 'mage'],
+              gender: ['male', 'female']
+       },
+       sage: {
+              id: 'sage',
+              name: 'Sage',
+              weapon: [],
+              skills: ['rally_magic', 'tomefaire'],
+              promoteTo: null,
+              promotedFrom: ['priest', 'cleric', 'mage'],
+              gender: ['male', 'female']
+       },
+       war_monk: {
+              id: 'war_monk',
+              name: 'War Monk',
+              weapon: [],
+              skills: ['rally_luck', 'renewal'],
+              promoteTo: null,
+              promotedFrom: ['priest'],
+              gender: ['male']
+       },
+       war_cleric: {
+              id: 'war_cleric',
+              name: 'War Cleric',
+              weapon: [],
+              skills: ['rally_luck', 'renewal'],
+              promoteTo: null,
+              promotedFrom: ['cleric', 'troubadour'],
+              gender: ['female']
+       },
+       valkyrie: {
+              id: 'valkyrie',
+              name: 'Valkyrie',
+              weapon: [],
+              skills: ['rally_resistance', 'dual_support_plus'],
+              promoteTo: null,
+              promotedFrom: ['troubadour'],
+              gender: ['female']
+       },
+       villager: {
+              id: 'villager',
+              name: 'Villager',
+              weapon: [],
+              skills: ['aptitude', 'underdog'],
+              promoteTo: null,
+              promotedFrom: null,
+              gender: ['male'],
+              special: true
+       },
+       taguel: {
+              id: 'taguel',
+              name: 'Taguel',
+              weapon: [],
+              skills: ['even_rhythm', 'beastbane'],
+              promoteTo: null,
+              promotedFrom: null,
+              gender: ['male', 'female'],
+              special: true
+       },
+       manakete: {
+              id: 'manakete',
+              name: 'Manakete',
+              weapon: [],
+              skills: ['odd_rhythm', 'wyrmbane'],
+              promoteTo: null,
+              promotedFrom: null,
+              gender: ['male', 'female'],
+              special: true
+       },
+       dancer: {
+              id: 'dancer',
+              name: 'Dancer',
+              weapon: [],
+              skills: ['luck_4', 'special_dance'],
+              promoteTo: null,
+              promotedFrom: null,
+              gender: ['male', 'female'],
+              special: true
+       }
+};
 
-var characters = require('../data/characters.js');
-var skillAPI = require('./skill.js');
-var classAPI = require('./class.js');
+module.exports = classes;
 
-var character = {
-    get: function get(name) {
-        if ((typeof name === 'undefined' ? 'undefined' : _typeof(name)) !== undefined && name) {
-            return characters[name];
-        } else {
-            // return an array of charactes
-            var dataArray = [];
-            for (var id in characters) {
-                dataArray.push(characters[id]);
-            }
-            return dataArray;
-        }
+},{}],3:[function(require,module,exports){
+'use strict';
+
+var skills = {
+    dual_strike_plus: {
+        id: 'dual_strike_plus',
+        name: 'Dual Strike+',
+        class: 'lord',
+        level: 1,
+        activation: null,
+        effect: 'Adds 10% to the Dual Strike rate'
     },
-
-    getClassSet: function getClassSet(name) {
-        if ((typeof name === 'undefined' ? 'undefined' : _typeof(name)) !== undefined && name) {
-            var baseClasses = undefined.get(name).baseClasses;
-            var classSet = classAPI.getClassSet(baseClasses);
-            return classSet;
-        }
+    charm: {
+        id: 'charm',
+        name: 'Charm',
+        class: 'lord',
+        level: 10,
+        activation: null,
+        effect: 'Hit rate and Avoid +5 to all allies within a 3 tile radius'
     },
-
-    getSkillSet: function getSkillSet(name) {
-        if ((typeof name === 'undefined' ? 'undefined' : _typeof(name)) !== undefined && name) {
-            var baseClasses = undefined.get(name).baseClasses;
-            var classSet = undefined.getClassSet(baseClasses);
-            skillSet = skillAPI.getSkillSet(classSet);
-        }
+    aether: {
+        id: 'aether',
+        name: 'Aether',
+        class: 'great_lord',
+        level: 5,
+        activation: 'skill/2%',
+        effect: 'Attack twice consecutively, with the first strike having a Sol effect and the second strike having a Luna effect'
+    },
+    rightful_king: {
+        id: 'rightful_king',
+        name: 'Rightful King',
+        class: 'great_lord',
+        level: 15,
+        activation: null,
+        effect: 'Adds 10% to Skill activation rates'
+    },
+    veteran: {
+        id: 'veteran',
+        name: 'Veteran',
+        class: 'tactician',
+        level: 1,
+        activation: null,
+        effect: 'Experience gain x 1.5 when paired up'
+    },
+    solidarity: {
+        id: 'solidarity',
+        name: 'Solidarity',
+        class: 'tactician',
+        level: 10,
+        activation: null,
+        effect: 'Critical and Critical Avoid +10 to adjacent allies'
+    },
+    ignis: {
+        id: 'ignis',
+        name: 'Ignis',
+        class: 'grandmaster',
+        level: 5,
+        activation: 'Command',
+        effect: 'Adds (Magic)/2 to Strength when dealing physical damage and (Strength)/2 to Magic when dealing magical damage'
+    },
+    rally_spectrum: {
+        id: 'rally_spectrum',
+        name: 'Rally Spectrum',
+        class: 'grandmaster',
+        level: 15,
+        activation: 'Command',
+        effect: 'All stats +4 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    discipline: {
+        id: 'discipline',
+        name: 'Discipline',
+        class: 'cavalier',
+        level: 1,
+        activation: null,
+        effect: 'Weapon experience x2'
+    },
+    outdoor_fighter: {
+        id: 'outdoor_fighter',
+        name: 'Outdoor Fighter',
+        class: 'cavalier',
+        level: 10,
+        activation: null,
+        effect: 'Hit rate and Avoid +10 when fighting outdoors'
+    },
+    defender: {
+        id: 'defender',
+        name: 'Defender',
+        class: 'paladin',
+        level: 5,
+        activation: null,
+        effect: 'All stats +1 when paired up'
+    },
+    aegis: {
+        id: 'aegis',
+        name: 'Defender',
+        class: 'paladin',
+        level: 15,
+        activation: 'skill%',
+        effect: 'Halves damage from bows, tomes and dragonstones'
+    },
+    luna: {
+        id: 'luna',
+        name: 'Luna',
+        class: 'great_knight',
+        level: 5,
+        activation: 'skill%',
+        effect: 'Ignores half the enemy’s Defence or Resistance'
+    },
+    dual_guard_plus: {
+        id: 'dual_guard_plus',
+        name: 'Dual Guard+',
+        class: 'great_knight',
+        level: 15,
+        activation: null,
+        effect: 'Adds 10% to the Dual Guard rate'
+    },
+    defence_2: {
+        id: 'defence_2',
+        name: 'Defence +2',
+        class: 'knight',
+        level: 5,
+        activation: null,
+        effect: 'Defence +2'
+    },
+    indoor_fighter: {
+        id: 'indoor_fighter',
+        name: 'Indoor Fighter',
+        class: 'knight',
+        level: 15,
+        activation: null,
+        effect: 'Hit rate and Avoid +10 when fighting indoors'
+    },
+    rally_defence: {
+        id: 'rally_defence',
+        name: 'Rally Defence',
+        class: 'general',
+        level: 5,
+        activation: 'Command',
+        effect: 'Defence +4 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    pavise: {
+        id: 'pavise',
+        name: 'Pavise',
+        class: 'general',
+        level: 15,
+        activation: 'skill%',
+        effect: 'Halves damage from swords, lances, axes (includes magical variants) and beaststones'
+    },
+    avoid_10: {
+        id: 'avoid_10',
+        name: 'Avoid +10',
+        class: 'myrmidon',
+        level: 1,
+        activation: null,
+        effect: 'Avoid +10'
+    },
+    vantage: {
+        id: 'vantage',
+        name: 'Vantage',
+        class: 'myrmidon',
+        level: 10,
+        activation: null,
+        effect: 'When HP under half, always attack first during the enemy’s Turn'
+    },
+    astra: {
+        id: 'astra',
+        name: 'Astra',
+        class: 'swordmaster',
+        level: 5,
+        activation: 'skill/2%',
+        effect: 'Deals 5 consecutive hits with half damage'
+    },
+    swordfaire: {
+        id: 'swordfaire',
+        name: 'Swordfaire',
+        class: 'swordmaster',
+        level: 15,
+        activation: null,
+        effect: 'Strength +5 when equipped with a sword (Magic +5 when equipped with the Levin Sword)'
+    },
+    armthrift: {
+        id: 'armthrift',
+        name: 'Armsthrift',
+        class: 'mercenary',
+        level: 1,
+        activation: 'luck*2%',
+        effect: 'Attack does not reduce weapon usage'
+    },
+    patience: {
+        id: 'patience',
+        name: 'Patience',
+        class: 'mercenary',
+        level: 10,
+        activation: null,
+        effect: 'Hit rate and Avoid +10 during the enemy’s Turn'
+    },
+    sol: {
+        id: 'sol',
+        name: 'Sol',
+        class: 'hero',
+        level: 5,
+        activation: 'skill%',
+        effect: 'Recover HP equal to half the damage dealt to the enemy'
+    },
+    axebreaker: {
+        id: 'axebreaker',
+        name: 'Axebreaker',
+        class: 'hero',
+        level: 15,
+        activation: null,
+        effect: 'Hit rate and Avoid +50 when the enemy is equipped with an axe'
+    },
+    hp_5: {
+        id: 'hp_5',
+        name: 'HP +5',
+        class: 'fighter',
+        level: 1,
+        activation: null,
+        effect: 'Maximum HP +5'
+    },
+    zeal: {
+        id: 'zeal',
+        name: 'Zeal',
+        class: 'fighter',
+        level: 10,
+        activation: null,
+        effect: 'Critical +5'
+    },
+    rally_strength: {
+        id: 'rally_strength',
+        name: 'Rally Strength',
+        class: 'warrior',
+        level: 5,
+        activation: 'Command',
+        effect: 'Strength +4 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    counter: {
+        id: 'counter',
+        name: 'Counter',
+        class: 'warrior',
+        level: 15,
+        activation: null,
+        effect: 'Returns damage when attacked by an adjacent enemy (except damage that KOs the user)'
+    },
+    despoil: {
+        id: 'despoil',
+        name: 'Despoil',
+        class: 'barbarian',
+        level: 1,
+        activation: 'luck%',
+        effect: 'Obtain Bullion (S) from the enemy if the user defeats the enemy'
+    },
+    gamble: {
+        id: 'gamble',
+        name: 'Gamble',
+        class: 'barbarian',
+        level: 10,
+        activation: null,
+        effect: 'Hit rate -5, Critical +10'
+    },
+    wrath: {
+        id: 'wrath',
+        name: 'Wrath',
+        class: 'berserker',
+        level: 5,
+        activation: null,
+        effect: 'Critical +20 when under half HP'
+    },
+    axefaire: {
+        id: 'axefaire',
+        name: 'Axefaire',
+        class: 'berserker',
+        level: 15,
+        activation: null,
+        effect: 'Strength +5 when equipped with an axe (Magic +5 when equipped with the Bolt Axe)'
+    },
+    skill_2: {
+        id: 'skill_2',
+        name: 'Skill +2',
+        class: 'archer',
+        level: 1,
+        activation: null,
+        effect: 'Skill +2'
+    },
+    prescience: {
+        id: 'prescience',
+        name: 'Prescience',
+        class: 'archer',
+        level: 10,
+        activation: null,
+        effect: 'Hit rate and Avoid +15 during the user’s Turn'
+    },
+    hit_rate_20: {
+        id: 'hit_rate_20',
+        name: 'Hit Rate +20',
+        class: 'sniper',
+        level: 5,
+        activation: null,
+        effect: 'Hit Rate +20'
+    },
+    bowfaire: {
+        id: 'bowfaire',
+        name: 'Bowfaire',
+        class: 'sniper',
+        level: 15,
+        activation: null,
+        effect: 'Strength +5 when equipped with a bow'
+    },
+    rally_skill: {
+        id: 'rally_skill',
+        name: 'Rally Skill',
+        class: 'bow_knight',
+        level: 5,
+        activation: 'Command',
+        effect: 'Skill +4 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    bowbreaker: {
+        id: 'bowbreaker',
+        name: 'Bowbreaker',
+        class: 'bow_knight',
+        level: 5,
+        activation: null,
+        effect: 'Hit rate and Avoid +50 when the enemy is equipped with a bow'
+    },
+    locktouch: {
+        id: 'locktouch',
+        name: 'Locktouch',
+        class: 'thief',
+        level: 1,
+        activation: null,
+        effect: 'Open doors and chests without the need of keys'
+    },
+    movement_1: {
+        id: 'movement_1',
+        name: 'Movement +1',
+        class: 'thief',
+        level: 10,
+        activation: null,
+        effect: 'Movement +1'
+    },
+    lethality: {
+        id: 'lethality',
+        name: 'Lethality',
+        class: 'assassin',
+        level: 5,
+        activation: 'skill/4%',
+        effect: 'Instantly defeats the enemy'
+    },
+    pass: {
+        id: 'pass',
+        name: 'Pass',
+        class: 'assassin',
+        level: 15,
+        activation: null,
+        effect: 'User can pass through tiles occupied by enemy units'
+    },
+    lucky_seven: {
+        id: 'lucky_seven',
+        name: 'Lucky Seven',
+        class: 'trickster',
+        level: 5,
+        activation: null,
+        effect: 'Hit rate and Avoid +20 up to the 7th Turn'
+    },
+    acrobat: {
+        id: 'acrobat',
+        name: 'Acrobat',
+        class: 'trickster',
+        level: 15,
+        activation: null,
+        effect: 'All traversable terrain costs 1 movement point to cross'
+    },
+    speed_2: {
+        id: 'speed_2',
+        name: 'Speed +2',
+        class: 'pegasus_knight',
+        level: 1,
+        activation: null,
+        effect: 'Speed +2'
+    },
+    relief: {
+        id: 'relief',
+        name: 'Relief',
+        class: 'pegasus_knight',
+        level: 10,
+        activation: null,
+        effect: 'Recover 20% HP at the start of the user’s Turn if no units are within a 3 tile radius'
+    },
+    rally_speed: {
+        id: 'rally_speed',
+        name: 'Rally Speed',
+        class: 'falcon_knight',
+        level: 5,
+        activation: 'Command',
+        effect: 'Speed +4 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    lancefaire: {
+        id: 'lancefaire',
+        name: 'Lancefaire',
+        class: 'falcon_knight',
+        level: 15,
+        activation: null,
+        effect: 'Strength +5 when equipped with a lance (Magic +5 when equipped with the Shockstick)'
+    },
+    rally_movement: {
+        id: 'rally_movement',
+        name: 'Rally Movement',
+        class: 'dark_flier',
+        level: 5,
+        activation: 'Command',
+        effect: 'Movement +1 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    galeforce: {
+        id: 'galeforce',
+        name: 'Galeforce',
+        class: 'dark_flier',
+        level: 15,
+        activation: null,
+        effect: 'Allows the user another full action after they defeat an enemy during the user’s Turn (only once per Turn)'
+    },
+    strength_2: {
+        id: 'strength_2',
+        name: 'Strength +2',
+        class: 'wyvern_rider',
+        level: 1,
+        activation: null,
+        effect: 'Strength +2'
+    },
+    tantivy: {
+        id: 'tantivy',
+        name: 'Tantivy',
+        class: 'wyvern_rider',
+        level: 10,
+        activation: null,
+        effect: 'Hit rate and Avoid +10 if no allies within a 3 tile radius'
+    },
+    quick_burn: {
+        id: 'quick_burn',
+        name: 'Quick Burn',
+        class: 'wyvern_lord',
+        level: 5,
+        activation: null,
+        effect: 'Hit rate and Avoid +15 at the start of the chapter. Effect decreases with each passing Turn'
+    },
+    swordbreaker: {
+        id: 'swordbreaker',
+        name: 'Swordbreaker',
+        class: 'wyvern_lord',
+        level: 15,
+        activation: null,
+        effect: 'Hit rate and Avoid +50 when the enemy is equipped with a sword'
+    },
+    deliverer: {
+        id: 'deliverer',
+        name: 'Deliverer',
+        class: 'griffon_rider',
+        level: 5,
+        activation: null,
+        effect: 'Movement +2 when paired up'
+    },
+    lancebreaker: {
+        id: 'lancebreaker',
+        name: 'Lancebreaker',
+        class: 'griffon_rider',
+        level: 15,
+        activation: null,
+        effect: 'Hit rate and Avoid +50 when the enemy is equipped with a lance'
+    },
+    magic_2: {
+        id: 'magic_2',
+        name: 'Magic +2',
+        class: 'mage',
+        level: 1,
+        activation: null,
+        effect: 'Magic +2'
+    },
+    focus: {
+        id: 'focus',
+        name: 'Focus',
+        class: 'mage',
+        level: 10,
+        activation: null,
+        effect: 'Critical +10 when no allies within a 3 tile radius'
+    },
+    rally_magic: {
+        id: 'rally_magic',
+        name: 'Rally Magic',
+        class: 'sage',
+        level: 5,
+        activation: 'Command',
+        effect: 'Magic +4 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    tomefaire: {
+        id: 'tomefaire',
+        name: 'Tomefaire',
+        class: 'sage',
+        level: 15,
+        activation: null,
+        effect: 'Magic +5 when equipped with a Tome'
+    },
+    hex: {
+        id: 'hex',
+        name: 'Hex',
+        class: 'dark_mage',
+        level: 1,
+        activation: null,
+        effect: 'Avoid -15 to all adjacent enemies'
+    },
+    anathema: {
+        id: 'anathema',
+        name: 'Anathema',
+        class: 'dark_mage',
+        level: 10,
+        activation: null,
+        effect: 'Avoid and Critical Avoid -10 to all enemies within a 3 tile radius'
+    },
+    vengeance: {
+        id: 'vengeance',
+        name: 'Vengeance',
+        class: 'sorcerer',
+        level: 5,
+        activation: 'skill*2%',
+        effect: 'Deals (user’s Max HP – Current HP)/2 extra damage'
+    },
+    tomebreaker: {
+        id: 'tomebreaker',
+        name: 'Tomebreaker',
+        class: 'sorcerer',
+        level: 15,
+        activation: null,
+        effect: 'Hit rate and Avoid +50 when the enemy is equipped with a tome'
+    },
+    slow_burn: {
+        id: 'slow_burn',
+        name: 'Slow Burn',
+        class: 'dark_knight',
+        level: 5,
+        activation: null,
+        effect: 'Hit rate and Avoid increases by 1 each Turn, up to the 15th Turn'
+    },
+    lifetake: {
+        id: 'lifetake',
+        name: 'Lifetaker',
+        class: 'dark_knight',
+        level: 15,
+        activation: null,
+        effect: 'User recovers 50% HP after they defeat an enemy during the user’s Turn'
+    },
+    miracle: {
+        id: 'miracle',
+        name: 'Miracle',
+        class: ['priest', 'cleric'],
+        level: 1,
+        activation: 'luck%',
+        effect: 'Character survives with 1 HP after receiving an attack that would otherwise KO them (must have over 1 HP)'
+    },
+    healtouch: {
+        id: 'healtouch',
+        name: 'Healtouch',
+        class: ['priest', 'cleric'],
+        level: 10,
+        activation: null,
+        effect: 'Restores an extra 5 HP when healing allies'
+    },
+    rally_luck: {
+        id: 'rally_luck',
+        name: 'Rally Luck',
+        class: ['war_monk', 'war_cleric'],
+        level: 5,
+        activation: 'Commnand',
+        effect: 'Luck +8 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    renewal: {
+        id: 'renewal',
+        name: 'Renewal',
+        class: ['war_monk', 'war_cleric'],
+        level: 15,
+        activation: null,
+        effect: 'Recover 30% HP at the start of the user’s Turn'
+    },
+    resistance_2: {
+        id: 'resistance_2',
+        name: 'Resistance +2',
+        class: 'troubadour',
+        level: 1,
+        activation: null,
+        effect: 'Resistance +2'
+    },
+    demoiselle: {
+        id: 'demoiselle',
+        name: 'Demoiselle',
+        class: 'troubadour',
+        level: 10,
+        activation: null,
+        effect: 'Avoid and Critical Avoid +10 to all male allies within a 3 tile radius'
+    },
+    rally_resistance: {
+        id: 'rally_resistance',
+        name: 'Rally Resistance',
+        class: 'valkyrie',
+        level: 5,
+        activation: 'Command',
+        effect: 'Resistance +4 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    dual_support_plus: {
+        id: 'dual_support_plus',
+        name: 'Dual Support+',
+        class: 'valkyrie',
+        level: 15,
+        activation: null,
+        effect: 'Increases the support bonus effect'
+    },
+    aptitude: {
+        id: 'aptitude',
+        name: 'Aptitude',
+        class: 'villager',
+        level: 1,
+        activation: null,
+        effect: 'Adds 20% to all growth rates during Level Ups'
+    },
+    underdog: {
+        id: 'underdog',
+        name: 'Aptitude',
+        class: 'villager',
+        level: 15,
+        activation: null,
+        effect: 'Hit rate and Avoid +15 when user’s Level is lower than the enemy (promoted units count as Level +20)'
+    },
+    luck_4: {
+        id: 'luck_4',
+        name: 'Luck +4',
+        class: 'dancer',
+        level: 1,
+        activation: null,
+        effect: 'Luck +4'
+    },
+    special_dance: {
+        id: 'special_dance',
+        name: 'Special Dance',
+        class: 'dancer',
+        level: 15,
+        activation: null,
+        effect: 'Strength, Magic, Defence and Resistance +2 for one Turn for the unit who receives the user’s Dance'
+    },
+    even_rhythm: {
+        id: 'even_rhythm',
+        name: 'Even Rhythm',
+        class: 'taguel',
+        level: 1,
+        activation: null,
+        effect: 'Hit rate and Avoid +10 during even numbered Turns'
+    },
+    beastbane: {
+        id: 'beastbane',
+        name: 'Beastbane',
+        class: 'taguel',
+        level: 15,
+        activation: null,
+        effect: 'Deals effective damage to Beast units when user is a Taguel'
+    },
+    odd_rhythm: {
+        id: 'odd_rhythm',
+        name: 'Odd Rhythm',
+        class: 'manakete',
+        level: 1,
+        activation: null,
+        effect: 'Hit rate and Avoid +10 during odd numbered Turns'
+    },
+    wyrmsbane: {
+        id: 'wyrmsbane',
+        name: 'Wyrmsbane',
+        class: 'manakete',
+        level: 15,
+        activation: null,
+        effect: 'Deals effective damage to Dragon units when user is a Manakete'
+    },
+    shadowgift: {
+        id: 'shadowgift',
+        name: 'Shadowgift',
+        class: null,
+        level: 0,
+        activation: null,
+        effect: 'Enables usage of Dark Tomes for Tome wielders (Aversa, Morgan as Aversa’s daughter, DLC Micaiah and DLC Katarina only)'
+    },
+    conquest: {
+        id: 'conquest',
+        name: 'Conquest',
+        class: null,
+        level: 0,
+        activation: null,
+        effect: 'Negates user’s Beast (beast *3) and Armour (armour) type weaknesses (Walhart, Morgan as Walhart’s son, Zephiel and DLC Ephraim only)'
+    },
+    resistance_10: {
+        id: 'resistance_10',
+        name: 'Resistance +10',
+        class: 'dread_fighter',
+        level: 1,
+        activation: null,
+        effect: 'Resistance +10'
+    },
+    aggressor: {
+        id: 'aggressor',
+        name: 'Aggressor',
+        class: 'dread_fighter',
+        level: 15,
+        activation: null,
+        effect: 'Attack +10 during the user’s Turn'
+    },
+    rally_heart: {
+        id: 'rally_heart',
+        name: 'Rally Heart',
+        class: 'bride',
+        level: 1,
+        activation: 'Command',
+        effect: 'All stats +2 and Movement +1 to all allies within a 3 tile radius for one Turn when the Rally command is used'
+    },
+    bond: {
+        id: 'bond',
+        name: 'Bond',
+        class: 'bride',
+        level: 15,
+        activation: null,
+        effect: 'Restores 10 HP to all allies within a 3 tile radius at the beginning of the user’s Turn'
+    },
+    all_stats_2: {
+        id: 'all_stats_2',
+        name: 'All Stats +2',
+        class: null,
+        level: 0,
+        activation: null,
+        effect: 'Strength, Magic, Skill, Speed, Luck, Defence and Resistance +2 (Learned by using the All Stats +2 item)'
+    },
+    paragon: {
+        id: 'paragon',
+        name: 'Paragon',
+        class: null,
+        level: 0,
+        activation: null,
+        effect: 'Experience gain x2 (Learned by using the Paragon item)'
+    },
+    iote_shield: {
+        id: 'iote_shield',
+        name: 'Iote’s Shield',
+        class: null,
+        level: 0,
+        activation: null,
+        effect: 'Negates user’s Flying (flying) type weakness (Learned by using the Iote’s Shield item)'
+    },
+    limit_breaker: {
+        id: 'limit_breaker',
+        name: 'Limit Breaker',
+        class: null,
+        level: 0,
+        activation: null,
+        effect: 'Raises the character’s maximum stats by 10 (Learned by using the Limit Breaker item)'
     }
 };
 
-module.exports = character;
-
-},{"../data/characters.js":1,"./class.js":3,"./skill.js":4}],3:[function(require,module,exports){
-"use strict";
+module.exports = skills;
 
 },{}],4:[function(require,module,exports){
+'use strict';
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Characters = require('../data/characters.js');
+var skillAPI = require('./skill.js');
+var ClassAPI = require('./class.js');
+
+var Character = (function () {
+    function Character(name) {
+        _classCallCheck(this, Character);
+    }
+
+    _createClass(Character, [{
+        key: 'get',
+        value: function get(name) {
+            if (typeof name !== 'undefined' && name) {
+                return Characters[name];
+            } else {
+                // return an array of charactes
+                var dataArray = [];
+                for (var id in Characters) {
+                    dataArray.push(Characters[id]);
+                }
+                return dataArray;
+            }
+        }
+    }, {
+        key: 'getClassSet',
+        value: function getClassSet(name) {
+            if (typeof name !== 'undefined' && name) {
+                var Class = new ClassAPI();
+                var baseClasses = this.get(name).baseClasses;
+                var classSet = Class.getClassSet(baseClasses);
+                return classSet;
+            }
+        }
+    }, {
+        key: 'getSkillSet',
+        value: function getSkillSet(name) {
+            if (typeof name !== 'undefined' && name) {
+                var baseClasses = this.get(name).baseClasses;
+                var classSet = this.getClassSet(baseClasses);
+                return ClassAPI.getSkillSet(classSet);
+            }
+        }
+    }]);
+
+    return Character;
+})();
+
+module.exports = Character;
+
+},{"../data/characters.js":1,"./class.js":5,"./skill.js":6}],5:[function(require,module,exports){
+'use strict';
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var skillsDB = require('../data/skills');
+var classesDB = require('../data/classes');
+
+var Class = (function () {
+	function Class() {
+		_classCallCheck(this, Class);
+	}
+
+	// take class name then return class object
+
+	_createClass(Class, [{
+		key: 'get',
+		value: function get(name) {
+			if (name !== undefined && name) return classesDB[name];
+		}
+
+		// param:
+		// Array bc -> baseClasses ['name1', 'name2', ['name', ...]]
+
+	}, {
+		key: 'getClassSet',
+		value: function getClassSet(bc) {
+			var _this = this;
+
+			var classes = [];
+			// base classes must be passed as array
+			if (bc) {
+				// get all promoted class for ONE base class
+				// params is the class object itself
+				var getPromotedClasses = function getPromotedClasses(base) {
+					var classNames = base.promoteTo;
+
+					// in case promoteTo hold value of null
+					if (classNames) {
+						base.promoteTo = classNames.map(function (cl) {
+							return _this.get(cl);
+						});
+					}
+					return base;
+				};
+
+				// create baseClasses array base on array of names
+				var baseClasses = bc.map(function (cl) {
+					return _this.get(cl);
+				});
+
+				// transform promoteTo array form array of names into array of Objects
+				var baseClassesWithPromoted = baseClasses.map(function (base) {
+					return getPromotedClasses(base);
+				});
+				classes = baseClassesWithPromoted;
+			}
+
+			// return array
+			return classes;
+		}
+	}]);
+
+	return Class;
+})();
+
+module.exports = Class;
+
+},{"../data/classes":2,"../data/skills":3}],6:[function(require,module,exports){
 "use strict";
 
-},{}],5:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -1004,12 +2338,12 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],6:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 'use strict';
 
 module.exports = require('react/lib/ReactDOM');
 
-},{"react/lib/ReactDOM":41}],7:[function(require,module,exports){
+},{"react/lib/ReactDOM":43}],9:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1046,7 +2380,7 @@ var AutoFocusUtils = {
 };
 
 module.exports = AutoFocusUtils;
-},{"./ReactMount":71,"./findDOMNode":114,"fbjs/lib/focusNode":144}],8:[function(require,module,exports){
+},{"./ReactMount":73,"./findDOMNode":116,"fbjs/lib/focusNode":146}],10:[function(require,module,exports){
 /**
  * Copyright 2013-2015 Facebook, Inc.
  * All rights reserved.
@@ -1452,7 +2786,7 @@ var BeforeInputEventPlugin = {
 };
 
 module.exports = BeforeInputEventPlugin;
-},{"./EventConstants":20,"./EventPropagators":24,"./FallbackCompositionState":25,"./SyntheticCompositionEvent":96,"./SyntheticInputEvent":100,"fbjs/lib/ExecutionEnvironment":136,"fbjs/lib/keyOf":154}],9:[function(require,module,exports){
+},{"./EventConstants":22,"./EventPropagators":26,"./FallbackCompositionState":27,"./SyntheticCompositionEvent":98,"./SyntheticInputEvent":102,"fbjs/lib/ExecutionEnvironment":138,"fbjs/lib/keyOf":156}],11:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1592,7 +2926,7 @@ var CSSProperty = {
 };
 
 module.exports = CSSProperty;
-},{}],10:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -1770,7 +3104,7 @@ ReactPerf.measureMethods(CSSPropertyOperations, 'CSSPropertyOperations', {
 
 module.exports = CSSPropertyOperations;
 }).call(this,require('_process'))
-},{"./CSSProperty":9,"./ReactPerf":77,"./dangerousStyleValue":111,"_process":5,"fbjs/lib/ExecutionEnvironment":136,"fbjs/lib/camelizeStyleName":138,"fbjs/lib/hyphenateStyleName":149,"fbjs/lib/memoizeStringOnly":156,"fbjs/lib/warning":161}],11:[function(require,module,exports){
+},{"./CSSProperty":11,"./ReactPerf":79,"./dangerousStyleValue":113,"_process":7,"fbjs/lib/ExecutionEnvironment":138,"fbjs/lib/camelizeStyleName":140,"fbjs/lib/hyphenateStyleName":151,"fbjs/lib/memoizeStringOnly":158,"fbjs/lib/warning":163}],13:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -1866,7 +3200,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 
 module.exports = CallbackQueue;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./PooledClass":29,"_process":5,"fbjs/lib/invariant":150}],12:[function(require,module,exports){
+},{"./Object.assign":30,"./PooledClass":31,"_process":7,"fbjs/lib/invariant":152}],14:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2188,7 +3522,7 @@ var ChangeEventPlugin = {
 };
 
 module.exports = ChangeEventPlugin;
-},{"./EventConstants":20,"./EventPluginHub":21,"./EventPropagators":24,"./ReactUpdates":89,"./SyntheticEvent":98,"./getEventTarget":120,"./isEventSupported":125,"./isTextInputElement":126,"fbjs/lib/ExecutionEnvironment":136,"fbjs/lib/keyOf":154}],13:[function(require,module,exports){
+},{"./EventConstants":22,"./EventPluginHub":23,"./EventPropagators":26,"./ReactUpdates":91,"./SyntheticEvent":100,"./getEventTarget":122,"./isEventSupported":127,"./isTextInputElement":128,"fbjs/lib/ExecutionEnvironment":138,"fbjs/lib/keyOf":156}],15:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2212,7 +3546,7 @@ var ClientReactRootIndex = {
 };
 
 module.exports = ClientReactRootIndex;
-},{}],14:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2344,7 +3678,7 @@ ReactPerf.measureMethods(DOMChildrenOperations, 'DOMChildrenOperations', {
 
 module.exports = DOMChildrenOperations;
 }).call(this,require('_process'))
-},{"./Danger":17,"./ReactMultiChildUpdateTypes":73,"./ReactPerf":77,"./setInnerHTML":130,"./setTextContent":131,"_process":5,"fbjs/lib/invariant":150}],15:[function(require,module,exports){
+},{"./Danger":19,"./ReactMultiChildUpdateTypes":75,"./ReactPerf":79,"./setInnerHTML":132,"./setTextContent":133,"_process":7,"fbjs/lib/invariant":152}],17:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2581,7 +3915,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/invariant":150}],16:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/invariant":152}],18:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2809,7 +4143,7 @@ ReactPerf.measureMethods(DOMPropertyOperations, 'DOMPropertyOperations', {
 
 module.exports = DOMPropertyOperations;
 }).call(this,require('_process'))
-},{"./DOMProperty":15,"./ReactPerf":77,"./quoteAttributeValueForBrowser":128,"_process":5,"fbjs/lib/warning":161}],17:[function(require,module,exports){
+},{"./DOMProperty":17,"./ReactPerf":79,"./quoteAttributeValueForBrowser":130,"_process":7,"fbjs/lib/warning":163}],19:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2957,7 +4291,7 @@ var Danger = {
 
 module.exports = Danger;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/ExecutionEnvironment":136,"fbjs/lib/createNodesFromMarkup":141,"fbjs/lib/emptyFunction":142,"fbjs/lib/getMarkupWrap":146,"fbjs/lib/invariant":150}],18:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/ExecutionEnvironment":138,"fbjs/lib/createNodesFromMarkup":143,"fbjs/lib/emptyFunction":144,"fbjs/lib/getMarkupWrap":148,"fbjs/lib/invariant":152}],20:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2985,7 +4319,7 @@ var keyOf = require('fbjs/lib/keyOf');
 var DefaultEventPluginOrder = [keyOf({ ResponderEventPlugin: null }), keyOf({ SimpleEventPlugin: null }), keyOf({ TapEventPlugin: null }), keyOf({ EnterLeaveEventPlugin: null }), keyOf({ ChangeEventPlugin: null }), keyOf({ SelectEventPlugin: null }), keyOf({ BeforeInputEventPlugin: null })];
 
 module.exports = DefaultEventPluginOrder;
-},{"fbjs/lib/keyOf":154}],19:[function(require,module,exports){
+},{"fbjs/lib/keyOf":156}],21:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -3110,7 +4444,7 @@ var EnterLeaveEventPlugin = {
 };
 
 module.exports = EnterLeaveEventPlugin;
-},{"./EventConstants":20,"./EventPropagators":24,"./ReactMount":71,"./SyntheticMouseEvent":102,"fbjs/lib/keyOf":154}],20:[function(require,module,exports){
+},{"./EventConstants":22,"./EventPropagators":26,"./ReactMount":73,"./SyntheticMouseEvent":104,"fbjs/lib/keyOf":156}],22:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -3203,7 +4537,7 @@ var EventConstants = {
 };
 
 module.exports = EventConstants;
-},{"fbjs/lib/keyMirror":153}],21:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":155}],23:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3485,7 +4819,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":22,"./EventPluginUtils":23,"./ReactErrorUtils":62,"./accumulateInto":108,"./forEachAccumulated":116,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],22:[function(require,module,exports){
+},{"./EventPluginRegistry":24,"./EventPluginUtils":25,"./ReactErrorUtils":64,"./accumulateInto":110,"./forEachAccumulated":118,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],24:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3708,7 +5042,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/invariant":150}],23:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/invariant":152}],25:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3913,7 +5247,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 }).call(this,require('_process'))
-},{"./EventConstants":20,"./ReactErrorUtils":62,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],24:[function(require,module,exports){
+},{"./EventConstants":22,"./ReactErrorUtils":64,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],26:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4051,7 +5385,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 }).call(this,require('_process'))
-},{"./EventConstants":20,"./EventPluginHub":21,"./accumulateInto":108,"./forEachAccumulated":116,"_process":5,"fbjs/lib/warning":161}],25:[function(require,module,exports){
+},{"./EventConstants":22,"./EventPluginHub":23,"./accumulateInto":110,"./forEachAccumulated":118,"_process":7,"fbjs/lib/warning":163}],27:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4147,7 +5481,7 @@ assign(FallbackCompositionState.prototype, {
 PooledClass.addPoolingTo(FallbackCompositionState);
 
 module.exports = FallbackCompositionState;
-},{"./Object.assign":28,"./PooledClass":29,"./getTextContentAccessor":123}],26:[function(require,module,exports){
+},{"./Object.assign":30,"./PooledClass":31,"./getTextContentAccessor":125}],28:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4380,7 +5714,7 @@ var HTMLDOMPropertyConfig = {
 };
 
 module.exports = HTMLDOMPropertyConfig;
-},{"./DOMProperty":15,"fbjs/lib/ExecutionEnvironment":136}],27:[function(require,module,exports){
+},{"./DOMProperty":17,"fbjs/lib/ExecutionEnvironment":138}],29:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4517,7 +5851,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocations":79,"./ReactPropTypes":80,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],28:[function(require,module,exports){
+},{"./ReactPropTypeLocations":81,"./ReactPropTypes":82,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],30:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -4565,7 +5899,7 @@ function assign(target, sources) {
 }
 
 module.exports = assign;
-},{}],29:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4687,7 +6021,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/invariant":150}],30:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/invariant":152}],32:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4728,7 +6062,7 @@ React.__SECRET_DOM_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = ReactDOM;
 React.__SECRET_DOM_SERVER_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = ReactDOMServer;
 
 module.exports = React;
-},{"./Object.assign":28,"./ReactDOM":41,"./ReactDOMServer":51,"./ReactIsomorphic":69,"./deprecated":112}],31:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactDOM":43,"./ReactDOMServer":53,"./ReactIsomorphic":71,"./deprecated":114}],33:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4767,7 +6101,7 @@ var ReactBrowserComponentMixin = {
 
 module.exports = ReactBrowserComponentMixin;
 }).call(this,require('_process'))
-},{"./ReactInstanceMap":68,"./findDOMNode":114,"_process":5,"fbjs/lib/warning":161}],32:[function(require,module,exports){
+},{"./ReactInstanceMap":70,"./findDOMNode":116,"_process":7,"fbjs/lib/warning":163}],34:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -5092,7 +6426,7 @@ ReactPerf.measureMethods(ReactBrowserEventEmitter, 'ReactBrowserEventEmitter', {
 });
 
 module.exports = ReactBrowserEventEmitter;
-},{"./EventConstants":20,"./EventPluginHub":21,"./EventPluginRegistry":22,"./Object.assign":28,"./ReactEventEmitterMixin":63,"./ReactPerf":77,"./ViewportMetrics":107,"./isEventSupported":125}],33:[function(require,module,exports){
+},{"./EventConstants":22,"./EventPluginHub":23,"./EventPluginRegistry":24,"./Object.assign":30,"./ReactEventEmitterMixin":65,"./ReactPerf":79,"./ViewportMetrics":109,"./isEventSupported":127}],35:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -5217,7 +6551,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./ReactReconciler":82,"./instantiateReactComponent":124,"./shouldUpdateReactComponent":132,"./traverseAllChildren":133,"_process":5,"fbjs/lib/warning":161}],34:[function(require,module,exports){
+},{"./ReactReconciler":84,"./instantiateReactComponent":126,"./shouldUpdateReactComponent":134,"./traverseAllChildren":135,"_process":7,"fbjs/lib/warning":163}],36:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -5400,7 +6734,7 @@ var ReactChildren = {
 };
 
 module.exports = ReactChildren;
-},{"./PooledClass":29,"./ReactElement":58,"./traverseAllChildren":133,"fbjs/lib/emptyFunction":142}],35:[function(require,module,exports){
+},{"./PooledClass":31,"./ReactElement":60,"./traverseAllChildren":135,"fbjs/lib/emptyFunction":144}],37:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -6174,7 +7508,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./ReactComponent":36,"./ReactElement":58,"./ReactNoopUpdateQueue":75,"./ReactPropTypeLocationNames":78,"./ReactPropTypeLocations":79,"_process":5,"fbjs/lib/emptyObject":143,"fbjs/lib/invariant":150,"fbjs/lib/keyMirror":153,"fbjs/lib/keyOf":154,"fbjs/lib/warning":161}],36:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactComponent":38,"./ReactElement":60,"./ReactNoopUpdateQueue":77,"./ReactPropTypeLocationNames":80,"./ReactPropTypeLocations":81,"_process":7,"fbjs/lib/emptyObject":145,"fbjs/lib/invariant":152,"fbjs/lib/keyMirror":155,"fbjs/lib/keyOf":156,"fbjs/lib/warning":163}],38:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -6299,7 +7633,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactNoopUpdateQueue":75,"./canDefineProperty":110,"_process":5,"fbjs/lib/emptyObject":143,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],37:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":77,"./canDefineProperty":112,"_process":7,"fbjs/lib/emptyObject":145,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],39:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -6341,7 +7675,7 @@ var ReactComponentBrowserEnvironment = {
 };
 
 module.exports = ReactComponentBrowserEnvironment;
-},{"./ReactDOMIDOperations":46,"./ReactMount":71}],38:[function(require,module,exports){
+},{"./ReactDOMIDOperations":48,"./ReactMount":73}],40:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -6395,7 +7729,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/invariant":150}],39:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/invariant":152}],41:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7092,7 +8426,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./ReactComponentEnvironment":38,"./ReactCurrentOwner":40,"./ReactElement":58,"./ReactInstanceMap":68,"./ReactPerf":77,"./ReactPropTypeLocationNames":78,"./ReactPropTypeLocations":79,"./ReactReconciler":82,"./ReactUpdateQueue":88,"./shouldUpdateReactComponent":132,"_process":5,"fbjs/lib/emptyObject":143,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],40:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactComponentEnvironment":40,"./ReactCurrentOwner":42,"./ReactElement":60,"./ReactInstanceMap":70,"./ReactPerf":79,"./ReactPropTypeLocationNames":80,"./ReactPropTypeLocations":81,"./ReactReconciler":84,"./ReactUpdateQueue":90,"./shouldUpdateReactComponent":134,"_process":7,"fbjs/lib/emptyObject":145,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],42:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -7123,7 +8457,7 @@ var ReactCurrentOwner = {
 };
 
 module.exports = ReactCurrentOwner;
-},{}],41:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7218,7 +8552,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":40,"./ReactDOMTextComponent":52,"./ReactDefaultInjection":55,"./ReactInstanceHandles":67,"./ReactMount":71,"./ReactPerf":77,"./ReactReconciler":82,"./ReactUpdates":89,"./ReactVersion":90,"./findDOMNode":114,"./renderSubtreeIntoContainer":129,"_process":5,"fbjs/lib/ExecutionEnvironment":136,"fbjs/lib/warning":161}],42:[function(require,module,exports){
+},{"./ReactCurrentOwner":42,"./ReactDOMTextComponent":54,"./ReactDefaultInjection":57,"./ReactInstanceHandles":69,"./ReactMount":73,"./ReactPerf":79,"./ReactReconciler":84,"./ReactUpdates":91,"./ReactVersion":92,"./findDOMNode":116,"./renderSubtreeIntoContainer":131,"_process":7,"fbjs/lib/ExecutionEnvironment":138,"fbjs/lib/warning":163}],44:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -7269,7 +8603,7 @@ var ReactDOMButton = {
 };
 
 module.exports = ReactDOMButton;
-},{}],43:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8234,7 +9568,7 @@ assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mix
 
 module.exports = ReactDOMComponent;
 }).call(this,require('_process'))
-},{"./AutoFocusUtils":7,"./CSSPropertyOperations":10,"./DOMProperty":15,"./DOMPropertyOperations":16,"./EventConstants":20,"./Object.assign":28,"./ReactBrowserEventEmitter":32,"./ReactComponentBrowserEnvironment":37,"./ReactDOMButton":42,"./ReactDOMInput":47,"./ReactDOMOption":48,"./ReactDOMSelect":49,"./ReactDOMTextarea":53,"./ReactMount":71,"./ReactMultiChild":72,"./ReactPerf":77,"./ReactUpdateQueue":88,"./canDefineProperty":110,"./escapeTextContentForBrowser":113,"./isEventSupported":125,"./setInnerHTML":130,"./setTextContent":131,"./validateDOMNesting":134,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/keyOf":154,"fbjs/lib/shallowEqual":159,"fbjs/lib/warning":161}],44:[function(require,module,exports){
+},{"./AutoFocusUtils":9,"./CSSPropertyOperations":12,"./DOMProperty":17,"./DOMPropertyOperations":18,"./EventConstants":22,"./Object.assign":30,"./ReactBrowserEventEmitter":34,"./ReactComponentBrowserEnvironment":39,"./ReactDOMButton":44,"./ReactDOMInput":49,"./ReactDOMOption":50,"./ReactDOMSelect":51,"./ReactDOMTextarea":55,"./ReactMount":73,"./ReactMultiChild":74,"./ReactPerf":79,"./ReactUpdateQueue":90,"./canDefineProperty":112,"./escapeTextContentForBrowser":115,"./isEventSupported":127,"./setInnerHTML":132,"./setTextContent":133,"./validateDOMNesting":136,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/keyOf":156,"fbjs/lib/shallowEqual":161,"fbjs/lib/warning":163}],46:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8414,7 +9748,7 @@ var ReactDOMFactories = mapObject({
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":58,"./ReactElementValidator":59,"_process":5,"fbjs/lib/mapObject":155}],45:[function(require,module,exports){
+},{"./ReactElement":60,"./ReactElementValidator":61,"_process":7,"fbjs/lib/mapObject":157}],47:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8433,7 +9767,7 @@ var ReactDOMFeatureFlags = {
 };
 
 module.exports = ReactDOMFeatureFlags;
-},{}],46:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8530,7 +9864,7 @@ ReactPerf.measureMethods(ReactDOMIDOperations, 'ReactDOMIDOperations', {
 
 module.exports = ReactDOMIDOperations;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":14,"./DOMPropertyOperations":16,"./ReactMount":71,"./ReactPerf":77,"_process":5,"fbjs/lib/invariant":150}],47:[function(require,module,exports){
+},{"./DOMChildrenOperations":16,"./DOMPropertyOperations":18,"./ReactMount":73,"./ReactPerf":79,"_process":7,"fbjs/lib/invariant":152}],49:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8686,7 +10020,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMInput;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":27,"./Object.assign":28,"./ReactDOMIDOperations":46,"./ReactMount":71,"./ReactUpdates":89,"_process":5,"fbjs/lib/invariant":150}],48:[function(require,module,exports){
+},{"./LinkedValueUtils":29,"./Object.assign":30,"./ReactDOMIDOperations":48,"./ReactMount":73,"./ReactUpdates":91,"_process":7,"fbjs/lib/invariant":152}],50:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8775,7 +10109,7 @@ var ReactDOMOption = {
 
 module.exports = ReactDOMOption;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./ReactChildren":34,"./ReactDOMSelect":49,"_process":5,"fbjs/lib/warning":161}],49:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactChildren":36,"./ReactDOMSelect":51,"_process":7,"fbjs/lib/warning":163}],51:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8966,7 +10300,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMSelect;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":27,"./Object.assign":28,"./ReactMount":71,"./ReactUpdates":89,"_process":5,"fbjs/lib/warning":161}],50:[function(require,module,exports){
+},{"./LinkedValueUtils":29,"./Object.assign":30,"./ReactMount":73,"./ReactUpdates":91,"_process":7,"fbjs/lib/warning":163}],52:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9179,7 +10513,7 @@ var ReactDOMSelection = {
 };
 
 module.exports = ReactDOMSelection;
-},{"./getNodeForCharacterOffset":122,"./getTextContentAccessor":123,"fbjs/lib/ExecutionEnvironment":136}],51:[function(require,module,exports){
+},{"./getNodeForCharacterOffset":124,"./getTextContentAccessor":125,"fbjs/lib/ExecutionEnvironment":138}],53:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9206,7 +10540,7 @@ var ReactDOMServer = {
 };
 
 module.exports = ReactDOMServer;
-},{"./ReactDefaultInjection":55,"./ReactServerRendering":86,"./ReactVersion":90}],52:[function(require,module,exports){
+},{"./ReactDefaultInjection":57,"./ReactServerRendering":88,"./ReactVersion":92}],54:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9336,7 +10670,7 @@ assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":14,"./DOMPropertyOperations":16,"./Object.assign":28,"./ReactComponentBrowserEnvironment":37,"./ReactMount":71,"./escapeTextContentForBrowser":113,"./setTextContent":131,"./validateDOMNesting":134,"_process":5}],53:[function(require,module,exports){
+},{"./DOMChildrenOperations":16,"./DOMPropertyOperations":18,"./Object.assign":30,"./ReactComponentBrowserEnvironment":39,"./ReactMount":73,"./escapeTextContentForBrowser":115,"./setTextContent":133,"./validateDOMNesting":136,"_process":7}],55:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9452,7 +10786,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMTextarea;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":27,"./Object.assign":28,"./ReactDOMIDOperations":46,"./ReactUpdates":89,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],54:[function(require,module,exports){
+},{"./LinkedValueUtils":29,"./Object.assign":30,"./ReactDOMIDOperations":48,"./ReactUpdates":91,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],56:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9520,7 +10854,7 @@ var ReactDefaultBatchingStrategy = {
 };
 
 module.exports = ReactDefaultBatchingStrategy;
-},{"./Object.assign":28,"./ReactUpdates":89,"./Transaction":106,"fbjs/lib/emptyFunction":142}],55:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactUpdates":91,"./Transaction":108,"fbjs/lib/emptyFunction":144}],57:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9620,7 +10954,7 @@ module.exports = {
   inject: inject
 };
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":8,"./ChangeEventPlugin":12,"./ClientReactRootIndex":13,"./DefaultEventPluginOrder":18,"./EnterLeaveEventPlugin":19,"./HTMLDOMPropertyConfig":26,"./ReactBrowserComponentMixin":31,"./ReactComponentBrowserEnvironment":37,"./ReactDOMComponent":43,"./ReactDOMTextComponent":52,"./ReactDefaultBatchingStrategy":54,"./ReactDefaultPerf":56,"./ReactEventListener":64,"./ReactInjection":65,"./ReactInstanceHandles":67,"./ReactMount":71,"./ReactReconcileTransaction":81,"./SVGDOMPropertyConfig":91,"./SelectEventPlugin":92,"./ServerReactRootIndex":93,"./SimpleEventPlugin":94,"_process":5,"fbjs/lib/ExecutionEnvironment":136}],56:[function(require,module,exports){
+},{"./BeforeInputEventPlugin":10,"./ChangeEventPlugin":14,"./ClientReactRootIndex":15,"./DefaultEventPluginOrder":20,"./EnterLeaveEventPlugin":21,"./HTMLDOMPropertyConfig":28,"./ReactBrowserComponentMixin":33,"./ReactComponentBrowserEnvironment":39,"./ReactDOMComponent":45,"./ReactDOMTextComponent":54,"./ReactDefaultBatchingStrategy":56,"./ReactDefaultPerf":58,"./ReactEventListener":66,"./ReactInjection":67,"./ReactInstanceHandles":69,"./ReactMount":73,"./ReactReconcileTransaction":83,"./SVGDOMPropertyConfig":93,"./SelectEventPlugin":94,"./ServerReactRootIndex":95,"./SimpleEventPlugin":96,"_process":7,"fbjs/lib/ExecutionEnvironment":138}],58:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9858,7 +11192,7 @@ var ReactDefaultPerf = {
 };
 
 module.exports = ReactDefaultPerf;
-},{"./DOMProperty":15,"./ReactDefaultPerfAnalysis":57,"./ReactMount":71,"./ReactPerf":77,"fbjs/lib/performanceNow":158}],57:[function(require,module,exports){
+},{"./DOMProperty":17,"./ReactDefaultPerfAnalysis":59,"./ReactMount":73,"./ReactPerf":79,"fbjs/lib/performanceNow":160}],59:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -10058,7 +11392,7 @@ var ReactDefaultPerfAnalysis = {
 };
 
 module.exports = ReactDefaultPerfAnalysis;
-},{"./Object.assign":28}],58:[function(require,module,exports){
+},{"./Object.assign":30}],60:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -10308,7 +11642,7 @@ ReactElement.isValidElement = function (object) {
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./ReactCurrentOwner":40,"./canDefineProperty":110,"_process":5}],59:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactCurrentOwner":42,"./canDefineProperty":112,"_process":7}],61:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -10592,7 +11926,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":40,"./ReactElement":58,"./ReactPropTypeLocationNames":78,"./ReactPropTypeLocations":79,"./canDefineProperty":110,"./getIteratorFn":121,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],60:[function(require,module,exports){
+},{"./ReactCurrentOwner":42,"./ReactElement":60,"./ReactPropTypeLocationNames":80,"./ReactPropTypeLocations":81,"./canDefineProperty":112,"./getIteratorFn":123,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],62:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -10644,7 +11978,7 @@ assign(ReactEmptyComponent.prototype, {
 ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 
 module.exports = ReactEmptyComponent;
-},{"./Object.assign":28,"./ReactElement":58,"./ReactEmptyComponentRegistry":61,"./ReactReconciler":82}],61:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactElement":60,"./ReactEmptyComponentRegistry":63,"./ReactReconciler":84}],63:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -10693,7 +12027,7 @@ var ReactEmptyComponentRegistry = {
 };
 
 module.exports = ReactEmptyComponentRegistry;
-},{}],62:[function(require,module,exports){
+},{}],64:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -10773,7 +12107,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactErrorUtils;
 }).call(this,require('_process'))
-},{"_process":5}],63:[function(require,module,exports){
+},{"_process":7}],65:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -10812,7 +12146,7 @@ var ReactEventEmitterMixin = {
 };
 
 module.exports = ReactEventEmitterMixin;
-},{"./EventPluginHub":21}],64:[function(require,module,exports){
+},{"./EventPluginHub":23}],66:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11024,7 +12358,7 @@ var ReactEventListener = {
 };
 
 module.exports = ReactEventListener;
-},{"./Object.assign":28,"./PooledClass":29,"./ReactInstanceHandles":67,"./ReactMount":71,"./ReactUpdates":89,"./getEventTarget":120,"fbjs/lib/EventListener":135,"fbjs/lib/ExecutionEnvironment":136,"fbjs/lib/getUnboundedScrollPosition":147}],65:[function(require,module,exports){
+},{"./Object.assign":30,"./PooledClass":31,"./ReactInstanceHandles":69,"./ReactMount":73,"./ReactUpdates":91,"./getEventTarget":122,"fbjs/lib/EventListener":137,"fbjs/lib/ExecutionEnvironment":138,"fbjs/lib/getUnboundedScrollPosition":149}],67:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11063,7 +12397,7 @@ var ReactInjection = {
 };
 
 module.exports = ReactInjection;
-},{"./DOMProperty":15,"./EventPluginHub":21,"./ReactBrowserEventEmitter":32,"./ReactClass":35,"./ReactComponentEnvironment":38,"./ReactEmptyComponent":60,"./ReactNativeComponent":74,"./ReactPerf":77,"./ReactRootIndex":84,"./ReactUpdates":89}],66:[function(require,module,exports){
+},{"./DOMProperty":17,"./EventPluginHub":23,"./ReactBrowserEventEmitter":34,"./ReactClass":37,"./ReactComponentEnvironment":40,"./ReactEmptyComponent":62,"./ReactNativeComponent":76,"./ReactPerf":79,"./ReactRootIndex":86,"./ReactUpdates":91}],68:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11188,7 +12522,7 @@ var ReactInputSelection = {
 };
 
 module.exports = ReactInputSelection;
-},{"./ReactDOMSelection":50,"fbjs/lib/containsNode":139,"fbjs/lib/focusNode":144,"fbjs/lib/getActiveElement":145}],67:[function(require,module,exports){
+},{"./ReactDOMSelection":52,"fbjs/lib/containsNode":141,"fbjs/lib/focusNode":146,"fbjs/lib/getActiveElement":147}],69:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -11493,7 +12827,7 @@ var ReactInstanceHandles = {
 
 module.exports = ReactInstanceHandles;
 }).call(this,require('_process'))
-},{"./ReactRootIndex":84,"_process":5,"fbjs/lib/invariant":150}],68:[function(require,module,exports){
+},{"./ReactRootIndex":86,"_process":7,"fbjs/lib/invariant":152}],70:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11541,7 +12875,7 @@ var ReactInstanceMap = {
 };
 
 module.exports = ReactInstanceMap;
-},{}],69:[function(require,module,exports){
+},{}],71:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -11618,7 +12952,7 @@ var React = {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./ReactChildren":34,"./ReactClass":35,"./ReactComponent":36,"./ReactDOMFactories":44,"./ReactElement":58,"./ReactElementValidator":59,"./ReactPropTypes":80,"./ReactVersion":90,"./onlyChild":127,"_process":5}],70:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactChildren":36,"./ReactClass":37,"./ReactComponent":38,"./ReactDOMFactories":46,"./ReactElement":60,"./ReactElementValidator":61,"./ReactPropTypes":82,"./ReactVersion":92,"./onlyChild":129,"_process":7}],72:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11664,7 +12998,7 @@ var ReactMarkupChecksum = {
 };
 
 module.exports = ReactMarkupChecksum;
-},{"./adler32":109}],71:[function(require,module,exports){
+},{"./adler32":111}],73:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -12517,7 +13851,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 
 module.exports = ReactMount;
 }).call(this,require('_process'))
-},{"./DOMProperty":15,"./Object.assign":28,"./ReactBrowserEventEmitter":32,"./ReactCurrentOwner":40,"./ReactDOMFeatureFlags":45,"./ReactElement":58,"./ReactEmptyComponentRegistry":61,"./ReactInstanceHandles":67,"./ReactInstanceMap":68,"./ReactMarkupChecksum":70,"./ReactPerf":77,"./ReactReconciler":82,"./ReactUpdateQueue":88,"./ReactUpdates":89,"./instantiateReactComponent":124,"./setInnerHTML":130,"./shouldUpdateReactComponent":132,"./validateDOMNesting":134,"_process":5,"fbjs/lib/containsNode":139,"fbjs/lib/emptyObject":143,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],72:[function(require,module,exports){
+},{"./DOMProperty":17,"./Object.assign":30,"./ReactBrowserEventEmitter":34,"./ReactCurrentOwner":42,"./ReactDOMFeatureFlags":47,"./ReactElement":60,"./ReactEmptyComponentRegistry":63,"./ReactInstanceHandles":69,"./ReactInstanceMap":70,"./ReactMarkupChecksum":72,"./ReactPerf":79,"./ReactReconciler":84,"./ReactUpdateQueue":90,"./ReactUpdates":91,"./instantiateReactComponent":126,"./setInnerHTML":132,"./shouldUpdateReactComponent":134,"./validateDOMNesting":136,"_process":7,"fbjs/lib/containsNode":141,"fbjs/lib/emptyObject":145,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],74:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13016,7 +14350,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 }).call(this,require('_process'))
-},{"./ReactChildReconciler":33,"./ReactComponentEnvironment":38,"./ReactCurrentOwner":40,"./ReactMultiChildUpdateTypes":73,"./ReactReconciler":82,"./flattenChildren":115,"_process":5}],73:[function(require,module,exports){
+},{"./ReactChildReconciler":35,"./ReactComponentEnvironment":40,"./ReactCurrentOwner":42,"./ReactMultiChildUpdateTypes":75,"./ReactReconciler":84,"./flattenChildren":117,"_process":7}],75:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13049,7 +14383,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 });
 
 module.exports = ReactMultiChildUpdateTypes;
-},{"fbjs/lib/keyMirror":153}],74:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":155}],76:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -13146,7 +14480,7 @@ var ReactNativeComponent = {
 
 module.exports = ReactNativeComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"_process":5,"fbjs/lib/invariant":150}],75:[function(require,module,exports){
+},{"./Object.assign":30,"_process":7,"fbjs/lib/invariant":152}],77:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -13267,7 +14601,7 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/warning":161}],76:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/warning":163}],78:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13361,7 +14695,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/invariant":150}],77:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/invariant":152}],79:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13460,7 +14794,7 @@ function _noMeasure(objName, fnName, func) {
 
 module.exports = ReactPerf;
 }).call(this,require('_process'))
-},{"_process":5}],78:[function(require,module,exports){
+},{"_process":7}],80:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13487,7 +14821,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":5}],79:[function(require,module,exports){
+},{"_process":7}],81:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13510,7 +14844,7 @@ var ReactPropTypeLocations = keyMirror({
 });
 
 module.exports = ReactPropTypeLocations;
-},{"fbjs/lib/keyMirror":153}],80:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":155}],82:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13867,7 +15201,7 @@ function getClassName(propValue) {
 }
 
 module.exports = ReactPropTypes;
-},{"./ReactElement":58,"./ReactPropTypeLocationNames":78,"./getIteratorFn":121,"fbjs/lib/emptyFunction":142}],81:[function(require,module,exports){
+},{"./ReactElement":60,"./ReactPropTypeLocationNames":80,"./getIteratorFn":123,"fbjs/lib/emptyFunction":144}],83:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14019,7 +15353,7 @@ assign(ReactReconcileTransaction.prototype, Transaction.Mixin, Mixin);
 PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
-},{"./CallbackQueue":11,"./Object.assign":28,"./PooledClass":29,"./ReactBrowserEventEmitter":32,"./ReactDOMFeatureFlags":45,"./ReactInputSelection":66,"./Transaction":106}],82:[function(require,module,exports){
+},{"./CallbackQueue":13,"./Object.assign":30,"./PooledClass":31,"./ReactBrowserEventEmitter":34,"./ReactDOMFeatureFlags":47,"./ReactInputSelection":68,"./Transaction":108}],84:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14127,7 +15461,7 @@ var ReactReconciler = {
 };
 
 module.exports = ReactReconciler;
-},{"./ReactRef":83}],83:[function(require,module,exports){
+},{"./ReactRef":85}],85:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14206,7 +15540,7 @@ ReactRef.detachRefs = function (instance, element) {
 };
 
 module.exports = ReactRef;
-},{"./ReactOwner":76}],84:[function(require,module,exports){
+},{"./ReactOwner":78}],86:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14236,7 +15570,7 @@ var ReactRootIndex = {
 };
 
 module.exports = ReactRootIndex;
-},{}],85:[function(require,module,exports){
+},{}],87:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -14260,7 +15594,7 @@ var ReactServerBatchingStrategy = {
 };
 
 module.exports = ReactServerBatchingStrategy;
-},{}],86:[function(require,module,exports){
+},{}],88:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -14346,7 +15680,7 @@ module.exports = {
   renderToStaticMarkup: renderToStaticMarkup
 };
 }).call(this,require('_process'))
-},{"./ReactDefaultBatchingStrategy":54,"./ReactElement":58,"./ReactInstanceHandles":67,"./ReactMarkupChecksum":70,"./ReactServerBatchingStrategy":85,"./ReactServerRenderingTransaction":87,"./ReactUpdates":89,"./instantiateReactComponent":124,"_process":5,"fbjs/lib/emptyObject":143,"fbjs/lib/invariant":150}],87:[function(require,module,exports){
+},{"./ReactDefaultBatchingStrategy":56,"./ReactElement":60,"./ReactInstanceHandles":69,"./ReactMarkupChecksum":72,"./ReactServerBatchingStrategy":87,"./ReactServerRenderingTransaction":89,"./ReactUpdates":91,"./instantiateReactComponent":126,"_process":7,"fbjs/lib/emptyObject":145,"fbjs/lib/invariant":152}],89:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -14434,7 +15768,7 @@ assign(ReactServerRenderingTransaction.prototype, Transaction.Mixin, Mixin);
 PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
-},{"./CallbackQueue":11,"./Object.assign":28,"./PooledClass":29,"./Transaction":106,"fbjs/lib/emptyFunction":142}],88:[function(require,module,exports){
+},{"./CallbackQueue":13,"./Object.assign":30,"./PooledClass":31,"./Transaction":108,"fbjs/lib/emptyFunction":144}],90:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -14694,7 +16028,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./ReactCurrentOwner":40,"./ReactElement":58,"./ReactInstanceMap":68,"./ReactUpdates":89,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],89:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactCurrentOwner":42,"./ReactElement":60,"./ReactInstanceMap":70,"./ReactUpdates":91,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],91:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -14920,7 +16254,7 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 }).call(this,require('_process'))
-},{"./CallbackQueue":11,"./Object.assign":28,"./PooledClass":29,"./ReactPerf":77,"./ReactReconciler":82,"./Transaction":106,"_process":5,"fbjs/lib/invariant":150}],90:[function(require,module,exports){
+},{"./CallbackQueue":13,"./Object.assign":30,"./PooledClass":31,"./ReactPerf":79,"./ReactReconciler":84,"./Transaction":108,"_process":7,"fbjs/lib/invariant":152}],92:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14935,7 +16269,7 @@ module.exports = ReactUpdates;
 'use strict';
 
 module.exports = '0.14.3';
-},{}],91:[function(require,module,exports){
+},{}],93:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15063,7 +16397,7 @@ var SVGDOMPropertyConfig = {
 };
 
 module.exports = SVGDOMPropertyConfig;
-},{"./DOMProperty":15}],92:[function(require,module,exports){
+},{"./DOMProperty":17}],94:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15265,7 +16599,7 @@ var SelectEventPlugin = {
 };
 
 module.exports = SelectEventPlugin;
-},{"./EventConstants":20,"./EventPropagators":24,"./ReactInputSelection":66,"./SyntheticEvent":98,"./isTextInputElement":126,"fbjs/lib/ExecutionEnvironment":136,"fbjs/lib/getActiveElement":145,"fbjs/lib/keyOf":154,"fbjs/lib/shallowEqual":159}],93:[function(require,module,exports){
+},{"./EventConstants":22,"./EventPropagators":26,"./ReactInputSelection":68,"./SyntheticEvent":100,"./isTextInputElement":128,"fbjs/lib/ExecutionEnvironment":138,"fbjs/lib/getActiveElement":147,"fbjs/lib/keyOf":156,"fbjs/lib/shallowEqual":161}],95:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15295,7 +16629,7 @@ var ServerReactRootIndex = {
 };
 
 module.exports = ServerReactRootIndex;
-},{}],94:[function(require,module,exports){
+},{}],96:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15885,7 +17219,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 }).call(this,require('_process'))
-},{"./EventConstants":20,"./EventPropagators":24,"./ReactMount":71,"./SyntheticClipboardEvent":95,"./SyntheticDragEvent":97,"./SyntheticEvent":98,"./SyntheticFocusEvent":99,"./SyntheticKeyboardEvent":101,"./SyntheticMouseEvent":102,"./SyntheticTouchEvent":103,"./SyntheticUIEvent":104,"./SyntheticWheelEvent":105,"./getEventCharCode":117,"_process":5,"fbjs/lib/EventListener":135,"fbjs/lib/emptyFunction":142,"fbjs/lib/invariant":150,"fbjs/lib/keyOf":154}],95:[function(require,module,exports){
+},{"./EventConstants":22,"./EventPropagators":26,"./ReactMount":73,"./SyntheticClipboardEvent":97,"./SyntheticDragEvent":99,"./SyntheticEvent":100,"./SyntheticFocusEvent":101,"./SyntheticKeyboardEvent":103,"./SyntheticMouseEvent":104,"./SyntheticTouchEvent":105,"./SyntheticUIEvent":106,"./SyntheticWheelEvent":107,"./getEventCharCode":119,"_process":7,"fbjs/lib/EventListener":137,"fbjs/lib/emptyFunction":144,"fbjs/lib/invariant":152,"fbjs/lib/keyOf":156}],97:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15925,7 +17259,7 @@ function SyntheticClipboardEvent(dispatchConfig, dispatchMarker, nativeEvent, na
 SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 
 module.exports = SyntheticClipboardEvent;
-},{"./SyntheticEvent":98}],96:[function(require,module,exports){
+},{"./SyntheticEvent":100}],98:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15963,7 +17297,7 @@ function SyntheticCompositionEvent(dispatchConfig, dispatchMarker, nativeEvent, 
 SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface);
 
 module.exports = SyntheticCompositionEvent;
-},{"./SyntheticEvent":98}],97:[function(require,module,exports){
+},{"./SyntheticEvent":100}],99:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16001,7 +17335,7 @@ function SyntheticDragEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeE
 SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
-},{"./SyntheticMouseEvent":102}],98:[function(require,module,exports){
+},{"./SyntheticMouseEvent":104}],100:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -16181,7 +17515,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.fourArgumentPooler);
 
 module.exports = SyntheticEvent;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./PooledClass":29,"_process":5,"fbjs/lib/emptyFunction":142,"fbjs/lib/warning":161}],99:[function(require,module,exports){
+},{"./Object.assign":30,"./PooledClass":31,"_process":7,"fbjs/lib/emptyFunction":144,"fbjs/lib/warning":163}],101:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16219,7 +17553,7 @@ function SyntheticFocusEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
-},{"./SyntheticUIEvent":104}],100:[function(require,module,exports){
+},{"./SyntheticUIEvent":106}],102:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16258,7 +17592,7 @@ function SyntheticInputEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 
 module.exports = SyntheticInputEvent;
-},{"./SyntheticEvent":98}],101:[function(require,module,exports){
+},{"./SyntheticEvent":100}],103:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16344,7 +17678,7 @@ function SyntheticKeyboardEvent(dispatchConfig, dispatchMarker, nativeEvent, nat
 SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
-},{"./SyntheticUIEvent":104,"./getEventCharCode":117,"./getEventKey":118,"./getEventModifierState":119}],102:[function(require,module,exports){
+},{"./SyntheticUIEvent":106,"./getEventCharCode":119,"./getEventKey":120,"./getEventModifierState":121}],104:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16418,7 +17752,7 @@ function SyntheticMouseEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
-},{"./SyntheticUIEvent":104,"./ViewportMetrics":107,"./getEventModifierState":119}],103:[function(require,module,exports){
+},{"./SyntheticUIEvent":106,"./ViewportMetrics":109,"./getEventModifierState":121}],105:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16465,7 +17799,7 @@ function SyntheticTouchEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
-},{"./SyntheticUIEvent":104,"./getEventModifierState":119}],104:[function(require,module,exports){
+},{"./SyntheticUIEvent":106,"./getEventModifierState":121}],106:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16526,7 +17860,7 @@ function SyntheticUIEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeEve
 SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
-},{"./SyntheticEvent":98,"./getEventTarget":120}],105:[function(require,module,exports){
+},{"./SyntheticEvent":100,"./getEventTarget":122}],107:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16582,7 +17916,7 @@ function SyntheticWheelEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
-},{"./SyntheticMouseEvent":102}],106:[function(require,module,exports){
+},{"./SyntheticMouseEvent":104}],108:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -16816,7 +18150,7 @@ var Transaction = {
 
 module.exports = Transaction;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/invariant":150}],107:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/invariant":152}],109:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16844,7 +18178,7 @@ var ViewportMetrics = {
 };
 
 module.exports = ViewportMetrics;
-},{}],108:[function(require,module,exports){
+},{}],110:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -16906,7 +18240,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 }).call(this,require('_process'))
-},{"_process":5,"fbjs/lib/invariant":150}],109:[function(require,module,exports){
+},{"_process":7,"fbjs/lib/invariant":152}],111:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16949,7 +18283,7 @@ function adler32(data) {
 }
 
 module.exports = adler32;
-},{}],110:[function(require,module,exports){
+},{}],112:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -16976,7 +18310,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":5}],111:[function(require,module,exports){
+},{"_process":7}],113:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17032,7 +18366,7 @@ function dangerousStyleValue(name, value) {
 }
 
 module.exports = dangerousStyleValue;
-},{"./CSSProperty":9}],112:[function(require,module,exports){
+},{"./CSSProperty":11}],114:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17083,7 +18417,7 @@ function deprecated(fnName, newModule, newPackage, ctx, fn) {
 
 module.exports = deprecated;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"_process":5,"fbjs/lib/warning":161}],113:[function(require,module,exports){
+},{"./Object.assign":30,"_process":7,"fbjs/lib/warning":163}],115:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17122,7 +18456,7 @@ function escapeTextContentForBrowser(text) {
 }
 
 module.exports = escapeTextContentForBrowser;
-},{}],114:[function(require,module,exports){
+},{}],116:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17174,7 +18508,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":40,"./ReactInstanceMap":68,"./ReactMount":71,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],115:[function(require,module,exports){
+},{"./ReactCurrentOwner":42,"./ReactInstanceMap":70,"./ReactMount":73,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],117:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17225,7 +18559,7 @@ function flattenChildren(children) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./traverseAllChildren":133,"_process":5,"fbjs/lib/warning":161}],116:[function(require,module,exports){
+},{"./traverseAllChildren":135,"_process":7,"fbjs/lib/warning":163}],118:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17255,7 +18589,7 @@ var forEachAccumulated = function (arr, cb, scope) {
 };
 
 module.exports = forEachAccumulated;
-},{}],117:[function(require,module,exports){
+},{}],119:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17306,7 +18640,7 @@ function getEventCharCode(nativeEvent) {
 }
 
 module.exports = getEventCharCode;
-},{}],118:[function(require,module,exports){
+},{}],120:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17410,7 +18744,7 @@ function getEventKey(nativeEvent) {
 }
 
 module.exports = getEventKey;
-},{"./getEventCharCode":117}],119:[function(require,module,exports){
+},{"./getEventCharCode":119}],121:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17455,7 +18789,7 @@ function getEventModifierState(nativeEvent) {
 }
 
 module.exports = getEventModifierState;
-},{}],120:[function(require,module,exports){
+},{}],122:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17485,7 +18819,7 @@ function getEventTarget(nativeEvent) {
 }
 
 module.exports = getEventTarget;
-},{}],121:[function(require,module,exports){
+},{}],123:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17526,7 +18860,7 @@ function getIteratorFn(maybeIterable) {
 }
 
 module.exports = getIteratorFn;
-},{}],122:[function(require,module,exports){
+},{}],124:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17600,7 +18934,7 @@ function getNodeForCharacterOffset(root, offset) {
 }
 
 module.exports = getNodeForCharacterOffset;
-},{}],123:[function(require,module,exports){
+},{}],125:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17634,7 +18968,7 @@ function getTextContentAccessor() {
 }
 
 module.exports = getTextContentAccessor;
-},{"fbjs/lib/ExecutionEnvironment":136}],124:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":138}],126:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17749,7 +19083,7 @@ function instantiateReactComponent(node) {
 
 module.exports = instantiateReactComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"./ReactCompositeComponent":39,"./ReactEmptyComponent":60,"./ReactNativeComponent":74,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],125:[function(require,module,exports){
+},{"./Object.assign":30,"./ReactCompositeComponent":41,"./ReactEmptyComponent":62,"./ReactNativeComponent":76,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],127:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17810,7 +19144,7 @@ function isEventSupported(eventNameSuffix, capture) {
 }
 
 module.exports = isEventSupported;
-},{"fbjs/lib/ExecutionEnvironment":136}],126:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":138}],128:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17851,7 +19185,7 @@ function isTextInputElement(elem) {
 }
 
 module.exports = isTextInputElement;
-},{}],127:[function(require,module,exports){
+},{}],129:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17887,7 +19221,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":58,"_process":5,"fbjs/lib/invariant":150}],128:[function(require,module,exports){
+},{"./ReactElement":60,"_process":7,"fbjs/lib/invariant":152}],130:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17914,7 +19248,7 @@ function quoteAttributeValueForBrowser(value) {
 }
 
 module.exports = quoteAttributeValueForBrowser;
-},{"./escapeTextContentForBrowser":113}],129:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":115}],131:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17931,7 +19265,7 @@ module.exports = quoteAttributeValueForBrowser;
 var ReactMount = require('./ReactMount');
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
-},{"./ReactMount":71}],130:[function(require,module,exports){
+},{"./ReactMount":73}],132:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18022,7 +19356,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = setInnerHTML;
-},{"fbjs/lib/ExecutionEnvironment":136}],131:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":138}],133:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18063,7 +19397,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = setTextContent;
-},{"./escapeTextContentForBrowser":113,"./setInnerHTML":130,"fbjs/lib/ExecutionEnvironment":136}],132:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":115,"./setInnerHTML":132,"fbjs/lib/ExecutionEnvironment":138}],134:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18107,7 +19441,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 }
 
 module.exports = shouldUpdateReactComponent;
-},{}],133:[function(require,module,exports){
+},{}],135:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18299,7 +19633,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":40,"./ReactElement":58,"./ReactInstanceHandles":67,"./getIteratorFn":121,"_process":5,"fbjs/lib/invariant":150,"fbjs/lib/warning":161}],134:[function(require,module,exports){
+},{"./ReactCurrentOwner":42,"./ReactElement":60,"./ReactInstanceHandles":69,"./getIteratorFn":123,"_process":7,"fbjs/lib/invariant":152,"fbjs/lib/warning":163}],136:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -18665,7 +19999,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = validateDOMNesting;
 }).call(this,require('_process'))
-},{"./Object.assign":28,"_process":5,"fbjs/lib/emptyFunction":142,"fbjs/lib/warning":161}],135:[function(require,module,exports){
+},{"./Object.assign":30,"_process":7,"fbjs/lib/emptyFunction":144,"fbjs/lib/warning":163}],137:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18752,7 +20086,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":142,"_process":5}],136:[function(require,module,exports){
+},{"./emptyFunction":144,"_process":7}],138:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18789,7 +20123,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],137:[function(require,module,exports){
+},{}],139:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18822,7 +20156,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],138:[function(require,module,exports){
+},{}],140:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18863,7 +20197,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":137}],139:[function(require,module,exports){
+},{"./camelize":139}],141:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18919,7 +20253,7 @@ function containsNode(_x, _x2) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":152}],140:[function(require,module,exports){
+},{"./isTextNode":154}],142:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19005,7 +20339,7 @@ function createArrayFromMixed(obj) {
 }
 
 module.exports = createArrayFromMixed;
-},{"./toArray":160}],141:[function(require,module,exports){
+},{"./toArray":162}],143:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19092,7 +20426,7 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":136,"./createArrayFromMixed":140,"./getMarkupWrap":146,"./invariant":150,"_process":5}],142:[function(require,module,exports){
+},{"./ExecutionEnvironment":138,"./createArrayFromMixed":142,"./getMarkupWrap":148,"./invariant":152,"_process":7}],144:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19131,7 +20465,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 };
 
 module.exports = emptyFunction;
-},{}],143:[function(require,module,exports){
+},{}],145:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19154,7 +20488,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":5}],144:[function(require,module,exports){
+},{"_process":7}],146:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19181,7 +20515,7 @@ function focusNode(node) {
 }
 
 module.exports = focusNode;
-},{}],145:[function(require,module,exports){
+},{}],147:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19215,7 +20549,7 @@ function getActiveElement() /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-},{}],146:[function(require,module,exports){
+},{}],148:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19313,7 +20647,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":136,"./invariant":150,"_process":5}],147:[function(require,module,exports){
+},{"./ExecutionEnvironment":138,"./invariant":152,"_process":7}],149:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19352,7 +20686,7 @@ function getUnboundedScrollPosition(scrollable) {
 }
 
 module.exports = getUnboundedScrollPosition;
-},{}],148:[function(require,module,exports){
+},{}],150:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19386,7 +20720,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],149:[function(require,module,exports){
+},{}],151:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19426,7 +20760,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":148}],150:[function(require,module,exports){
+},{"./hyphenate":150}],152:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19478,7 +20812,7 @@ var invariant = function (condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":5}],151:[function(require,module,exports){
+},{"_process":7}],153:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19502,7 +20836,7 @@ function isNode(object) {
 }
 
 module.exports = isNode;
-},{}],152:[function(require,module,exports){
+},{}],154:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19528,7 +20862,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":151}],153:[function(require,module,exports){
+},{"./isNode":153}],155:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19579,7 +20913,7 @@ var keyMirror = function (obj) {
 
 module.exports = keyMirror;
 }).call(this,require('_process'))
-},{"./invariant":150,"_process":5}],154:[function(require,module,exports){
+},{"./invariant":152,"_process":7}],156:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19615,7 +20949,7 @@ var keyOf = function (oneKeyObj) {
 };
 
 module.exports = keyOf;
-},{}],155:[function(require,module,exports){
+},{}],157:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19667,7 +21001,7 @@ function mapObject(object, callback, context) {
 }
 
 module.exports = mapObject;
-},{}],156:[function(require,module,exports){
+},{}],158:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19699,7 +21033,7 @@ function memoizeStringOnly(callback) {
 }
 
 module.exports = memoizeStringOnly;
-},{}],157:[function(require,module,exports){
+},{}],159:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19723,7 +21057,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = performance || {};
-},{"./ExecutionEnvironment":136}],158:[function(require,module,exports){
+},{"./ExecutionEnvironment":138}],160:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19753,7 +21087,7 @@ if (!curPerformance || !curPerformance.now) {
 var performanceNow = curPerformance.now.bind(curPerformance);
 
 module.exports = performanceNow;
-},{"./performance":157}],159:[function(require,module,exports){
+},{"./performance":159}],161:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19804,7 +21138,7 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],160:[function(require,module,exports){
+},{}],162:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19864,7 +21198,7 @@ function toArray(obj) {
 
 module.exports = toArray;
 }).call(this,require('_process'))
-},{"./invariant":150,"_process":5}],161:[function(require,module,exports){
+},{"./invariant":152,"_process":7}],163:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -19924,12 +21258,12 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":142,"_process":5}],162:[function(require,module,exports){
+},{"./emptyFunction":144,"_process":7}],164:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
 
-},{"./lib/React":30}],163:[function(require,module,exports){
+},{"./lib/React":32}],165:[function(require,module,exports){
 'use strict';
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
@@ -19993,15 +21327,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 					'div',
 					null,
 					_react2.default.createElement(_header2.default, null),
-					_react2.default.createElement(
-						'div',
-						{ className: 'mui-container' },
-						_react2.default.createElement(
-							'div',
-							{ className: 'mui-panel' },
-							_react2.default.createElement(Child, null)
-						)
-					)
+					_react2.default.createElement(Child, null)
 				);
 			}
 		}]);
@@ -20020,7 +21346,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 	render();
 })(window);
 
-},{"./components/characterPage.react":165,"./components/header.react":166,"./components/skillsList.react":167,"react":162,"react-dom":6}],164:[function(require,module,exports){
+},{"./components/characterPage.react":167,"./components/header.react":168,"./components/skillsList.react":169,"react":164,"react-dom":8}],166:[function(require,module,exports){
 'use strict';
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
@@ -20028,6 +21354,10 @@ var _createClass = (function () { function defineProperties(target, props) { for
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
+
+var _class2 = require('../../../logics/class');
+
+var _class3 = _interopRequireDefault(_class2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20049,65 +21379,51 @@ var List = (function (_React$Component) {
     _createClass(List, [{
         key: 'render',
         value: function render() {
-            var _this2 = this;
-
-            var createCharacterRow = function createCharacterRow(c) {
+            var createCharacterCard = function createCharacterCard(c) {
+                console.log(c);
                 return _react2.default.createElement(
-                    'tr',
-                    { key: c.nameEN },
+                    'div',
+                    { className: 'mui-col-md-2', key: c.id },
                     _react2.default.createElement(
-                        'td',
-                        null,
+                        'div',
+                        { className: 'mui-panel mui--text-center' },
+                        _react2.default.createElement('img', { src: "/images/avatar/" + c.id + ".png" }),
                         _react2.default.createElement(
-                            'a',
-                            { href: "/#character/" + c.nameEN },
-                            c.nameEN
+                            'div',
+                            { className: '' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: "/#character/" + c.id },
+                                _react2.default.createElement(
+                                    'h3',
+                                    null,
+                                    c.nameEN
+                                )
+                            )
                         )
-                    ),
-                    _react2.default.createElement(
-                        'td',
-                        null,
-                        c.baseClasses.map(createClassLink, _this2)
                     )
                 );
             };
 
             var createClassLink = function createClassLink(cl) {
+                var c = new _class3.default();
+                var _class = c.get(cl);
                 return _react2.default.createElement(
-                    'a',
-                    { key: cl, href: '/#class/' + cl },
-                    cl,
-                    _react2.default.createElement('br', null)
+                    'div',
+                    null,
+                    _react2.default.createElement(
+                        'a',
+                        { key: _class.id, href: '/#class/' + _class.id },
+                        _class.name
+                    )
                 );
             };
 
             // loop through characters object keys and create character row foreach object
             return _react2.default.createElement(
-                'table',
-                { className: 'mui-table mui-table--bordered' },
-                _react2.default.createElement(
-                    'thead',
-                    null,
-                    _react2.default.createElement(
-                        'tr',
-                        null,
-                        _react2.default.createElement(
-                            'th',
-                            null,
-                            'Name'
-                        ),
-                        _react2.default.createElement(
-                            'th',
-                            null,
-                            'Classes'
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    'tbody',
-                    null,
-                    this.props.characters.map(createCharacterRow, this)
-                )
+                'div',
+                { className: 'mui-row' },
+                this.props.characters.map(createCharacterCard, this)
             );
         }
     }]);
@@ -20117,7 +21433,7 @@ var List = (function (_React$Component) {
 
 module.exports = List;
 
-},{"react":162}],165:[function(require,module,exports){
+},{"../../../logics/class":5,"react":164}],167:[function(require,module,exports){
 'use strict';
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
@@ -20158,12 +21474,12 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 		_createClass(Page, [{
 			key: 'componentWillMount',
 			value: function componentWillMount() {
-				this.setState({ characters: _character2.default.get() });
+				var Character = new _character2.default();
+				this.setState({ characters: Character.get() });
 			}
 		}, {
 			key: 'render',
 			value: function render() {
-				console.log(this.state.characters);
 				return _react2.default.createElement(
 					'div',
 					null,
@@ -20172,7 +21488,11 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 						null,
 						'Character List'
 					),
-					_react2.default.createElement(_characterList2.default, { characters: this.state.characters })
+					_react2.default.createElement(
+						'div',
+						{ className: 'mui-container' },
+						_react2.default.createElement(_characterList2.default, { characters: this.state.characters })
+					)
 				);
 			}
 		}]);
@@ -20183,7 +21503,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 	module.exports = Page;
 })(window);
 
-},{"../../../logics/character":2,"./characterList.react":164,"react":162}],166:[function(require,module,exports){
+},{"../../../logics/character":4,"./characterList.react":166,"react":164}],168:[function(require,module,exports){
 'use strict';
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
@@ -20282,7 +21602,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 	module.exports = Header;
 })(window);
 
-},{"react":162}],167:[function(require,module,exports){
+},{"react":164}],169:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -20312,6 +21632,6 @@ var List = _react2.default.createClass({
 
 module.exports = List;
 
-},{"react":162}]},{},[163]);
+},{"react":164}]},{},[165]);
 
 //# sourceMappingURL=app.js.map

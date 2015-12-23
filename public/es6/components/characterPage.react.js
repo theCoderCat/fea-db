@@ -2,7 +2,7 @@
 
 import React from 'react';
 import CharacterList from './characterList.react';
-import CharactersAPI from '../../../logics/character';
+import CharacterAPI from '../../../logics/character';
 
 (function(window) {
 	class Page extends React.Component {
@@ -12,14 +12,16 @@ import CharactersAPI from '../../../logics/character';
 		}
 
 		componentWillMount() {
-			this.setState({characters: CharactersAPI.get()});
+			var Character = new CharacterAPI();
+			this.setState({characters: Character.get()});
 		}
 		render() {
-			console.log(this.state.characters);
 			return (
 				<div>
 					<h1>Character List</h1>
-					<CharacterList characters={this.state.characters} />
+					<div className="mui-container">
+						<CharacterList characters={this.state.characters} />
+					</div>
 				</div>
 			);
 		}

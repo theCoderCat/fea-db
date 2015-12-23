@@ -1,5 +1,30 @@
 var characters = {
+    avatar: {
+        id: 'avatar',
+		nameEN: 'Robin',
+		nameJA: 'ロビン',
+		gender: null,
+		birthday: null,
+		generation: 1,
+		recruit: null,
+		baseClasses: [],
+		possibleSupport: {
+			a: [],
+			s: []
+		},
+		maxStatMod: {
+			str: 0,
+			mag: 0,
+			skl: 0,
+			spd: 0,
+			lck: 0,
+			def: 0,
+			res: 0
+		},
+		children: ['morgan']
+    },
 	chrom: {
+        id: 'chrom',
 		nameEN: 'Chrom',
 		nameJA: 'クロム',
 		gender: 'male',
@@ -23,6 +48,7 @@ var characters = {
 		children: ['lucina']
 	},
 	lissa: {
+        id: 'lissa',
 		nameEN: 'Lissa',
 		nameJA: 'リズ',
 		gender: 'female',
@@ -32,7 +58,7 @@ var characters = {
 		baseClasses: ['cleric', 'pegasus_knight', 'troubadour'],
 		possibleSupport: {
 			a: ['chrom', 'maribelle', 'cherche', 'olivia'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: -2,
@@ -46,6 +72,7 @@ var characters = {
 		children: ['owain']
 	},
 	frederick: {
+        id: 'frederick',
 		nameEN: 'Frederick',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -69,6 +96,7 @@ var characters = {
 		children: []
 	},
 	sully: {
+        id: 'sully',
 		nameEN: 'Sully',
 		nameJA: 'ソワレ',
 		gender: 'female',
@@ -78,7 +106,7 @@ var characters = {
 		baseClasses: ['cavalier', 'myrmidon', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['miriel', 'sumia'],
-			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: -1,
@@ -92,6 +120,7 @@ var characters = {
 		children: ['kjelle']
 	},
 	virion: {
+        id: 'virion',
 		nameEN: 'Virion',
 		nameJA: 'ヴィオール',
 		gender: 'male',
@@ -115,6 +144,7 @@ var characters = {
 		children: []
 	},
 	stahl: {
+        id: 'stahl',
 		nameEN: 'Stahl',
 		nameJA: 'ソール',
 		gender: 'male',
@@ -138,6 +168,7 @@ var characters = {
 		children: []
 	},
 	vaike: {
+        id: 'vaike',
 		nameEN: 'Vaike',
 		nameJA: 'ヴェイク',
 		gender: 'male',
@@ -146,7 +177,7 @@ var characters = {
 		recruit: 'Joins automatically in Chapter 2.',
 		baseClasses: ['fighter', 'thief', 'barbarian'],
 		possibleSupport: {
-			a: ['chrom', 'lon_qu'],
+			a: ['chrom', 'lonqu'],
 			s: ['lissa', 'sully', 'maribelle', 'cordelia', 'panne', 'nowi', 'olivia', 'cherche', 'miriel', 'tharja']
 		},
 		maxStatMod: {
@@ -161,6 +192,7 @@ var characters = {
 		children: []
 	},
 	miriel: {
+        id: 'miriel',
 		nameEN: 'Miriel',
 		nameJA: 'ミリエル',
 		gender: 'female',
@@ -170,7 +202,7 @@ var characters = {
 		baseClasses: ['mage', 'troubadour', 'dark_mage'],
 		possibleSupport: {
 			a: ['sully', 'cherche'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: -2,
@@ -184,6 +216,7 @@ var characters = {
 		children: ['laurent']
 	},
 	sumia: {
+        id: 'sumia',
 		nameEN: 'Sumia',
 		nameJA: 'スミア',
 		gender: 'female',
@@ -207,6 +240,7 @@ var characters = {
 		children: ['cynthia']
 	},
 	kellam: {
+        id: 'kellam',
 		nameEN: 'Kellam',
 		nameJA: 'カラム',
 		gender: 'male',
@@ -230,6 +264,7 @@ var characters = {
 		children: []
 	},
 	donnel: {
+        id: 'donnel',
 		nameEN: 'Donnel',
 		nameJA: 'ドニ',
 		gender: 'male',
@@ -252,7 +287,8 @@ var characters = {
 		},
 		children: []
 	},
-	lon_qu: {
+	lonqu: {
+        id: 'lonqu',
 		nameEN: 'Lon\'qu',
 		nameJA: 'ロンク',
 		gender: 'male',
@@ -276,6 +312,7 @@ var characters = {
 		children: []
 	},
 	ricken: {
+        id: 'ricken',
 		nameEN: 'Ricken',
 		nameJA: 'リヒト',
 		gender: 'male',
@@ -299,6 +336,7 @@ var characters = {
 		children: []
 	},
 	maribelle: {
+        id: 'maribelle',
 		nameEN: 'Maribelle',
 		nameJA: 'マリアベル',
 		gender: 'female',
@@ -308,7 +346,7 @@ var characters = {
 		baseClasses: ['mage', 'troubadour', 'pegasus_knight'],
 		possibleSupport: {
 			a: ['lissa', 'olivia'],
-			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: -3,
@@ -322,6 +360,7 @@ var characters = {
 		children: ['brady']
 	},
 	panne: {
+        id: 'panne',
 		nameEN: 'Panne',
 		nameJA: 'ベルベット',
 		gender: 'female',
@@ -331,7 +370,7 @@ var characters = {
 		baseClasses: ['taguel', 'thief', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['cordelia', 'olivia'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: +2,
@@ -345,6 +384,7 @@ var characters = {
 		children: ['yarne']
 	},
 	gaius: {
+        id: 'gaius',
 		nameEN: 'Gaius',
 		nameJA: 'ガイア',
 		gender: 'male',
@@ -368,6 +408,7 @@ var characters = {
 		children: []
 	},
 	cordelia: {
+        id: 'cordelia',
 		nameEN: 'Cordelia',
 		nameJA: 'ティアモ',
 		gender: 'female',
@@ -377,7 +418,7 @@ var characters = {
 		baseClasses: ['pegasus_knight', 'mercenary', 'dark_mage'],
 		possibleSupport: {
 			a: ['panne', 'sumia'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: +1,
@@ -391,6 +432,7 @@ var characters = {
 		children: ['severa']
 	},
 	gregor: {
+        id: 'gregor',
 		nameEN: 'Gregor',
 		nameJA: '',
 		gender: 'male',
@@ -399,7 +441,7 @@ var characters = {
 		recruit: 'Joins automatically in Chapter 8.',
 		baseClasses: ['barbarian', 'mercenary', 'myrmidon'],
 		possibleSupport: {
-			a: ['ricken', 'lon_qu'],
+			a: ['ricken', 'lonqu'],
 			s: ['lissa', 'sully', 'maribelle', 'cordelia', 'panne', 'nowi', 'olivia', 'cherche', 'miriel', 'tharja']
 		},
 		maxStatMod: {
@@ -414,16 +456,17 @@ var characters = {
 		children: []
 	},
 	nowi: {
+        id: 'nowi',
 		nameEN: 'Nowi',
 		nameJA: '',
 		gender: 'female',
 		birthday: 'September 21st',
 		generation: 1,
 		recruit: 'Joins automatically in Chapter 8.',
-		baseClasses: ['manakete', 'make', 'wyvern_rider'],
+		baseClasses: ['manakete', 'mage', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['cherche', 'tharja'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: +1,
@@ -437,6 +480,7 @@ var characters = {
 		children: ['nah']
 	},
 	libra: {
+        id: 'libra',
 		nameEN: 'Libra',
 		nameJA: '',
 		gender: 'male',
@@ -460,6 +504,7 @@ var characters = {
 		children: []
 	},
 	tharja: {
+        id: 'tharja',
 		nameEN: 'Tharja',
 		nameJA: 'サーリャ',
 		gender: 'female',
@@ -469,7 +514,7 @@ var characters = {
 		baseClasses: ['dark_mage', 'knight', 'archer'],
 		possibleSupport: {
 			a: ['nowi'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: 0,
@@ -483,6 +528,7 @@ var characters = {
 		children: ['noire']
 	},
 	anna: {
+        id: 'anna',
 		nameEN: 'Anna',
 		nameJA: 'アンナ',
 		gender: 'female',
@@ -505,6 +551,7 @@ var characters = {
 		children: []
 	},
 	olivia: {
+        id: 'olivia',
 		nameEN: 'Olivia',
 		nameJA: '',
 		gender: 'female',
@@ -514,7 +561,7 @@ var characters = {
 		baseClasses: ['dancer', 'myrmidon', 'pegasus_knight'],
 		possibleSupport: {
 			a: ['maribelle', 'panne'],
-			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: 0,
@@ -528,6 +575,7 @@ var characters = {
 		children: ['inigo']
 	},
 	cherche: {
+        id: 'cherche',
 		nameEN: 'Cherche',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -537,7 +585,7 @@ var characters = {
 		baseClasses: ['wyvern_rider', 'troubadour', 'cleric'],
 		possibleSupport: {
 			a: ['nowi', 'miriel'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: +3,
@@ -551,6 +599,7 @@ var characters = {
 		children: ['gerome']
 	},
 	henry: {
+        id: 'henry',
 		nameEN: 'Henry',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -574,6 +623,7 @@ var characters = {
 		children: []
 	},
 	say_ri: {
+        id: 'say_ri',
 		nameEN: 'Say\'ri',
 		nameJA: 'サイリ',
 		gender: 'female',
@@ -596,6 +646,7 @@ var characters = {
 		children: []
 	},
 	tiki: {
+        id: 'tiki',
 		nameEN: 'Tiki',
 		nameJA: 'チキ',
 		gender: 'female',
@@ -618,6 +669,7 @@ var characters = {
 		children: []
 	},
 	basilio: {
+        id: 'basilio',
 		nameEN: 'Basilio',
 		nameJA: 'バジーリオ',
 		gender: 'male',
@@ -640,6 +692,7 @@ var characters = {
 		children: []
 	},
 	flavia: {
+        id: 'flavia',
 		nameEN: 'Flavia',
 		nameJA: 'フラヴィア',
 		gender: 'female',
@@ -662,6 +715,7 @@ var characters = {
 		children: []
 	},
 	lucina: {
+        id: 'lucina',
 		nameEN: 'Lucina',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -677,6 +731,7 @@ var characters = {
 		parents: ['chrom']
 	},
 	owain: {
+        id: 'owain',
 		nameEN: 'Owain',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -692,6 +747,7 @@ var characters = {
 		parents: ['lissa']
 	},
 	inigo: {
+        id: 'inigo',
 		nameEN: 'Inigo',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -707,6 +763,7 @@ var characters = {
 		parents: ['olivia']
 	},
 	brady: {
+        id: 'brady',
 		nameEN: 'Brady',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -722,6 +779,7 @@ var characters = {
 		parents: ['maribelle']
 	},
 	kjelle: {
+        id: 'kjelle',
 		nameEN: 'Kjelle',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -737,6 +795,7 @@ var characters = {
 		parents: ['sully']
 	},
 	cynthia: {
+        id: 'cynthia',
 		nameEN: 'Cynthia',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -752,6 +811,7 @@ var characters = {
 		parents: ['sumia']
 	},
 	severa: {
+        id: 'severa',
 		nameEN: 'Severa',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -767,6 +827,7 @@ var characters = {
 		parents: ['cordelia']
 	},
 	gerome: {
+        id: 'gerome',
 		nameEN: 'Gerome',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -782,6 +843,7 @@ var characters = {
 		parents: ['cherche']
 	},
 	yarne: {
+        id: 'yarne',
 		nameEN: 'Yarne',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -797,6 +859,7 @@ var characters = {
 		parents: ['panne']
 	},
 	laurent: {
+        id: 'laurent',
 		nameEN: 'Laurent',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -812,6 +875,7 @@ var characters = {
 		parents: ['miriel']
 	},
 	noire: {
+        id: 'noire',
 		nameEN: 'Noire',
 		nameJA: 'フレデリク',
 		gender: 'male',
@@ -827,6 +891,7 @@ var characters = {
 		parents: ['tharja']
 	},
 	nah: {
+        id: 'nah',
 		nameEN: 'Nah',
 		nameJA: 'フレデリク',
 		gender: 'female',
@@ -842,9 +907,25 @@ var characters = {
 		parents: ['tharja']
 	},
 	morgan: {
+        id: 'morgan_m',
 		nameEN: 'Morgan',
 		nameJA: 'フレデリク',
-		gender: '',
+		gender: 'male',
+		birthday: 'March 29th',
+		generation: 2,
+		recruit: 'Talk to her with Chrom or Nowi in Paralogue 16.',
+		baseClasses: ['tactician'],
+		possibleSupport: {
+			a: ['noire', 'nah'],
+		},
+		maxStatMod: {},
+		parents: ['avatar']
+	},
+	morgan: {
+        id: 'morgan_f',
+		nameEN: 'Morgan',
+		nameJA: 'フレデリク',
+		gender: 'female',
 		birthday: 'March 29th',
 		generation: 2,
 		recruit: 'Talk to her with Chrom or Nowi in Paralogue 16.',

@@ -9,6 +9,7 @@ var routes = require('./routes/index');
 var character = require('./routes/character');
 var skill = require('./routes/skill');
 var cl = require('./routes/class');
+var pairing = require('./routes/pairing');
 var config = require('./config');
 
 var app = express();
@@ -27,6 +28,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 app.use('/', routes);
 app.use('/character', character);
+app.use('/pairing', pairing);
 app.use('/skill', skill);
 app.use('/class', cl);
 

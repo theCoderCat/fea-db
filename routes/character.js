@@ -21,7 +21,7 @@ router.get('/:name?', (req, res, next) => {
 router.get('/:name/class', (req, res, next) => {
 	name = req.params.name;
 	if (name) {
-		var c = new Character();
+		var c = new CharacterAPI();
         var classes = c.getClassSet(name);
 		if (classes) {
 			res.send(classes);

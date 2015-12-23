@@ -1,40 +1,42 @@
 'use strict';
 
 import React from 'react';
+import ClassAPI from "../../../logics/class";
 
 class List extends React.Component {
     constructor() {
         super();
     }
     render() {
-        var createCharacterRow = (c) => {
+        var createCharacterCard = (c) => {
+            console.log(c);
             return (
-                <tr key={c.nameEN}>
-                    <td><a href={"/#character/" + c.nameEN}>{c.nameEN}</a></td>
-                    <td>{c.baseClasses.map(createClassLink, this)}</td>
-                </tr>
+                <div className="mui-col-md-2" key={c.id}>
+                    <div className="mui-panel mui--text-center">
+                        <img src={"/images/avatar/" + c.id + ".png"} />
+                        <div className="">
+                            <a href={"/#character/" + c.id}><h3>{c.nameEN}</h3></a>
+                        </div>
+                    </div>
+                </div>
             );
         };
 
         var createClassLink = (cl) => {
+            var c = new ClassAPI();
+            var _class = c.get(cl);
             return (
-                <a key={cl} href={'/#class/' + cl}>{cl}<br/></a>
+                <div>
+                    <a key={_class.id} href={'/#class/' + _class.id}>{_class.name}</a>
+                </div>
             );
         };
 
         // loop through characters object keys and create character row foreach object
         return (
-            <table className="mui-table mui-table--bordered">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Classes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {this.props.characters.map(createCharacterRow, this)}
-                </tbody>
-            </table>
+            <div className="mui-row">
+                {this.props.characters.map(createCharacterCard, this)}
+            </div>
         );
     }
 }
