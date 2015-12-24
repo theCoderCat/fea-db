@@ -61,7 +61,7 @@ var characters = {
 		baseClasses: ['cleric', 'pegasus_knight', 'troubadour'],
 		possibleSupport: {
 			a: ['chrom', 'maribelle', 'cherche', 'olivia'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: -2,
@@ -109,7 +109,7 @@ var characters = {
 		baseClasses: ['cavalier', 'myrmidon', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['miriel', 'sumia'],
-			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: -1,
@@ -180,7 +180,7 @@ var characters = {
 		recruit: 'Joins automatically in Chapter 2.',
 		baseClasses: ['fighter', 'thief', 'barbarian'],
 		possibleSupport: {
-			a: ['chrom', 'lon_qu'],
+			a: ['chrom', 'lonqu'],
 			s: ['lissa', 'sully', 'maribelle', 'cordelia', 'panne', 'nowi', 'olivia', 'cherche', 'miriel', 'tharja']
 		},
 		maxStatMod: {
@@ -205,7 +205,7 @@ var characters = {
 		baseClasses: ['mage', 'troubadour', 'dark_mage'],
 		possibleSupport: {
 			a: ['sully', 'cherche'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: -2,
@@ -290,8 +290,8 @@ var characters = {
 		},
 		children: []
 	},
-	lon_qu: {
-		id: 'lon_qu',
+	lonqu: {
+		id: 'lonqu',
 		nameEN: 'Lon\'qu',
 		nameJA: 'ロンク',
 		gender: 'male',
@@ -349,7 +349,7 @@ var characters = {
 		baseClasses: ['mage', 'troubadour', 'pegasus_knight'],
 		possibleSupport: {
 			a: ['lissa', 'olivia'],
-			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: -3,
@@ -373,7 +373,7 @@ var characters = {
 		baseClasses: ['taguel', 'thief', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['cordelia', 'olivia'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: +2,
@@ -421,7 +421,7 @@ var characters = {
 		baseClasses: ['pegasus_knight', 'mercenary', 'dark_mage'],
 		possibleSupport: {
 			a: ['panne', 'sumia'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: +1,
@@ -444,7 +444,7 @@ var characters = {
 		recruit: 'Joins automatically in Chapter 8.',
 		baseClasses: ['barbarian', 'mercenary', 'myrmidon'],
 		possibleSupport: {
-			a: ['ricken', 'lon_qu'],
+			a: ['ricken', 'lonqu'],
 			s: ['lissa', 'sully', 'maribelle', 'cordelia', 'panne', 'nowi', 'olivia', 'cherche', 'miriel', 'tharja']
 		},
 		maxStatMod: {
@@ -469,7 +469,7 @@ var characters = {
 		baseClasses: ['manakete', 'mage', 'wyvern_rider'],
 		possibleSupport: {
 			a: ['cherche', 'tharja'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: +1,
@@ -517,7 +517,7 @@ var characters = {
 		baseClasses: ['dark_mage', 'knight', 'archer'],
 		possibleSupport: {
 			a: ['nowi'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: 0,
@@ -564,7 +564,7 @@ var characters = {
 		baseClasses: ['dancer', 'myrmidon', 'pegasus_knight'],
 		possibleSupport: {
 			a: ['maribelle', 'panne'],
-			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['chrom', 'kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: 0,
@@ -588,7 +588,7 @@ var characters = {
 		baseClasses: ['wyvern_rider', 'troubadour', 'cleric'],
 		possibleSupport: {
 			a: ['nowi', 'miriel'],
-			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lon_qu', 'stahl', 'vaike', 'virion']
+			s: ['kellam', 'donnel', 'frederick', 'gaius', 'gregor', 'henry', 'libra', 'ricken', 'lonqu', 'stahl', 'vaike', 'virion']
 		},
 		maxStatMod: {
 			str: +3,
@@ -956,7 +956,7 @@ var classes = {
               promoteTo: ['great_lord'],
               promotedFrom: null,
               gender: ['male', 'female'],
-              special: true
+              isSpecial: true
        },
        great_lord: {
               id: 'great_lord',
@@ -966,7 +966,7 @@ var classes = {
               promoteTo: null,
               promotedFrom: ['lord'],
               gender: ['male', 'female'],
-              special: true
+              isSpecial: true
        },
        tactician: {
               id: 'tactician',
@@ -976,7 +976,7 @@ var classes = {
               promoteTo: ['grandmaster'],
               promotedFrom: null,
               gender: ['male', 'female'],
-              special: true
+              isSpecial: true
        },
        grandmaster: {
               id: 'grandmaster',
@@ -986,7 +986,7 @@ var classes = {
               promoteTo: null,
               promotedFrom: ['tactician'],
               gender: ['male', 'female'],
-              special: true
+              isSpecial: true
        },
        cavalier: {
               id: 'cavalier',
@@ -1320,7 +1320,7 @@ var classes = {
               promoteTo: null,
               promotedFrom: null,
               gender: ['male'],
-              special: true
+              isSpecial: true
        },
        taguel: {
               id: 'taguel',
@@ -1330,7 +1330,7 @@ var classes = {
               promoteTo: null,
               promotedFrom: null,
               gender: ['male', 'female'],
-              special: true
+              isSpecial: true
        },
        manakete: {
               id: 'manakete',
@@ -1340,17 +1340,17 @@ var classes = {
               promoteTo: null,
               promotedFrom: null,
               gender: ['male', 'female'],
-              special: true
+              isSpecial: true
        },
        dancer: {
               id: 'dancer',
               name: 'Dancer',
               weapon: [],
-              skills: ['luck_4', 'special_dance'],
+              skills: ['luck_4', 'isSpecial_dance'],
               promoteTo: null,
               promotedFrom: null,
               gender: ['male', 'female'],
-              special: true
+              isSpecial: true
        }
 };
 
@@ -2128,7 +2128,7 @@ var skillAPI = require('./skill.js');
 var ClassAPI = require('./class.js');
 
 var Character = (function () {
-    function Character(name) {
+    function Character() {
         _classCallCheck(this, Character);
     }
 
@@ -2179,73 +2179,112 @@ var _createClass = (function () { function defineProperties(target, props) { for
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var skillsDB = require('../data/skills');
-var classesDB = require('../data/classes');
+var ClassesDB = require('../data/classes');
+var SkillAPI = require('./skill');
 
 var Class = (function () {
-	function Class() {
-		_classCallCheck(this, Class);
-	}
+    function Class() {
+        _classCallCheck(this, Class);
+    }
 
-	// take class name then return class object
+    _createClass(Class, [{
+        key: 'get',
 
-	_createClass(Class, [{
-		key: 'get',
-		value: function get(name) {
-			if (name !== undefined && name) return classesDB[name];
-		}
+        // take class name then return class object
+        value: function get(_name, _withPromote, _withSkill) {
+            var cl = null;
+            if (_name) cl = ClassesDB[_name];
+            if (_withPromote) {
+                cl.promoteTo = this.getPromoteClasses(cl);
+            }
+            if (_withSkill) {
+                var Skill = new SkillAPI();
+                cl.skills = cl.skills.map(function (_sk) {
+                    return Skill.get(_sk);
+                });
+            }
+            return cl;
+        }
+    }, {
+        key: 'getPromoteClasses',
+        value: function getPromoteClasses(_base) {
+            var _this = this;
 
-		// param:
-		// Array bc -> baseClasses ['name1', 'name2', ['name', ...]]
+            var promoteClasses = null;
+            if (_base && _base.promoteTo) {
+                var promoteNames = _base.promoteTo;
+                promoteClasses = promoteNames.map(function (x) {
+                    return _this.get(x);
+                });
+            }
 
-	}, {
-		key: 'getClassSet',
-		value: function getClassSet(bc) {
-			var _this = this;
+            // return null by default
+            return promoteClasses;
+        }
 
-			var classes = [];
-			// base classes must be passed as array
-			if (bc) {
-				// get all promoted class for ONE base class
-				// params is the class object itself
-				var getPromotedClasses = function getPromotedClasses(base) {
-					var classNames = base.promoteTo;
+        // param:
+        // Array baseClasses = ['name1', 'name2', ['name', ...]]
 
-					// in case promoteTo hold value of null
-					if (classNames) {
-						base.promoteTo = classNames.map(function (cl) {
-							return _this.get(cl);
-						});
-					}
-					return base;
-				};
+    }, {
+        key: 'getClassSet',
+        value: function getClassSet(_baseClassNameArr) {
+            var _this2 = this;
 
-				// create baseClasses array base on array of names
-				var baseClasses = bc.map(function (cl) {
-					return _this.get(cl);
-				});
+            var classes = [];
+            // base classes must be passed as array
+            if (_baseClassNameArr) {
+                // create baseClasses array base on array of names
+                var baseClasses = _baseClassNameArr.map(function (_cl) {
+                    return _this2.get(_cl);
+                });
 
-				// transform promoteTo array form array of names into array of Objects
-				var baseClassesWithPromoted = baseClasses.map(function (base) {
-					return getPromotedClasses(base);
-				});
-				classes = baseClassesWithPromoted;
-			}
+                // transform promoteTo array form array of names into array of Objects
+                var baseClassesWithPromoted = baseClasses.map(function (base) {
+                    return _this2.getPromoteClasses(base);
+                });
+                classes = baseClassesWithPromoted;
+            }
 
-			// return array
-			return classes;
-		}
-	}]);
+            // return array
+            return classes;
+        }
+    }]);
 
-	return Class;
+    return Class;
 })();
 
 module.exports = Class;
 
-},{"../data/classes":2,"../data/skills":3}],6:[function(require,module,exports){
-"use strict";
+},{"../data/classes":2,"./skill":6}],6:[function(require,module,exports){
+'use strict';
 
-},{}],7:[function(require,module,exports){
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var SkillsDB = require('../data/skills');
+// var ClassAPI = require('./class');
+
+var Skill = (function () {
+    function Skill() {
+        _classCallCheck(this, Skill);
+    }
+
+    _createClass(Skill, [{
+        key: 'get',
+
+        // take class name then return class object
+        value: function get(_name) {
+            if (_name) return SkillsDB[_name];
+        }
+    }]);
+
+    return Skill;
+})();
+
+module.exports = Skill;
+
+},{"../data/skills":3}],7:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -21393,7 +21432,7 @@ var List = (function (_React$Component) {
                             { className: '' },
                             _react2.default.createElement(
                                 'a',
-                                { href: "/#character/" + c.id },
+                                { href: "/api/character/" + c.id },
                                 _react2.default.createElement(
                                     'h3',
                                     null,

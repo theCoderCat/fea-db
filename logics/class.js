@@ -1,46 +1,54 @@
 'use strict';
-var skillsDB = require('../data/skills');
-var classesDB = require('../data/classes');
+var ClassesDB = require('../data/classes');
+var SkillAPI = require('./skill');
 
 class Class {
-	constructor() {
-
-	}
-	
     // take class name then return class object
-	get(name) {
-		if (name !== undefined && name) return classesDB[name];
-	}
+    get(_name, _withPromote, _withSkill) {
+        var cl = null;
+        if (_name) cl = ClassesDB[_name];
+        if (_withPromote) {
+            cl.promoteTo = this.getPromoteClasses(cl);
+        }
+        if (_withSkill) {
+            var Skill = new SkillAPI();
+            cl.skills = cl.skills.map((_sk) => {
+                return Skill.get(_sk);
+            });
+        }
+        return cl;
+    }
+
+    getPromoteClasses(_base) {
+        var promoteClasses = null;
+        if (_base && _base.promoteTo) {
+            var promoteNames = _base.promoteTo;
+            promoteClasses = promoteNames.map((x) => {
+                return this.get(x);
+            });
+        }
+        
+        // return null by default
+        return promoteClasses;
+    }
 
     // param:
-    // Array bc -> baseClasses ['name1', 'name2', ['name', ...]]
-	getClassSet(bc) {
-		var classes = [];
+    // Array baseClasses = ['name1', 'name2', ['name', ...]]
+    getClassSet(_baseClassNameArr) {
+        var classes = [];
         // base classes must be passed as array
-		if (bc) {
-            // get all promoted class for ONE base class
-            // params is the class object itself
-			var getPromotedClasses = (base) => {
-				let classNames = base.promoteTo;
-
-                // in case promoteTo hold value of null
-				if (classNames) {
-                    base.promoteTo = classNames.map(cl => this.get(cl));
-                }
-                return base;
-			};
-
+        if (_baseClassNameArr) {
             // create baseClasses array base on array of names
-            var baseClasses = bc.map(cl => this.get(cl));
+            var baseClasses = _baseClassNameArr.map(_cl => this.get(_cl));
 
             // transform promoteTo array form array of names into array of Objects
-			var baseClassesWithPromoted = baseClasses.map(base => getPromotedClasses(base));
-			classes = baseClassesWithPromoted;
-		}
+            var baseClassesWithPromoted = baseClasses.map(base => this.getPromoteClasses(base));
+            classes = baseClassesWithPromoted;
+        }
 
         // return array
         return classes;
-	}
+    }
 }
 
 module.exports = Class;

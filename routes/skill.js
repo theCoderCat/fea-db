@@ -1,10 +1,17 @@
 var express = require('express');
 var router = express.Router();
-var skill = require('../logics/skill');
+var SkillAPI = require('../logics/skill');
 
-/* GET users listing. */
+/* GET skills listing. */
 router.get('/', (req, res, next) => {
-    res.send(skill.get());
+    var Skill = new SkillAPI();
+    res.send(Skill.get());
+});
+
+router.get('/:name', (req, res, next) => {
+    var name = req.params.name;
+    var Skill = new SkillAPI();
+    res.send(Skill.get(name));
 });
 
 module.exports = router;

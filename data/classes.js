@@ -7,7 +7,7 @@ var classes = {
         promoteTo: ['great_lord'],
         promotedFrom: null,
         gender: ['male', 'female'],
-        special: true
+        isSpecial: true
 	},
     great_lord: {
         id: 'great_lord',
@@ -17,7 +17,7 @@ var classes = {
         promoteTo: null,
         promotedFrom: ['lord'],
         gender: ['male', 'female'],
-        special: true
+        isSpecial: true
 	},
 	tactician: {
         id: 'tactician',
@@ -27,7 +27,7 @@ var classes = {
         promoteTo: ['grandmaster'],
         promotedFrom: null,
         gender: ['male', 'female'],
-        special: true
+        isSpecial: true
 	},
     grandmaster: {
         id: 'grandmaster',
@@ -37,7 +37,7 @@ var classes = {
         promoteTo: null,
         promotedFrom: ['tactician'],
         gender: ['male', 'female'],
-        special: true
+        isSpecial: true
 	},
 	cavalier: {
         id: 'cavalier',
@@ -371,7 +371,7 @@ var classes = {
         promoteTo: null,
         promotedFrom: null,
         gender: ['male'],
-        special: true
+        isSpecial: true
 	},
 	taguel: {
         id: 'taguel',
@@ -381,7 +381,7 @@ var classes = {
         promoteTo: null,
         promotedFrom: null,
         gender: ['male', 'female'],
-        special: true
+        isSpecial: true
 	},
 	manakete: {
         id: 'manakete',
@@ -391,17 +391,17 @@ var classes = {
         promoteTo: null,
         promotedFrom: null,
         gender: ['male', 'female'],
-        special: true
+        isSpecial: true
 	},
 	dancer: {
         id: 'dancer',
         name: 'Dancer',
         weapon: [],
-        skills: ['luck_4', 'special_dance'],
+        skills: ['luck_4', 'isSpecial_dance'],
         promoteTo: null,
         promotedFrom: null,
         gender: ['male', 'female'],
-        special: true
+        isSpecial: true
 	}
 };
 

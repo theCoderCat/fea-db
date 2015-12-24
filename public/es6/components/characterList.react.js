@@ -15,7 +15,7 @@ class List extends React.Component {
                     <div className="mui-panel mui--text-center">
                         <img src={"/images/avatar/" + c.id + ".png"} />
                         <div className="">
-                            <a href={"/#character/" + c.id}><h3>{c.nameEN}</h3></a>
+                            <a href={"/api/character/" + c.id}><h3>{c.nameEN}</h3></a>
                         </div>
                     </div>
                 </div>

@@ -4,10 +4,6 @@ var skillAPI = require('./skill.js');
 var ClassAPI = require('./class.js');
 
 class Character {
-    constructor(name) {
-      
-    }
-    
 	get(name) {
 		if (typeof name !== 'undefined' && name) {
 			return Characters[name];
